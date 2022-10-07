@@ -1,4 +1,4 @@
-# ITCS-repo
+# ITCS-repo/MidExam_ITCS112LA
 projects and studies. est. 2022
 
 
