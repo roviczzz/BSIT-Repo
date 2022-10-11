@@ -11,15 +11,13 @@ import java.util.*;
 public class Rodriguez_LabAct4 {
 
     public static void main (String[] args){
-        double q1 = 9.000;
-        double q2 = 10.000;
-        double q3 = 10.000;
+        double q1 = 10, q2 = 28, q3 = 8;
         double avg;
 
         System.out.println("Direction: Write a program that will get the average of 3 short quizzes in your Programming class.");
-        System.out.println("Laboratory Activity #1 score: 9/15");
-        System.out.println("Laboratory Activity #2 (F2F Onsite) score: 10/10");
-        System.out.println("Laboratory Activity #3 (F2F Onsite) score: 10/10");
+        System.out.println("Short quiz #1 score: 10/10");
+        System.out.println("Long Exam Score (F2F) score: 28/35");
+        System.out.println("Short quiz #2 score: 8/10");
         avg = (q1 + q2 + q3)/3;
 
         DecimalFormat df = new DecimalFormat("##.###");
