@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/ITCS-repo.iml" filepath="$PROJECT_DIR$/.idea/ITCS-repo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/firstSem/firstSem.iml" filepath="$PROJECT_DIR$/firstSem/firstSem.iml" />
     </modules>
   </component>
 </project>
