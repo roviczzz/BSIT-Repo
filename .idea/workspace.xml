@@ -2,28 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="72bfb7d0-c2c9-4d38-b4fe-c8b6d8953e09" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LabActivity_4/.idea/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/firstSem/LabActivity_4/.idea/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LabActivity_4/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/firstSem/LabActivity_4/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LabActivity_4/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/firstSem/LabActivity_4/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LabActivity_4/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/firstSem/LabActivity_4/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LabActivity_4/LabActivity_4.iml" beforeDir="false" afterPath="$PROJECT_DIR$/firstSem/LabActivity_4/LabActivity_4.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LabActivity_4/out/production/LabActivity_4/Rodriguez_LabAct4.class" beforeDir="false" afterPath="$PROJECT_DIR$/firstSem/LabActivity_4/out/production/LabActivity_4/Rodriguez_LabAct4.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LabActivity_4/src/Rodriguez_LabAct4.java" beforeDir="false" afterPath="$PROJECT_DIR$/firstSem/LabActivity_4/src/Rodriguez_LabAct4.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MidExam_ITCS112LA/.idea/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/firstSem/MidExam_ITCS112LA/.idea/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MidExam_ITCS112LA/.idea/codeStyles/Project.xml" beforeDir="false" afterPath="$PROJECT_DIR$/firstSem/MidExam_ITCS112LA/.idea/codeStyles/Project.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MidExam_ITCS112LA/.idea/codeStyles/codeStyleConfig.xml" beforeDir="false" afterPath="$PROJECT_DIR$/firstSem/MidExam_ITCS112LA/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MidExam_ITCS112LA/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/firstSem/MidExam_ITCS112LA/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MidExam_ITCS112LA/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/firstSem/MidExam_ITCS112LA/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MidExam_ITCS112LA/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/firstSem/MidExam_ITCS112LA/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MidExam_ITCS112LA/MidExam_ITCS112LA.iml" beforeDir="false" afterPath="$PROJECT_DIR$/firstSem/MidExam_ITCS112LA/MidExam_ITCS112LA.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MidExam_ITCS112LA/flowchart.png" beforeDir="false" afterPath="$PROJECT_DIR$/firstSem/MidExam_ITCS112LA/flowchart.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MidExam_ITCS112LA/instructions.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/firstSem/MidExam_ITCS112LA/instructions.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MidExam_ITCS112LA/instructions.md" beforeDir="false" afterPath="$PROJECT_DIR$/firstSem/MidExam_ITCS112LA/instructions.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MidExam_ITCS112LA/out/production/MidExam_ITCS112LA/Rodriguez_MidtermExamA.class" beforeDir="false" afterPath="$PROJECT_DIR$/firstSem/MidExam_ITCS112LA/out/production/MidExam_ITCS112LA/Rodriguez_MidtermExamA.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MidExam_ITCS112LA/out/production/MidExam_ITCS112LA/Rodriguez_MidtermExamB.class" beforeDir="false" afterPath="$PROJECT_DIR$/firstSem/MidExam_ITCS112LA/out/production/MidExam_ITCS112LA/Rodriguez_MidtermExamB.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MidExam_ITCS112LA/src/Rodriguez_MidtermExamA.java" beforeDir="false" afterPath="$PROJECT_DIR$/firstSem/MidExam_ITCS112LA/src/Rodriguez_MidtermExamA.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MidExam_ITCS112LA/src/Rodriguez_MidtermExamB.java" beforeDir="false" afterPath="$PROJECT_DIR$/firstSem/MidExam_ITCS112LA/src/Rodriguez_MidtermExamB.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/firstSem/firstSem.iml" beforeDir="false" afterPath="$PROJECT_DIR$/firstSem/firstSem.iml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -33,13 +14,26 @@
   <component name="CodeStyleSettingsInfer">
     <option name="done" value="true" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectCodeStyleSettingsMigration">
     <option name="version" value="2" />
   </component>
   <component name="ProjectId" id="2FnGumdSq1YDnCUEsK2xug6BiYM" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -50,9 +44,17 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
     "jdk.selected.JAVA_MODULE": "18",
-    "last_opened_file_path": "H:/Github/ITCS-repo"
+    "last_opened_file_path": "H:/Github/ITCS-repo",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="H:\Github\ITCS-repo\firstSem" />
+    </key>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -61,7 +63,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1665120660019</updated>
-      <workItem from="1666692588581" duration="319000" />
+      <workItem from="1666692588581" duration="1295000" />
     </task>
     <servers />
   </component>
