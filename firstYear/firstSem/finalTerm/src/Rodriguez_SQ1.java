@@ -1,3 +1,14 @@
+/*
+    Even or Odd
+    Final Term Short Quiz
+
+    Rovic M. Rodriguez
+    BIT11
+    Oct 11, 2022
+
+ */
+
+
 import java.util.Scanner;
 
 public class Rodriguez_SQ1 {
