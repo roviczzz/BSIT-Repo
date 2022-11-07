@@ -4,7 +4,8 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/Experiment/Experiment.iml" filepath="$PROJECT_DIR$/Experiment/Experiment.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/ITCS-repo.iml" filepath="$PROJECT_DIR$/.idea/ITCS-repo.iml" />
-      <module fileurl="file://$PROJECT_DIR$/firstSem/firstSem.iml" filepath="$PROJECT_DIR$/firstSem/firstSem.iml" />
+      <module fileurl="file://$PROJECT_DIR$/firstYear/firstSem/finalTerm/finalTerm.iml" filepath="$PROJECT_DIR$/firstYear/firstSem/finalTerm/finalTerm.iml" />
+      <module fileurl="file://$PROJECT_DIR$/firstYear/firstSem/firstSem.iml" filepath="$PROJECT_DIR$/firstYear/firstSem/firstSem.iml" />
     </modules>
   </component>
 </project>

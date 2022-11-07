@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class EvenOdd {
+public class Rodriguez_SQ1 {
     public static void main(String[] args){
 
         int num,intResult;
