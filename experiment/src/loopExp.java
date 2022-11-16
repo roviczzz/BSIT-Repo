@@ -24,6 +24,7 @@ public class loopExp {
 //
 //        }
 //        System.out.println("loop finished");
+//        System.exit(0);
 
 
 
@@ -36,7 +37,7 @@ public class loopExp {
 //            System.out.println("yo");
 //
 //        } while (a < 10);
-
+//        System.exit(0);
 
 
     }
