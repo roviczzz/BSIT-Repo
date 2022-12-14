@@ -1,33 +1,63 @@
-/*
-    Basic HTML tag edits (header, h1-h6, body, page icon, etc.) 
-*/
-header {
+/* Basic HTML tag edits (header, h1-h6, body, page icon, etc.) */
+/*  heading format  */
+header{
+    font-size: 20px;
+    text-align: center;
+    letter-spacing: .040rem;
+    padding-top: 40px;
+    }
+/*  h1 format  */
+h1{
 
 }
 
-h1 {
-
-}
-
+/*  body format  */
 body {
+    font-family: 'Lexend Deca', sans-serif;
+    color: white;
+    text-rendering: auto;
+    margin: auto;
+    padding: auto;   
+}
 
+/*  paragraph format--  */
+p{
+    text-align-last: center;
 }
 
 
-/*
-    Custom CSS tags (custom fonts, div, elements, etc.)
-*/
+/* Custom CSS tags (custom fonts, div, elements, etc.) */
+/*  body color accent  */
 
-.background {
-
-
+@font-face {
+    font-family: IntegralCF-EB;
+    src: url(/fonts/IntegralCF-ExtraBold.otf);
 }
 
-.foreground{
-
-
+@font-face {
+    font-family: IntegralCF-B;
+    src: url(/fonts/IntegralCF-Bold.otf);
 }
 
+@font-face {
+    font-family: D-DIN;
+    src: url(/fonts/D-DIN.ttf);
+}
 
+@font-face {
+    font-family: D-DIN-C;
+    src: url(/fonts/D-DINCondensed.ttf);
+}
 
+.background{
+    background-color: #333a45;
+}
+
+/*  heading color accent, font, padding  */
+.heading{
+    font-family: IntegralCF-B;
+    color: #333a45;
+    background-color: #f34b7f;
+    padding-bottom: 40px;
+}
 
