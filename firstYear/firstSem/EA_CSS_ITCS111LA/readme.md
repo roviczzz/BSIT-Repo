@@ -2,10 +2,7 @@
 Creating an interactive resume website using CSS of **your own brand**. Due on Dec 17, 2022.
 
 ## Plans
-- Website look similar to Android Custom ROMs or Monkeytype
-- **Darcula** Themed, **GMK 8008** or similar color palette
-- Include subpages
-- Slight javascript implementations
+- **GMK 8008 Themed**
 - Presentable as possible
 - **Comprehensive** and **cohesive** resume
 
