@@ -4,16 +4,15 @@ header{
     font-size: 20px;
     text-align: center;
     letter-spacing: .040rem;
-    padding-top: 40px;
+    padding-top: 20px;
+    
     }
+    
 /*  h1 format  */
-h1{
-
-}
 
 /*  body format  */
 body {
-    font-family: 'Lexend Deca', sans-serif;
+    font-family: Inter-V;
     color: white;
     text-rendering: auto;
     margin: auto;
@@ -22,7 +21,21 @@ body {
 
 /*  paragraph format--  */
 p{
-    text-align-last: center;
+    opacity: 50%;
+    text-align: center;
+    color: #e9ecf0;
+}
+
+a{
+    font-family: Inter-V;
+    color: white;
+    text-rendering: auto;
+    margin: auto;
+    padding: auto;   
+    opacity: 50%;
+    text-align: center;
+    color: #e9ecf0;
+
 }
 
 
@@ -49,15 +62,90 @@ p{
     src: url(/fonts/D-DINCondensed.ttf);
 }
 
+@font-face {
+    font-family: Inter-V;
+    src: url(/fonts/Inter-V.ttf);
+}
+
+.user-name{
+    text-align-last: center;
+    color: #e9ecf0;
+}
+.highlight{
+    font-family: IntegralCF-B;
+    font-weight:lighter;
+    opacity: 85%;
+    letter-spacing: 2px;
+    font-size: 30px;
+    margin-top: 13px;
+    font-weight: bold;
+    text-align-last: center;
+    color: #e9ecf0;
+}
+
+.highlight-text{
+    font-size: 18px;
+    margin-left: 30%;
+    margin-right: 20%;
+    opacity: 75%;
+    margin-top: 15px;
+    margin-bottom: -3px;
+    text-align: left;
+    color: #e9ecf0;
+
+}
+
 .background{
-    background-color: #333a45;
+    background-color: #1e222a;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+}
+
+.rcorner-tag{
+    margin-right: 10px;
+    padding: auto; 
+    border-radius: 20px;
+    background: #2d2d2f;
+    width: 45px;
+    height: 41px;
+
+}
+.rcorner-frontend{
+    margin-right: 10px;
+    padding: auto; 
+    border-radius: 20px;
+    background: #2d2d2f;
+    width: 148px;
+    height: 41px;
+
+}
+
+.rcorner-designer{
+    margin-right: 10px;
+    padding: auto; 
+    border-radius: 20px;
+    background: #2d2d2f;
+    width: 142px;
+    height: 41px;
+
+}
+.rcorner-authentic{
+    padding: auto; 
+    border-radius: 20px;
+    background: #2d2d2f;
+    width: 142px;
+    height: 41px;
+
 }
 
 /*  heading color accent, font, padding  */
 .heading{
-    font-family: IntegralCF-B;
+    font-family: D-DIN;
     color: #333a45;
     background-color: #f34b7f;
-    padding-bottom: 40px;
+    padding-bottom: 20px;
 }
 
