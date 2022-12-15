@@ -1,4 +1,4 @@
-﻿## Enabling Assessment about CSS (Week16) - ITCS111LA
+## Enabling Assessment about CSS (Week16) - ITCS111LA
 Creating an interactive resume website using CSS of **your own brand**. Due on Dec 17, 2022.
 
 ## Plans
