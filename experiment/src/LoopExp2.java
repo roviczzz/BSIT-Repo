@@ -1,11 +1,10 @@
 import java.lang.*;
 import java.util.Scanner;
 
-public class loopExp {
 
+public class LoopExp2 {
     public static void main(String[] args) {
-
-        // nested for loop
+        // nested do while loop
         // output:
         // 55555
         // 4444
@@ -13,22 +12,23 @@ public class loopExp {
         // 22
         // 1
 
-        int numInput;
+        int numInput, i, io;
         Scanner sc = new Scanner(System.in);
-
-        System.out.println("input number");
+        System.out.println("input number: ");
         numInput = sc.nextInt();
 
-        for (int io = numInput; io >= 1; io--) {
+        io = numInput;
 
-            for (int i = 1; i <= io; i++) {
+        do {
+            i = io;
+            do {
                 System.out.print(io);
-            }
+                i--;
+            } while (i >= 1);
             System.out.println("");
-        }
-        System.out.println("loop finished");
-        System.exit(0);
+            io--;
 
+        } while (io >= 1);
 
 
     }
