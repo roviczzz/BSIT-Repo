@@ -1,11 +1,10 @@
-﻿## Enabling Assessment about CSS (Week16) - ITCS111LA
+![image](https://user-images.githubusercontent.com/19369641/207958110-9a04f6d3-4f0c-4947-83e3-4950805142ad.png)
+
+# Enabling Assessment about CSS (Week16) - ITCS111LA
 Creating an interactive resume website using CSS of **your own brand**. Due on Dec 17, 2022.
 
 ## Plans
-- Website look similar to Android Custom ROMs or Monkeytype
-- **Darcula** Themed, **GMK 8008** or similar color palette
-- Include subpages
-- Slight javascript implementations
+- **GMK 8008 Themed**
 - Presentable as possible
 - **Comprehensive** and **cohesive** resume
 
@@ -20,7 +19,6 @@ Create a **simple web page** of your resume using **CSS**. This is for your own 
 
 Assessment Link:
 https://dlsud.edu20.org/student_lesson/complete_and_next/3626019?from=%2Fstudent_lesson%2Fshow%2F3626019%3Flesson_id%3D16730957%26section_id%3D67913399&lesson_id=16730957&section_id=67913399
-
 
 
 

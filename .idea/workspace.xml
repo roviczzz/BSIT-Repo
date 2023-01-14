@@ -5,9 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="72bfb7d0-c2c9-4d38-b4fe-c8b6d8953e09" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/experiment/src/loopExp.java" beforeDir="false" afterPath="$PROJECT_DIR$/experiment/src/loopExp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Experiment/loopExp.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Experiment/loopExp.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LongExam-module5/RodriguezLongExam2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LongExam-module5/RodriguezLongExam2.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -73,7 +74,9 @@
       <workItem from="1666794827796" duration="199000" />
       <workItem from="1667397015033" duration="2458000" />
       <workItem from="1668598489917" duration="1147000" />
-      <workItem from="1669341743628" duration="7206000" />
+      <workItem from="1669341743628" duration="7415000" />
+      <workItem from="1673410288834" duration="3176000" />
+      <workItem from="1673535833507" duration="10536000" />
     </task>
     <servers />
   </component>
