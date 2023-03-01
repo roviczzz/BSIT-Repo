@@ -10,39 +10,17 @@ package com.mycompany.calculatorrodriguez;
  */
 public class Calculator extends javax.swing.JFrame {
 
-    private int valueOne;
-    private int valueTwo;
+    private double valueOne;
+    private double valueTwo;
     private String operation;
+    private double valueTotal;
     
-    private int valueSum(){
-        return valueOne + valueTwo;
-                
+    private void clear(){
+        txtNum.setText("");
+        valueOne = 0;
+        valueTwo = 0;
+        operation = null;
     }
-    
-    private int valueDif(){
-        return valueOne - valueTwo;
-    }
-    
-    private int valueQuo(){
-        return valueOne / valueTwo;
-    }
-    
-        private int valuePro(){
-        return valueOne * valueTwo;
-    }
-    
-    private int fieldCheck(){
-        int field = Integer.parseInt(txtNum.getText());
-        int sum = valueSum();
-           
-        if (field > 0 && sum > 0)
-            return 1;
-                        
-        else
-            return 0;
-
-    }
-   
 
     /**
      * Creates new form Calculator
@@ -236,7 +214,7 @@ public class Calculator extends javax.swing.JFrame {
         btnDiv.setBackground(new java.awt.Color(232, 157, 34));
         btnDiv.setFont(new java.awt.Font("Segoe UI", 1, 18)); // NOI18N
         btnDiv.setForeground(new java.awt.Color(255, 255, 255));
-        btnDiv.setText("÷");
+        btnDiv.setText("/");
         btnDiv.setPreferredSize(new java.awt.Dimension(70, 70));
         btnDiv.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -381,10 +359,7 @@ public class Calculator extends javax.swing.JFrame {
     }//GEN-LAST:event_txtNumActionPerformed
 
     private void btnCActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnCActionPerformed
-        txtNum.setText("");
-        valueOne = 0;
-        valueTwo = 0;
-        operation = null;
+        clear();
     }//GEN-LAST:event_btnCActionPerformed
 
     private void btn0ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btn0ActionPerformed
@@ -440,113 +415,108 @@ public class Calculator extends javax.swing.JFrame {
     private void btnAddActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnAddActionPerformed
             
         if (valueOne == 0){
-            valueOne = Integer.parseInt(txtNum.getText());
+            valueOne = Double.parseDouble(txtNum.getText());
+            operation = "+";
+            txtNum.setText("");
+
+            
+        }
+        else if (valueOne != 0) {
+            valueTwo = Double.parseDouble(txtNum.getText());
             operation = "+";
             txtNum.setText("");
 
         }
-        else if (valueOne != 0) {
-            valueTwo = Integer.parseInt(txtNum.getText());
-            int sum;
-            sum = valueSum();
-            
-            txtNum.setText(""+sum);
-
-
-        }
-        System.out.println("====================");
-        System.out.println("valueOne = "+valueOne);
-        System.out.println("valueTwo = "+valueTwo);
-        System.out.println("operation = "+operation);
-        System.out.println("valueSum = "+valueSum());
-        System.out.println("====================");
 
     }//GEN-LAST:event_btnAddActionPerformed
 
     private void btnComputeActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnComputeActionPerformed
 
         switch(operation){
-            case "+":
-                valueTwo = Integer.parseInt(txtNum.getText());
-                int sum;
-                sum = valueSum();
-                txtNum.setText(""+sum);
+            case "+": {
+                valueTwo = Double.parseDouble(txtNum.getText());
+                valueTotal = valueOne + valueTwo;
+                valueOne = valueTotal;
+                valueTwo = 0;
+                txtNum.setText(""+valueTotal);
                 break;
+            }
                 
-            case "-":
-                valueTwo = Integer.parseInt(txtNum.getText());
-                int dif;
-                dif = valueDif();
-                txtNum.setText(""+dif);
+            case "-": {
+                valueTwo = Double.parseDouble(txtNum.getText());
+                valueTotal = valueOne - valueTwo;
+                valueOne = valueTotal;
+                valueTwo = 0;
+                txtNum.setText(""+valueTotal);
                 break;
+            }
                 
-            case "/":
-                valueTwo = Integer.parseInt(txtNum.getText());
-                int quo;
-                quo = valueQuo();
-                txtNum.setText(""+quo);
+            case "/": {
+                valueTwo = Double.parseDouble(txtNum.getText());
+                valueTotal = valueOne / valueTwo;
+                valueOne = valueTotal;
+                valueTwo = 0;
+                txtNum.setText(""+valueTotal);
                 break;
+            }
                 
-            case "*":
-                valueTwo = Integer.parseInt(txtNum.getText());
-                int pro;
-                pro = valuePro();
-                txtNum.setText(""+pro);
+            case "*": {
+                valueTwo = Double.parseDouble(txtNum.getText());
+                valueTotal = valueOne * valueTwo;
+                valueOne = valueTotal;
+                valueTwo = 0;
+                txtNum.setText(""+valueTotal);
                 break;
+            }
             
         }
     }//GEN-LAST:event_btnComputeActionPerformed
 
     private void btnSubActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnSubActionPerformed
-            if (valueOne == 0){
-            valueOne = Integer.parseInt(txtNum.getText());
+        if (valueOne == 0){
+            valueOne = Double.parseDouble(txtNum.getText());
+            operation = "-";
+            txtNum.setText("");
+
+            
+        }
+        else if (valueOne != 0) {
+            valueTwo = Double.parseDouble(txtNum.getText());
             operation = "-";
             txtNum.setText("");
 
         }
-        else if (valueOne != 0) {
-            valueTwo = Integer.parseInt(txtNum.getText());
-            int dif;
-            dif = valueDif();
-            txtNum.setText(""+dif);
-
-
-        }
-        System.out.println("====================");
-        System.out.println("valueOne = "+valueOne);
-        System.out.println("valueTwo = "+valueTwo);
-        System.out.println("operation = "+operation);
-        System.out.println("valueSum = "+valueSum());
-        System.out.println("====================");
     }//GEN-LAST:event_btnSubActionPerformed
 
     private void btnDivActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnDivActionPerformed
         if (valueOne == 0){
-            valueOne = Integer.parseInt(txtNum.getText());
+            valueOne = Double.parseDouble(txtNum.getText());
             operation = "/";
             txtNum.setText("");
 
+            
         }
         else if (valueOne != 0) {
-            valueTwo = Integer.parseInt(txtNum.getText());
-            int quo;
-            quo = valueQuo();
-            txtNum.setText(""+quo);
+            valueTwo = Double.parseDouble(txtNum.getText());
+            operation = "/";
+            txtNum.setText("");
+
         }
     }//GEN-LAST:event_btnDivActionPerformed
 
     private void btnMultActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnMultActionPerformed
         if (valueOne == 0){
-            valueOne = Integer.parseInt(txtNum.getText());
+            valueOne = Double.parseDouble(txtNum.getText());
             operation = "*";
             txtNum.setText("");
 
+            
         }
         else if (valueOne != 0) {
-            valueTwo = Integer.parseInt(txtNum.getText());
-            int pro;
-            pro = valuePro();
-            txtNum.setText(""+pro);
+            valueTwo = Double.parseDouble(txtNum.getText());
+            operation = "*";
+            txtNum.setText("");
+
         }
     }//GEN-LAST:event_btnMultActionPerformed
 
