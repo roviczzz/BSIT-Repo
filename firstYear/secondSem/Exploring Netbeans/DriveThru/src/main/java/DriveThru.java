@@ -98,7 +98,7 @@ public class DriveThru extends javax.swing.JFrame {
                     .addComponent(rbtnBeef)
                     .addComponent(rbtnChicken)
                     .addComponent(rbtnVeggie))
-                .addContainerGap(41, Short.MAX_VALUE))
+                .addContainerGap(38, Short.MAX_VALUE))
         );
 
         jPanel3.setBackground(new java.awt.Color(255, 255, 204));
@@ -133,7 +133,7 @@ public class DriveThru extends javax.swing.JFrame {
             .addGroup(jPanel3Layout.createSequentialGroup()
                 .addGap(59, 59, 59)
                 .addComponent(chkKetchup)
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 151, Short.MAX_VALUE)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 130, Short.MAX_VALUE)
                 .addComponent(chkMustard)
                 .addGap(114, 114, 114)
                 .addComponent(chkPickles)
@@ -160,7 +160,6 @@ public class DriveThru extends javax.swing.JFrame {
                 .addContainerGap(8, Short.MAX_VALUE))
         );
 
-        btnPay.setIcon(new javax.swing.ImageIcon("I:\\Rovic\\BIT11\\2nd Sem\\ITCS123\\Netbeans Introduction\\DriveThru\\src\\paybtn.jpg")); // NOI18N
         btnPay.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 btnPayActionPerformed(evt);
