@@ -120,7 +120,7 @@
                           <Component id="rbtnChicken" alignment="3" min="-2" max="-2" attributes="0"/>
                           <Component id="rbtnVeggie" alignment="3" min="-2" max="-2" attributes="0"/>
                       </Group>
-                      <EmptySpace pref="41" max="32767" attributes="0"/>
+                      <EmptySpace pref="38" max="32767" attributes="0"/>
                   </Group>
               </Group>
             </DimensionLayout>
@@ -177,7 +177,7 @@
                   <Group type="102" alignment="0" attributes="0">
                       <EmptySpace min="-2" pref="59" max="-2" attributes="0"/>
                       <Component id="chkKetchup" min="-2" max="-2" attributes="0"/>
-                      <EmptySpace pref="151" max="32767" attributes="0"/>
+                      <EmptySpace pref="130" max="32767" attributes="0"/>
                       <Component id="chkMustard" min="-2" max="-2" attributes="0"/>
                       <EmptySpace min="-2" pref="114" max="-2" attributes="0"/>
                       <Component id="chkPickles" min="-2" max="-2" attributes="0"/>
@@ -262,11 +262,6 @@
           </SubComponents>
         </Container>
         <Component class="javax.swing.JButton" name="btnPay">
-          <Properties>
-            <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-              <Image iconType="2" name="I:\Rovic\BIT11\2nd Sem\ITCS123\Netbeans Introduction\DriveThru\src\paybtn.jpg"/>
-            </Property>
-          </Properties>
           <Events>
             <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btnPayActionPerformed"/>
           </Events>
