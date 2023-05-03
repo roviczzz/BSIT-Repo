@@ -6,6 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="72bfb7d0-c2c9-4d38-b4fe-c8b6d8953e09" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/experiment/src/lee.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,10 +47,11 @@
     "WebServerToolWindowFactoryState": "false",
     "jdk.selected.JAVA_MODULE": "18",
     "last_opened_file_path": "H:/Github/ITCS-repo",
+    "nodejs_package_manager_path": "npm",
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "preferences.pluginManager"
+    "settings.editor.selected.configurable": "preferences.editor"
   }
 }]]></component>
   <component name="RecentsManager">
@@ -75,6 +77,8 @@
       <workItem from="1673410288834" duration="3176000" />
       <workItem from="1673535833507" duration="10536000" />
       <workItem from="1673940194012" duration="2518000" />
+      <workItem from="1683080429711" duration="927000" />
+      <workItem from="1683081402522" duration="7579000" />
     </task>
     <servers />
   </component>
