@@ -1,47 +1,49 @@
 public class ExponentialSearch {
-    public static int exponentialSearch(int[] arr, int target) {
-        if (arr[0] == target) {
-            return 0;
-        }
-        
-        int i = 1;
+    static Scanner console = new Scanner(System.in);
+    
+    
+    public static int exponentialSearch(int arr[], int x) {
         int n = arr.length;
-        
-        while (i < n && arr[i] <= target) {
-            i *= 2;
-        }
-        
-        return binarySearch(arr, i/2, Math.min(i, n-1), target);
+
+        if (arr[0] == x)
+            return 0;
+
+        int i = 1;
+        while (i < n && arr[i] <= x)
+            i = i * 2;
+
+        return binarySearch(arr, x, i / 2, Math.min(i, n - 1));
     }
     
-    private static int binarySearch(int[] arr, int low, int high, int target) {
-        while (low <= high) {
-            int mid = low + (high - low) / 2;
-            
-            if (arr[mid] == target) {
+
+ public static int binarySearch(int arr[], int x, int left, int right) {
+        if (right >= left) {
+            int mid = left + (right - left) / 2;
+
+            if (arr[mid] == x)
                 return mid;
-            }
-            
-            if (arr[mid] < target) {
-                low = mid + 1;
-            } else {
-                high = mid - 1;
-            }
+
+            if (arr[mid] > x)
+                return binarySearch(arr, x, left, mid - 1);
+
+            return binarySearch(arr, x, mid + 1, right);
         }
-        
+
         return -1;
     }
-    
+ 
+ 
     public static void main(String[] args) {
-        int[] arr = {2, 5, 7, 12, 16, 23, 36, 42, 56};
-        int target = 23;
         
-        int index = exponentialSearch(arr, target);
+        int arr[] = {2,4,6,8,10,12,14,16,18,20};
+        System.out.println("Array: " + Arrays.toString(arr));
+        System.out.print("Element to search: ");
+        int x = console.nextInt();
         
-        if (index != -1) {
-            System.out.println("Element found at index " + index);
-        } else {
+        int index = exponentialSearch(arr, x);
+        if (index == -1)
             System.out.println("Element not found in the array");
-        }
+        else
+             System.out.println("Element found at index: " + index);
     }
 }
