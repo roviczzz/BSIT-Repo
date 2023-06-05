@@ -7,6 +7,8 @@
       <sourceFolder url="file://$MODULE_DIR$/firstYear/MidExam_ITCS112LA/src" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/firstYear/secondSem/MyPointActivity/src" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/firstYear/secondSem/UserDefinedMethods/src/main/java/com/mycompany/userdefinedmethods" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/firstYear/secondSem/InsertionAlgorithm/src" isTestSource="false" />
+      <excludeFolder url="file://$MODULE_DIR$/firstYear/secondSem/MyPointActivity" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />

@@ -1,155 +1,31 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="AutoImportSettings">
-    <option name="autoReloadType" value="SELECTIVE" />
-  </component>
   <component name="ChangeListManager">
-    <list default="true" id="72bfb7d0-c2c9-4d38-b4fe-c8b6d8953e09" name="Changes" comment="">
-<<<<<<< Updated upstream
+    <list default="true" id="dd1ac056-345d-4c61-b4fe-73967f41445c" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/ITCS-repo.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/ITCS-repo.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-=======
-<<<<<<< HEAD
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-=======
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
->>>>>>> 7a7eaa963cbb634574a2bdd0d0ce890b06f2aefa
->>>>>>> Stashed changes
+      <change beforePath="$PROJECT_DIR$/firstYear/secondSem/MyPointActivity/src/MyPointPackage/MyPoint.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/firstYear/secondSem/MyPointActivity/src/MyPointPackage/TestMyPoint.form" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/firstYear/secondSem/MyPointActivity/src/MyPointPackage/TestMyPoint.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ITCS-repo/MyPointPackage/MyPoint.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ITCS-repo/MyPointPackage/MyPoint.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="CodeStyleSettingsInfer">
-    <option name="done" value="true" />
-  </component>
-  <component name="FileTemplateManagerImpl">
-    <option name="RECENT_TEMPLATES">
-      <list>
-        <option value="Class" />
-      </list>
-    </option>
-  </component>
-  <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
-  </component>
-  <component name="MarkdownSettingsMigration">
-    <option name="stateVersion" value="1" />
-  </component>
-  <component name="ProblemsViewState">
-    <option name="selectedTabId" value="ProjectErrors" />
-  </component>
-  <component name="ProjectCodeStyleSettingsMigration">
-    <option name="version" value="2" />
-  </component>
-  <component name="ProjectId" id="2FnGumdSq1YDnCUEsK2xug6BiYM" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
-    <ConfirmationsSetting value="1" id="Add" />
-  </component>
-  <component name="ProjectViewState">
-    <option name="hideEmptyMiddlePackages" value="true" />
-    <option name="showLibraryContents" value="true" />
-  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "UI_DESIGNER_EDITOR_MODE.UIDesignerToolWindowManager.WIDTH": "292",
-    "WebServerToolWindowFactoryState": "false",
-    "jdk.selected.JAVA_MODULE": "18",
-    "last_opened_file_path": "H:/Downloads/MidSum_Rodriguez(2).java",
-    "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.2",
-    "run.code.analysis.last.selected.profile": "pProject Default",
-    "settings.editor.selected.configurable": "preferences.pluginManager"
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false"
   }
 }]]></component>
-  <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="H:\Github\ITCS-repo\firstYear\secondSem\MyPointActivity\src\MyPoint" />
-      <recent name="C:\Users\rovic\Documents\GitHub\ITCS-repo\firstYear\firstSem" />
-      <recent name="C:\Users\rovic\Documents\GitHub\ITCS-repo\firstYear" />
-      <recent name="H:\Github\ITCS-repo\firstSem" />
-    </key>
-  </component>
-  <component name="RunManager">
-    <configuration name="Student" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Rodriguez_Class.Student" />
-      <module name="ITCS-repo" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Rodriguez_Class.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <recent_temporary>
-      <list>
-        <item itemvalue="Application.Student" />
-      </list>
-    </recent_temporary>
-  </component>
-  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
-    <task active="true" id="Default" summary="Default task">
-      <changelist id="72bfb7d0-c2c9-4d38-b4fe-c8b6d8953e09" name="Changes" comment="" />
-      <created>1665120660019</created>
-      <option name="number" value="Default" />
-      <option name="presentableId" value="Default" />
-      <updated>1665120660019</updated>
-      <workItem from="1666692588581" duration="1343000" />
-      <workItem from="1666794827796" duration="199000" />
-      <workItem from="1667397015033" duration="2458000" />
-      <workItem from="1668598489917" duration="1147000" />
-      <workItem from="1669341743628" duration="7415000" />
-      <workItem from="1673410288834" duration="3176000" />
-      <workItem from="1673535833507" duration="10536000" />
-      <workItem from="1673940194012" duration="2518000" />
-      <workItem from="1683080429711" duration="927000" />
-      <workItem from="1683081402522" duration="7579000" />
-      <workItem from="1683246678769" duration="1726000" />
-      <workItem from="1683507001128" duration="8529000" />
-      <workItem from="1683515770595" duration="1249000" />
-      <workItem from="1683534187585" duration="1180000" />
-      <workItem from="1683613643197" duration="1729000" />
-      <workItem from="1683771914306" duration="643000" />
-      <workItem from="1683873529300" duration="816000" />
-      <workItem from="1684826884462" duration="129000" />
-    </task>
     <servers />
-  </component>
-  <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="3" />
-  </component>
-  <component name="Vcs.Log.Tabs.Properties">
-    <option name="TAB_STATES">
-      <map>
-        <entry key="MAIN">
-          <value>
-            <State />
-          </value>
-        </entry>
-      </map>
-    </option>
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/firstYear/secondSem/MyPointActivity/src/main/java/MyPointPackage/MyPoint.java</url>
-          <line>11</line>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
-  </component>
-  <component name="XSLT-Support.FileAssociations.UIState">
-    <expand />
-    <select />
   </component>
 </project>
