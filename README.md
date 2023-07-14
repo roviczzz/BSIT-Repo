@@ -6,8 +6,8 @@ developed by roviczzz
 
 ---
 
-### Milestones
-1st Year ✔️
-2nd Year (*ongoing*)
-3rd Year
-4th Year
+### Milestones 
+ - [x] 1st Year
+ - [ ] 2nd Year (ongoing)
+ - [ ] 3rd Year
+ - [ ] 4th Year
