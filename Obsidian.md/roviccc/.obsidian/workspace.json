@@ -13,7 +13,7 @@
             "state": {
               "type": "make-folder-view",
               "state": {
-                "contextPath": "Assignments"
+                "contextPath": "Personal//"
               }
             }
           }
@@ -92,6 +92,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Assignments/Assignments.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -108,6 +109,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Assignments/Assignments.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -129,7 +131,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "Assignments/Assignments.md"
+              }
             }
           }
         ]
@@ -149,13 +153,15 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "5b78545cb3ed6996",
+  "active": "d11a15e39cb2f6de",
   "lastOpenFiles": [
+    "self",
+    "ideas",
+    "videos",
     "BSIT-Repo README.md.md",
     "Courses/course link.md",
     "Courses/context.mdb",
     "ideas/idea corner.md",
-    "ideas",
     "videos/idea corner.md",
     "photography/plans.md",
     "videos/videos.md",
@@ -163,7 +169,6 @@
     "Assignments/Assignments.md",
     "plans/state.md",
     "photography",
-    "videos",
     "Assignments",
     "Courses",
     "Second Year/course name.md",

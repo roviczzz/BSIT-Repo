@@ -39,20 +39,7 @@
       "Courses",
       "Second Year"
     ],
-    "School": [
-      "Assignments",
-      "Courses",
-      "Courses",
-      "Assignments",
-      "Courses",
-      "Assignments",
-      "Courses",
-      "Courses",
-      "Courses",
-      "Assignments",
-      "Courses",
-      "Assignments"
-    ],
+    "School": [],
     "Content Creation": [
       "idea corner",
       "idea corner",
@@ -73,8 +60,10 @@
     "/",
     null,
     "roviccc",
+    null,
+    "School",
     "Content Creation",
-    "School"
+    "Personal"
   ],
   "openFolders": [],
   "fileIcons": [],
@@ -106,7 +95,7 @@
   "spacesSyncTimeoutSeconds": 10,
   "spacesAutoBackup": true,
   "spacesAutoBackupInterval": 10,
-  "spacesAutoBackupLast": 1689318997175,
+  "spacesAutoBackupLast": 1689319445459,
   "spacesUseAlias": false,
   "precreateVaultSpace": true,
   "fmKeyAlias": "alias",
