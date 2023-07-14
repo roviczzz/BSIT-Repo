@@ -2,7 +2,7 @@
 #portfolio #backup #BSIT #academics
 a backlog of a journey in BSIT
 
-developed by roviczzz
+developed by **roviczzz**
 
 ---
 
