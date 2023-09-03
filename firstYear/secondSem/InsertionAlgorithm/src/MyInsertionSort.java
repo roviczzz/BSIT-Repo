@@ -4,15 +4,15 @@ import java.util.Scanner;
 public class MyInsertionSort {
     public static void insertionSort(int[] arr) {//insertionSort method
         int n = arr.length;//array length
-        for (int i = 1; i < n; i++) {//
+        for (int i = 1; i < n; i++) {//initialize int i = 1, loop until i
             int key = arr[i];
-            int j = i - 1;
+            int k = i - 1;
 
-            while (j >= 0 && arr[j] > key) {
-                arr[j + 1] = arr[j];
-                j--;
+            while (k >= 0 && arr[k] > key) {
+                arr[k + 1] = arr[k];
+                k--;
             }
-            arr[j + 1] = key;
+            arr[k + 1] = key;
         }
     }
 

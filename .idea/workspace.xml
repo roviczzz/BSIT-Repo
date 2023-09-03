@@ -2,14 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="dd1ac056-345d-4c61-b4fe-73967f41445c" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/ITCS-repo.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/ITCS-repo.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/firstYear/secondSem/MyPointActivity/src/MyPointPackage/MyPoint.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/firstYear/secondSem/MyPointActivity/src/MyPointPackage/TestMyPoint.form" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/firstYear/secondSem/MyPointActivity/src/MyPointPackage/TestMyPoint.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ITCS-repo/MyPointPackage/MyPoint.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ITCS-repo/MyPointPackage/MyPoint.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/firstYear/secondSem/InsertionAlgorithm/src/MyInsertionSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/firstYear/secondSem/InsertionAlgorithm/src/MyInsertionSort.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -27,5 +21,16 @@
 }]]></component>
   <component name="TaskManager">
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>
