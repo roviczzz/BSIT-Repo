@@ -1,3 +1,4 @@
+import java.sql.SQLOutput;
 import java.util.Arrays;
 import java.util.Scanner;
 
@@ -79,7 +80,9 @@ public class oneDimensionalArray {
         R3 = new int[length];
 
         Merge_Array(R1, R2, N1, N2);
-        System.out.println(Arrays.toString(Arrays.stream(R3).sorted().toArray()));
+        System.out.println("First array: " + Arrays.toString(R1));
+        System.out.println("Second array: " + Arrays.toString(R2));
+        System.out.println("Merged array: " + Arrays.toString(Arrays.stream(R3).sorted().toArray()));
 
 
 
