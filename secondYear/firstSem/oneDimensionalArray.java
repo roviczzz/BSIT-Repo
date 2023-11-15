@@ -22,12 +22,12 @@ public class oneDimensionalArray {
     }
 
         public static void randomArray2(int n){
-            int[] arr = new int[n];
-            for (int i = 0; i < arr.length; i++) {
-                arr[i] = (int) Math.floor(Math.random() * 51); // random number generator up to 50
-            }
-            R2 = arr;
+        int[] arr = new int[n];
+        for (int i = 0; i < arr.length; i++) {
+            arr[i] = (int) Math.floor(Math.random() * 51); // random number generator up to 50
         }
+        R2 = arr;
+    }
 
     public static void Merge_Array(int[] R1, int[] R2, int N1, int N2) {
         ctr1 = 0; // Initialize ctr1 to 0
