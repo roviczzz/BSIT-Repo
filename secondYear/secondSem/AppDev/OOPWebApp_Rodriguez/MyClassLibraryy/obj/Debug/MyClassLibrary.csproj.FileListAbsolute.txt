@@ -1,0 +1,6 @@
+C:\Users\rovic\source\repos\OOPWebApp_Rodriguez\MyClassLibraryy\bin\Debug\MyClassLibraryy.dll
+C:\Users\rovic\source\repos\OOPWebApp_Rodriguez\MyClassLibraryy\bin\Debug\MyClassLibraryy.pdb
+C:\Users\rovic\source\repos\OOPWebApp_Rodriguez\MyClassLibraryy\obj\Debug\MyClassLibrary.csproj.AssemblyReference.cache
+C:\Users\rovic\source\repos\OOPWebApp_Rodriguez\MyClassLibraryy\obj\Debug\MyClassLibrary.csproj.CoreCompileInputs.cache
+C:\Users\rovic\source\repos\OOPWebApp_Rodriguez\MyClassLibraryy\obj\Debug\MyClassLibraryy.dll
+C:\Users\rovic\source\repos\OOPWebApp_Rodriguez\MyClassLibraryy\obj\Debug\MyClassLibraryy.pdb
