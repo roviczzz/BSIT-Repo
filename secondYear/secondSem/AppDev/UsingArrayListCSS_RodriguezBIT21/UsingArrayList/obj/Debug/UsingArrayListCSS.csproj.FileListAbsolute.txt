@@ -1,0 +1,10 @@
+C:\Users\rovic\source\repos\UsingArrayListCSS_RodriguezBIT21\UsingArrayList\bin\UsingArrayList.dll.config
+C:\Users\rovic\source\repos\UsingArrayListCSS_RodriguezBIT21\UsingArrayList\bin\UsingArrayList.dll
+C:\Users\rovic\source\repos\UsingArrayListCSS_RodriguezBIT21\UsingArrayList\bin\UsingArrayList.pdb
+C:\Users\rovic\source\repos\UsingArrayListCSS_RodriguezBIT21\UsingArrayList\bin\DataHelperArrayList.dll
+C:\Users\rovic\source\repos\UsingArrayListCSS_RodriguezBIT21\UsingArrayList\bin\DataHelperArrayList.pdb
+C:\Users\rovic\source\repos\UsingArrayListCSS_RodriguezBIT21\UsingArrayList\obj\Debug\UsingArrayListCSS.csproj.AssemblyReference.cache
+C:\Users\rovic\source\repos\UsingArrayListCSS_RodriguezBIT21\UsingArrayList\obj\Debug\UsingArrayListCSS.csproj.CoreCompileInputs.cache
+C:\Users\rovic\source\repos\UsingArrayListCSS_RodriguezBIT21\UsingArrayList\obj\Debug\UsingArrayListCSS.csproj.CopyComplete
+C:\Users\rovic\source\repos\UsingArrayListCSS_RodriguezBIT21\UsingArrayList\obj\Debug\UsingArrayList.dll
+C:\Users\rovic\source\repos\UsingArrayListCSS_RodriguezBIT21\UsingArrayList\obj\Debug\UsingArrayList.pdb
