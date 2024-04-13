@@ -1,0 +1,6 @@
+C:\Users\rovic\source\repos\FinalAct1_RodriguezBIT21\DataHelper\bin\Debug\DataHelper.dll
+C:\Users\rovic\source\repos\FinalAct1_RodriguezBIT21\DataHelper\bin\Debug\DataHelper.pdb
+C:\Users\rovic\source\repos\FinalAct1_RodriguezBIT21\DataHelper\obj\Debug\DataHelperDB.csproj.AssemblyReference.cache
+C:\Users\rovic\source\repos\FinalAct1_RodriguezBIT21\DataHelper\obj\Debug\DataHelperDB.csproj.CoreCompileInputs.cache
+C:\Users\rovic\source\repos\FinalAct1_RodriguezBIT21\DataHelper\obj\Debug\DataHelper.dll
+C:\Users\rovic\source\repos\FinalAct1_RodriguezBIT21\DataHelper\obj\Debug\DataHelper.pdb
