@@ -19,7 +19,7 @@
             width: 1166px;
         }
         .auto-style5 {
-            width: 213px;
+            width: 285px;
         }
         .auto-style6 {
             color: #FF0000;
@@ -29,7 +29,7 @@
             height: 26px;
         }
         .auto-style8 {
-            width: 213px;
+            width: 285px;
             height: 26px;
         }
         .auto-style9 {
@@ -72,10 +72,10 @@
             <tr>
                 <td class="auto-style2">&nbsp;</td>
                 <td class="auto-style5">
-                    <asp:Button ID="btnSave" runat="server" Text="Save" Width="103px" OnClick="btnSave_Click" />
+                    <asp:Button ID="btnSave" runat="server" Text="Save" Width="115px" OnClick="btnSave_Click" />
                 </td>
                 <td class="auto-style4">
-                    <asp:Label ID="txtError" runat="server" CssClass="auto-style6" Text="*Record already exists" Visible="False"></asp:Label>
+                    <asp:Label ID="txtError" runat="server" CssClass="auto-style6" Text="*Student already registered" Visible="False"></asp:Label>
                 </td>
             </tr>
         </table>

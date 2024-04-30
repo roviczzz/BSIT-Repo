@@ -11,7 +11,7 @@ namespace DataHelper
 {
     public class DataAccess
     {
-        //Conneciton String
+        //Connection String
         static string ConnStr = @"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=C:\Users\rovic\source\repos\FinalAct1_RodriguezBIT21\FinalAct1_RodriguezBIT21\App_Data\MasterFile.mdf;Integrated Security=True";
         //Connection Object
         SqlConnection myConn = new SqlConnection(ConnStr);
@@ -24,6 +24,7 @@ namespace DataHelper
             saveCmd.Parameters.Add("@StudentNo", SqlDbType.NVarChar).Value = studentNo;
             saveCmd.Parameters.Add("@Name", SqlDbType.NVarChar).Value = name;
             saveCmd.Parameters.Add("@Password", SqlDbType.NVarChar).Value = userPassword;
+
             saveCmd.ExecuteNonQuery();
             myConn.Close();
 
@@ -44,13 +45,15 @@ namespace DataHelper
         public string StudentNumber { get => studentNumber; set => studentNumber = value; }
         public string StudentPassword { get => studentPassword; set => studentPassword = value; }
 
-        public bool CheckStudentAccount(string StudentNumber)
+        public bool CheckStudentAccount(string studentNumber)
         {
             myConn.Open();
             bool found = false;
             SqlCommand readCmd = new SqlCommand("CheckAccount", myConn);
             readCmd.CommandType = CommandType.StoredProcedure;
-            readCmd.Parameters.Add("@StudentNo", SqlDbType.NVarChar).Value = StudentNumber;
+            readCmd.Parameters.Add("@StudentNo", SqlDbType.NVarChar).Value = studentNumber;
+
+
             SqlDataReader dr;
             dr = readCmd.ExecuteReader();
             while (dr.Read())
