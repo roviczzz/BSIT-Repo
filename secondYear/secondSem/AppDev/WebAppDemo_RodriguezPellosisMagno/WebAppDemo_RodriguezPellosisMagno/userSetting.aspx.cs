@@ -16,7 +16,6 @@ namespace WebAppDemo_RodriguezPellosisMagno
             lblUserName.Text = Session["UserName"].ToString();
             lblEmail.Text = Session["UserEmail"].ToString();
             lblName.Text = Session["UserName"].ToString();
-            lblName.Text = Session["UserPass"].ToString();
             lblMembership.Text = Session["MemType"].ToString();
             lblPhoneNo.Text = Session["UserPhone"].ToString();
             }
