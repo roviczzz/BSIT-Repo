@@ -67,7 +67,6 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Content Include="signupAdmin.aspx" />
     <Content Include="App_Data\MasterFile.mdf" />
     <Content Include="App_Data\MasterFile_log.ldf">
       <DependentUpon>MasterFile.mdf</DependentUpon>
@@ -75,17 +74,12 @@
     <Content Include="index.aspx" />
     <Content Include="indexSign.aspx" />
     <Content Include="indexSignup.aspx" />
-    <Content Include="SignupUser.aspx" />
+    <Content Include="signupAdmin.aspx" />
+    <Content Include="signupSuccess.aspx" />
+    <Content Include="signupUser.aspx" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="signupAdmin.aspx.cs">
-      <DependentUpon>signupAdmin.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="signupAdmin.aspx.designer.cs">
-      <DependentUpon>signupAdmin.aspx</DependentUpon>
-    </Compile>
     <Compile Include="defaultMaster.Master.cs">
       <DependentUpon>defaultMaster.Master</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -115,12 +109,26 @@
       <DependentUpon>indexSignup.aspx</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="SignupUser.aspx.cs">
-      <DependentUpon>SignupUser.aspx</DependentUpon>
+    <Compile Include="signupAdmin.aspx.cs">
+      <DependentUpon>signupAdmin.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="SignupUser.aspx.designer.cs">
-      <DependentUpon>SignupUser.aspx</DependentUpon>
+    <Compile Include="signupAdmin.aspx.designer.cs">
+      <DependentUpon>signupAdmin.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="signupSuccess.aspx.cs">
+      <DependentUpon>signupSuccess.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="signupSuccess.aspx.designer.cs">
+      <DependentUpon>signupSuccess.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="signupUser.aspx.cs">
+      <DependentUpon>signupUser.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="signupUser.aspx.designer.cs">
+      <DependentUpon>signupUser.aspx</DependentUpon>
     </Compile>
   </ItemGroup>
   <ItemGroup>

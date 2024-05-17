@@ -1,6 +1,7 @@
-﻿<%@ Page Title="" Language="C#" MasterPageFile="~/defaultMaster.Master" AutoEventWireup="true" CodeFile="signupAdmin.aspx.cs" Inherits="SalaryLoanCalcu_FinalSummative_Rodriguez.adminSignup" %>
+﻿<%@ Page Title="" Language="C#" MasterPageFile="~/defaultMaster.Master" AutoEventWireup="true" CodeBehind="signupAdmin.aspx.cs" Inherits="SalaryLoanCalcu_FinalSummative_Rodriguez.signupAdmin" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
     <style type="text/css">
+
 
 
 
@@ -15,14 +16,14 @@ table {
 }
 
   * {
-  box-sizing: border-box;
-}
-
-  * {
     text-shadow: none !important;
     box-shadow: none !important;
   }
   
+  * {
+  box-sizing: border-box;
+}
+
   tr {
     page-break-inside: avoid;
   }
@@ -63,12 +64,6 @@ table {
         }
         .auto-style27 {
             height: 43px;
-        }
-        .auto-style40 {
-            height: 43px;
-            width: 323px;
-            text-align: left;
-            font-size: medium;
         }
         .auto-style24 {
             height: 43px;

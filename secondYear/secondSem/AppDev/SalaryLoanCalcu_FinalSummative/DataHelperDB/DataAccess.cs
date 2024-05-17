@@ -11,11 +11,21 @@ namespace DataHelperDB
     public class DataAccess
     {
         //Connection String
-        static string ConnStr = @"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=C:\Users\rovic\source\repos\SalaryLoanCalcu_FinalSummative_Rodriguez\SalaryLoanCalcu_FinalSummative_Rodriguez\App_Data\MasterFile.mdf;Integrated Security=True";
+        static string ConnStr = @"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=C:\Users\rovic\OneDrive\Documents\GitHub\BSIT-Repo\secondYear\secondSem\AppDev\SalaryLoanCalcu_FinalSummative\SalaryLoanCalcu_FinalSummative_Rodriguez\App_Data\MasterFile.mdf;Integrated Security=True";
         //Connection Object
         SqlConnection myConn = new SqlConnection(ConnStr);
 
-        //encapsulate variables
+        string accountStatus, email, firstname, lastname, password;
+        int monthlySalary;
+        bool accType;
+
+        public string AccountStatus { get => accountStatus; set => accountStatus = value; }
+        public string Email { get => email; set => email = value; }
+        public string Firstname { get => firstname; set => firstname = value; }
+        public string Lastname { get => lastname; set => lastname = value; }
+        public string Password { get => password; set => password = value; }
+        public int MonthlySalary { get => monthlySalary; set => monthlySalary = value; }
+        public bool AccType { get => accType; set => accType = value; }
 
         public void RegisterAdmin(string email, string firstname, string lastname, string password)
         {
@@ -67,19 +77,19 @@ namespace DataHelperDB
 
                 if (AccountStatus == "User")
                 {
-                    UserEmail = dr.GetString(0);
-                    UserName = dr.GetString(1);
-                    UserPhone = dr.GetInt32(2);
-                    UserPass = dr.GetString(3);
-                    MemType = dr.GetString(5);
+                    Email = dr.GetString(0);
+                    Firstname = dr.GetString(1);
+                    Lastname = dr.GetString(2);
+                    Password = dr.GetString(3);
+                    MonthlySalary = dr.GetInt32(5);
                     AccType = true;
                 }
                 else
                 {
-                    adminEmail = dr.GetString(0);
-                    adminName = dr.GetString(1);
-                    AdminPhone = dr.GetInt32(2);
-                    adminPass = dr.GetString(3);
+                    Email = dr.GetString(0);
+                    Firstname = dr.GetString(1);
+                    Lastname = dr.GetString(2);
+                    Password = dr.GetString(3);
                     AccType = false;
                 }
 
