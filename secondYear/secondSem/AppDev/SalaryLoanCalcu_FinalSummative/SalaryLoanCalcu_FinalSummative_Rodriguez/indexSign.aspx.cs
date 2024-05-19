@@ -29,16 +29,16 @@ namespace SalaryLoanCalcu_FinalSummative_Rodriguez
                     Session["Email"] = txtUserName.Text;
                     if (myData.AccType == true)
                     {
-                        Response.Redirect("loginUser.aspx");
+                        Response.Redirect("signinUser.aspx");
                     }//false admin, true user
                     else
                     {
-                        Response.Redirect("loginAdmin.aspx");
+                        Response.Redirect("signinAdmin.aspx");
                     }
                 }
                 else
                 {
-                    Response.Redirect("registration.aspx");
+                    Response.Redirect("indexSignup.aspx");
                 }
 
             }

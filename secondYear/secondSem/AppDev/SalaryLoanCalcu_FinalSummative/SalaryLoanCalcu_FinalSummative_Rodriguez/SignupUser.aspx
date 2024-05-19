@@ -118,7 +118,7 @@ table {
         <td __designer:mapid="e" class="auto-style26">
             <asp:Label ID="userLastname" runat="server"></asp:Label>
         </td>
-        <td __designer:mapid="e" class="auto-style37">&nbsp;</td>
+        <td __designer:mapid="e" class="auto-style37"></td>
         <td __designer:mapid="10" class="auto-style33">
             <asp:TextBox ID="txtUserLastname" runat="server" Height="29px" placeholder="Last Name" Width="265px"></asp:TextBox>
         </td>

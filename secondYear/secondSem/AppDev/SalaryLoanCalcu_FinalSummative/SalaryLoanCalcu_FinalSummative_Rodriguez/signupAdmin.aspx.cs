@@ -30,7 +30,7 @@ namespace SalaryLoanCalcu_FinalSummative_Rodriguez
                 {
                     lblError.Visible = false;
                     myData.RegisterAdmin(txtAdminEmail.Text, txtAdminFirstname.Text, txtAdminLastname.Text, txtAdminPassword.Text);
-                    Response.Redirect("registrationComplete.aspx");
+                    Response.Redirect("signupSuccess.aspx");
                 }
             }
         }
