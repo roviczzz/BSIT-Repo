@@ -10,3 +10,9 @@ C:\Users\rovic\OneDrive\Documents\GitHub\2nd-Year-Programming\Alonzo - Final Exa
 C:\Users\rovic\OneDrive\Documents\GitHub\2nd-Year-Programming\Alonzo - Final Exam\Alonzo - Final Exam\DataHelper\obj\Debug\DataHelper.csproj.CoreCompileInputs.cache
 C:\Users\rovic\OneDrive\Documents\GitHub\2nd-Year-Programming\Alonzo - Final Exam\Alonzo - Final Exam\DataHelper\obj\Debug\DataHelper.dll
 C:\Users\rovic\OneDrive\Documents\GitHub\2nd-Year-Programming\Alonzo - Final Exam\Alonzo - Final Exam\DataHelper\obj\Debug\DataHelper.pdb
+C:\Users\rovic\OneDrive\Documents\GitHub\BSIT-Repo\secondYear\secondSem\AppDev\SummativeExam_RodriguezBIT21\DataHelper\bin\Debug\DataHelper.dll
+C:\Users\rovic\OneDrive\Documents\GitHub\BSIT-Repo\secondYear\secondSem\AppDev\SummativeExam_RodriguezBIT21\DataHelper\bin\Debug\DataHelper.pdb
+C:\Users\rovic\OneDrive\Documents\GitHub\BSIT-Repo\secondYear\secondSem\AppDev\SummativeExam_RodriguezBIT21\DataHelper\obj\Debug\DataHelper.csproj.AssemblyReference.cache
+C:\Users\rovic\OneDrive\Documents\GitHub\BSIT-Repo\secondYear\secondSem\AppDev\SummativeExam_RodriguezBIT21\DataHelper\obj\Debug\DataHelper.csproj.CoreCompileInputs.cache
+C:\Users\rovic\OneDrive\Documents\GitHub\BSIT-Repo\secondYear\secondSem\AppDev\SummativeExam_RodriguezBIT21\DataHelper\obj\Debug\DataHelper.dll
+C:\Users\rovic\OneDrive\Documents\GitHub\BSIT-Repo\secondYear\secondSem\AppDev\SummativeExam_RodriguezBIT21\DataHelper\obj\Debug\DataHelper.pdb
