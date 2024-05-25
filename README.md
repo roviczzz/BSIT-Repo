@@ -5,8 +5,8 @@ for sure these are wack but hey atleast you have something to look back on kiddo
 ======================================
 ### Milestones 
  - [x] 1st Year
- - [ ] 2nd Year (ongoing)
- - [ ] 3rd Year
+ - [x] 2nd Year
+ - [ ] 3rd Year (ongoing)
  - [ ] 4th Year
 
 
