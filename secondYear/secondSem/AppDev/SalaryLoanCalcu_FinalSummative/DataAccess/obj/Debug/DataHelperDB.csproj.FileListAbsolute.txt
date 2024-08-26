@@ -1,6 +1,0 @@
-C:\Users\rovic\source\repos\WebAppDemo_RodriguezPellosisMagno\DataAccess\bin\Debug\DataAccess.dll
-C:\Users\rovic\source\repos\WebAppDemo_RodriguezPellosisMagno\DataAccess\bin\Debug\DataAccess.pdb
-C:\Users\rovic\source\repos\WebAppDemo_RodriguezPellosisMagno\DataAccess\obj\Debug\DataHelperDB.csproj.AssemblyReference.cache
-C:\Users\rovic\source\repos\WebAppDemo_RodriguezPellosisMagno\DataAccess\obj\Debug\DataHelperDB.csproj.CoreCompileInputs.cache
-C:\Users\rovic\source\repos\WebAppDemo_RodriguezPellosisMagno\DataAccess\obj\Debug\DataAccess.dll
-C:\Users\rovic\source\repos\WebAppDemo_RodriguezPellosisMagno\DataAccess\obj\Debug\DataAccess.pdb

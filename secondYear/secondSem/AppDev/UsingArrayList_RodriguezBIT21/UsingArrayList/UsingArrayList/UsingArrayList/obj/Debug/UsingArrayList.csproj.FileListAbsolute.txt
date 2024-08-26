@@ -1,8 +1,0 @@
-D:\BongDR\UsingArrayList\UsingArrayList\bin\UsingArrayList.dll.config
-D:\BongDR\UsingArrayList\UsingArrayList\bin\UsingArrayList.dll
-D:\BongDR\UsingArrayList\UsingArrayList\bin\UsingArrayList.pdb
-D:\BongDR\UsingArrayList\UsingArrayList\obj\Debug\UsingArrayList.csprojResolveAssemblyReference.cache
-D:\BongDR\UsingArrayList\UsingArrayList\obj\Debug\UsingArrayList.dll
-D:\BongDR\UsingArrayList\UsingArrayList\obj\Debug\UsingArrayList.pdb
-D:\BongDR\UsingArrayList\UsingArrayList\bin\DataHelperArrayList.dll
-D:\BongDR\UsingArrayList\UsingArrayList\bin\DataHelperArrayList.pdb

@@ -1,5 +1,0 @@
-D:\BongDR\UsingArrayList\DataHelperArrayList\bin\Debug\DataHelperArrayList.dll
-D:\BongDR\UsingArrayList\DataHelperArrayList\bin\Debug\DataHelperArrayList.pdb
-D:\BongDR\UsingArrayList\DataHelperArrayList\obj\Debug\DataHelperArrayList.dll
-D:\BongDR\UsingArrayList\DataHelperArrayList\obj\Debug\DataHelperArrayList.pdb
-D:\BongDR\UsingArrayList\DataHelperArrayList\obj\Debug\DataHelperArrayList.csprojResolveAssemblyReference.cache

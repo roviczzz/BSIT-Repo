@@ -1,6 +1,0 @@
-C:\Users\rovic\OneDrive\Documents\GitHub\2nd-Year-Programming\Alonzo - Final Exam\Alonzo - Final Exam\DataHelper\bin\Release\DataHelper.dll
-C:\Users\rovic\OneDrive\Documents\GitHub\2nd-Year-Programming\Alonzo - Final Exam\Alonzo - Final Exam\DataHelper\bin\Release\DataHelper.pdb
-C:\Users\rovic\OneDrive\Documents\GitHub\2nd-Year-Programming\Alonzo - Final Exam\Alonzo - Final Exam\DataHelper\obj\Release\DataHelper.csproj.AssemblyReference.cache
-C:\Users\rovic\OneDrive\Documents\GitHub\2nd-Year-Programming\Alonzo - Final Exam\Alonzo - Final Exam\DataHelper\obj\Release\DataHelper.csproj.CoreCompileInputs.cache
-C:\Users\rovic\OneDrive\Documents\GitHub\2nd-Year-Programming\Alonzo - Final Exam\Alonzo - Final Exam\DataHelper\obj\Release\DataHelper.dll
-C:\Users\rovic\OneDrive\Documents\GitHub\2nd-Year-Programming\Alonzo - Final Exam\Alonzo - Final Exam\DataHelper\obj\Release\DataHelper.pdb

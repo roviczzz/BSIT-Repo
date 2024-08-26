@@ -1,6 +1,0 @@
-C:\Users\rovic\source\repos\OOPWebAppCSS_RodriguezBIT21\MyClassLibrary\bin\Debug\MyClassLibrary.dll
-C:\Users\rovic\source\repos\OOPWebAppCSS_RodriguezBIT21\MyClassLibrary\bin\Debug\MyClassLibrary.pdb
-C:\Users\rovic\source\repos\OOPWebAppCSS_RodriguezBIT21\MyClassLibrary\obj\Debug\MyClassLibrary.csproj.AssemblyReference.cache
-C:\Users\rovic\source\repos\OOPWebAppCSS_RodriguezBIT21\MyClassLibrary\obj\Debug\MyClassLibrary.csproj.CoreCompileInputs.cache
-C:\Users\rovic\source\repos\OOPWebAppCSS_RodriguezBIT21\MyClassLibrary\obj\Debug\MyClassLibrary.dll
-C:\Users\rovic\source\repos\OOPWebAppCSS_RodriguezBIT21\MyClassLibrary\obj\Debug\MyClassLibrary.pdb
