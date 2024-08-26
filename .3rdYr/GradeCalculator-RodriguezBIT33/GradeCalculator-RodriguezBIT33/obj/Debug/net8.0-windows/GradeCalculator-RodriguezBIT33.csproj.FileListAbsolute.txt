@@ -1,0 +1,17 @@
+C:\Users\rovic\source\repos\GradeCalculator-RodriguezBIT33\GradeCalculator-RodriguezBIT33\bin\Debug\net8.0-windows\GradeCalculator-RodriguezBIT33.exe
+C:\Users\rovic\source\repos\GradeCalculator-RodriguezBIT33\GradeCalculator-RodriguezBIT33\bin\Debug\net8.0-windows\GradeCalculator-RodriguezBIT33.deps.json
+C:\Users\rovic\source\repos\GradeCalculator-RodriguezBIT33\GradeCalculator-RodriguezBIT33\bin\Debug\net8.0-windows\GradeCalculator-RodriguezBIT33.runtimeconfig.json
+C:\Users\rovic\source\repos\GradeCalculator-RodriguezBIT33\GradeCalculator-RodriguezBIT33\bin\Debug\net8.0-windows\GradeCalculator-RodriguezBIT33.dll
+C:\Users\rovic\source\repos\GradeCalculator-RodriguezBIT33\GradeCalculator-RodriguezBIT33\bin\Debug\net8.0-windows\GradeCalculator-RodriguezBIT33.pdb
+C:\Users\rovic\source\repos\GradeCalculator-RodriguezBIT33\GradeCalculator-RodriguezBIT33\obj\Debug\net8.0-windows\GradeCalculator_RodriguezBIT33.Form1.resources
+C:\Users\rovic\source\repos\GradeCalculator-RodriguezBIT33\GradeCalculator-RodriguezBIT33\obj\Debug\net8.0-windows\GradeCalculator-RodriguezBIT33.csproj.GenerateResource.cache
+C:\Users\rovic\source\repos\GradeCalculator-RodriguezBIT33\GradeCalculator-RodriguezBIT33\obj\Debug\net8.0-windows\GradeCalculator-RodriguezBIT33.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\rovic\source\repos\GradeCalculator-RodriguezBIT33\GradeCalculator-RodriguezBIT33\obj\Debug\net8.0-windows\GradeCalculator-RodriguezBIT33.AssemblyInfoInputs.cache
+C:\Users\rovic\source\repos\GradeCalculator-RodriguezBIT33\GradeCalculator-RodriguezBIT33\obj\Debug\net8.0-windows\GradeCalculator-RodriguezBIT33.AssemblyInfo.cs
+C:\Users\rovic\source\repos\GradeCalculator-RodriguezBIT33\GradeCalculator-RodriguezBIT33\obj\Debug\net8.0-windows\GradeCalculator-RodriguezBIT33.csproj.CoreCompileInputs.cache
+C:\Users\rovic\source\repos\GradeCalculator-RodriguezBIT33\GradeCalculator-RodriguezBIT33\obj\Debug\net8.0-windows\GradeCalculator-RodriguezBIT33.dll
+C:\Users\rovic\source\repos\GradeCalculator-RodriguezBIT33\GradeCalculator-RodriguezBIT33\obj\Debug\net8.0-windows\refint\GradeCalculator-RodriguezBIT33.dll
+C:\Users\rovic\source\repos\GradeCalculator-RodriguezBIT33\GradeCalculator-RodriguezBIT33\obj\Debug\net8.0-windows\GradeCalculator-RodriguezBIT33.pdb
+C:\Users\rovic\source\repos\GradeCalculator-RodriguezBIT33\GradeCalculator-RodriguezBIT33\obj\Debug\net8.0-windows\GradeCalculator-RodriguezBIT33.genruntimeconfig.cache
+C:\Users\rovic\source\repos\GradeCalculator-RodriguezBIT33\GradeCalculator-RodriguezBIT33\obj\Debug\net8.0-windows\ref\GradeCalculator-RodriguezBIT33.dll
+C:\Users\rovic\source\repos\GradeCalculator-RodriguezBIT33\GradeCalculator-RodriguezBIT33\obj\Debug\net8.0-windows\GradeCalculator_RodriguezBIT33.Properties.Resources.resources

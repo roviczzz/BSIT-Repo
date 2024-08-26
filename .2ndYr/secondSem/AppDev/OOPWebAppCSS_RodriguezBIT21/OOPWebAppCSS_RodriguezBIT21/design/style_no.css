@@ -1,0 +1,139 @@
+/************/
+/* the body */
+/************/
+body {
+	background-color: #121212;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	margin: 0;
+	padding: 0;
+}
+
+/*****************/
+/* begin all div */
+/*****************/
+#Conteneur {
+	background-image:url(bgr_no.gif);
+	background-position:top center;
+	background-repeat:repeat-y;
+	width:790px;
+	margin:0 auto;
+	}
+#header {
+	background-image:url(header_no.gif);
+	background-position:top center;
+	background-repeat:no-repeat;
+	width:790px;
+	height:130px;
+	}
+#center {
+	padding-left:20px;
+	}
+#contenu {
+	float:left;
+	color:#666666;
+	width:480px;
+	margin-left:20px;
+	margin-bottom:20px;
+	text-align:justify;
+	}
+#pied {
+	height:50px;
+	font-size:10px;
+	text-align:right;
+	padding-right:35px;
+	background-image:url(pied_no.gif);
+	background-position:bottom center;
+	background-repeat:no-repeat;
+	color:#CCCCCC;
+	clear:both;
+	}
+/***************/
+/* end all div */	
+/***************/
+
+/*******************/
+/* begin left menu */
+/*******************/
+#menu {
+	border-top:1px solid #666666;
+	margin-bottom:50px;
+	width:200px;
+	float:left;
+	}
+#menu a:link, #menu a:visited {
+	width:185px;
+	margin:0px 0px 0px 0px;
+	padding:4px 3px 4px 12px;
+	color:#FFFFFF;
+	text-decoration:none;
+	border-bottom:1px solid #666666;
+	display:block;
+	}
+#menu a:hover {
+	background-color:#666666;
+	text-decoration:none;
+	}
+/*****************/
+/* end left menu */
+/*****************/
+
+/**********************/
+/* begin page-setting */
+/**********************/
+p { 
+	margin:0px 0px 0px 0px;
+	padding:0px 0px 0px 0px;
+	 }
+#logo1 {
+	color:#ffffff;
+	font-size:32px;
+	font-weight:bold;
+	position:absolute;
+	top:50px;
+	padding-left:70px;
+	}
+#logo2 {
+	color:#B38B84;
+	font-size:32px;
+	font-weight:bold;
+	position:absolute;
+	top:50px;
+	padding-left:217px;
+	}
+.titre {
+	font-size:16px;
+	padding-left:5px;
+	margin-bottom:15px;
+	color:#B38B84;
+	border-left:20px solid #B38B84;
+	border-top:1px solid #B38B84;
+	border-bottom:1px solid #B38B84;
+	}
+.sign {
+	text-align:right;
+	margin:10px 0px 10px 0px;
+	padding:0px 0px 0px 0px;
+	}
+.link {
+	background-image:url(arrow.gif);
+	background-repeat:no-repeat;
+	color:#666666;
+	}
+.link a:link, .link a:visited {
+	background-image:url(arrow.gif);
+	background-repeat:no-repeat;
+	padding-left:25px;
+	text-decoration:none;
+	color:#666666;
+	}
+.link a:hover {
+	background-image:url(arrow_over.gif);
+	background-repeat:no-repeat;
+	padding-left:30px;
+	text-decoration:none;
+	color: #999999;
+	}
+/********************/
+/* end page-setting */
+/********************/

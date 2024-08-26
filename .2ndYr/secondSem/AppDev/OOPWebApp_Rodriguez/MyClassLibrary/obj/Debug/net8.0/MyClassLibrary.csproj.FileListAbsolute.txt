@@ -1,0 +1,4 @@
+C:\Users\rovic\source\repos\OOPWebApp_Rodriguez\MyClassLibrary\obj\Debug\net8.0\MyClassLibrary.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\rovic\source\repos\OOPWebApp_Rodriguez\MyClassLibrary\obj\Debug\net8.0\MyClassLibrary.AssemblyInfoInputs.cache
+C:\Users\rovic\source\repos\OOPWebApp_Rodriguez\MyClassLibrary\obj\Debug\net8.0\MyClassLibrary.AssemblyInfo.cs
+C:\Users\rovic\source\repos\OOPWebApp_Rodriguez\MyClassLibrary\obj\Debug\net8.0\MyClassLibrary.csproj.CoreCompileInputs.cache

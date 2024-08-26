@@ -1,0 +1,67 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="User.Master.cs" Inherits="LongQuiz_RodriguezBIT21.Site1" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <title></title>
+    <style type="text/css">
+
+        *,
+  *::before,
+  *::after {
+    text-shadow: none !important;
+    box-shadow: none !important;
+  }
+  
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+        .auto-style1 {
+            margin-left: 275px;
+        }
+
+    </style>
+</head>
+<body>
+    <form id="form1" runat="server">
+        <div>
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <asp:Panel ID="Panel1" runat="server" CssClass="auto-style1">
+                <br />
+                <asp:Menu ID="Menu1" runat="server" BackColor="#09814a" BorderStyle="None" DynamicHorizontalOffset="2" Font-Bold="True" Font-Names="Rubik" Font-Size="Large" ForeColor="White" Height="30px" Orientation="Horizontal" StaticSubMenuIndent="10px" Width="500px">
+                    <DynamicHoverStyle BackColor="#284E98" ForeColor="White" />
+                    <DynamicMenuItemStyle HorizontalPadding="5px" VerticalPadding="2px" />
+                    <DynamicMenuStyle BackColor="#09814a" />
+                    <DynamicSelectedStyle BackColor="#507CD1" />
+                    <Items>
+                        <asp:MenuItem NavigateUrl="Default.aspx" Text="Client Details" Value="Client Details"></asp:MenuItem>
+                    </Items>
+                    <StaticHoverStyle BackColor="White" ForeColor="#000099" />
+                    <StaticMenuItemStyle HorizontalPadding="5px" VerticalPadding="2px" />
+                    <StaticSelectedStyle BackColor="#09814a" />
+                </asp:Menu>
+                <br />
+                <span class="auto-style2">
+                <asp:LoginStatus ID="LoginStatus2" runat="server" Font-Bold="True" Font-Names="Rubik" ForeColor="#09814a" LoginText="Sign in" LogoutText="Sign out" />
+                </span>
+            </asp:Panel>
+                      &nbsp;<span class="auto-style2"><br />
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+            </asp:ContentPlaceHolder>
+                                    </span>
+        </div>
+    </form>
+</body>
+</html>

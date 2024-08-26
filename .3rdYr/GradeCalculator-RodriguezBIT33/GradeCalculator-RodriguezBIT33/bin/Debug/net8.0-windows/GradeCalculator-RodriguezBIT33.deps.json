@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "GradeCalculator-RodriguezBIT33/1.0.0": {
+        "runtime": {
+          "GradeCalculator-RodriguezBIT33.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "GradeCalculator-RodriguezBIT33/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

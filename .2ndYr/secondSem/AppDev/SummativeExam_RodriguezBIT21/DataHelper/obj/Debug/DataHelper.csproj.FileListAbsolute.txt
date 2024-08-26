@@ -1,0 +1,18 @@
+D:\Downloads\Alonzo - Final Exam\Alonzo - Final Exam\DataHelper\bin\Debug\DataHelper.dll
+D:\Downloads\Alonzo - Final Exam\Alonzo - Final Exam\DataHelper\bin\Debug\DataHelper.pdb
+D:\Downloads\Alonzo - Final Exam\Alonzo - Final Exam\DataHelper\obj\Debug\DataHelper.csproj.AssemblyReference.cache
+D:\Downloads\Alonzo - Final Exam\Alonzo - Final Exam\DataHelper\obj\Debug\DataHelper.csproj.CoreCompileInputs.cache
+D:\Downloads\Alonzo - Final Exam\Alonzo - Final Exam\DataHelper\obj\Debug\DataHelper.dll
+D:\Downloads\Alonzo - Final Exam\Alonzo - Final Exam\DataHelper\obj\Debug\DataHelper.pdb
+C:\Users\rovic\OneDrive\Documents\GitHub\2nd-Year-Programming\Alonzo - Final Exam\Alonzo - Final Exam\DataHelper\bin\Debug\DataHelper.dll
+C:\Users\rovic\OneDrive\Documents\GitHub\2nd-Year-Programming\Alonzo - Final Exam\Alonzo - Final Exam\DataHelper\bin\Debug\DataHelper.pdb
+C:\Users\rovic\OneDrive\Documents\GitHub\2nd-Year-Programming\Alonzo - Final Exam\Alonzo - Final Exam\DataHelper\obj\Debug\DataHelper.csproj.AssemblyReference.cache
+C:\Users\rovic\OneDrive\Documents\GitHub\2nd-Year-Programming\Alonzo - Final Exam\Alonzo - Final Exam\DataHelper\obj\Debug\DataHelper.csproj.CoreCompileInputs.cache
+C:\Users\rovic\OneDrive\Documents\GitHub\2nd-Year-Programming\Alonzo - Final Exam\Alonzo - Final Exam\DataHelper\obj\Debug\DataHelper.dll
+C:\Users\rovic\OneDrive\Documents\GitHub\2nd-Year-Programming\Alonzo - Final Exam\Alonzo - Final Exam\DataHelper\obj\Debug\DataHelper.pdb
+C:\Users\rovic\OneDrive\Documents\GitHub\BSIT-Repo\secondYear\secondSem\AppDev\SummativeExam_RodriguezBIT21\DataHelper\bin\Debug\DataHelper.dll
+C:\Users\rovic\OneDrive\Documents\GitHub\BSIT-Repo\secondYear\secondSem\AppDev\SummativeExam_RodriguezBIT21\DataHelper\bin\Debug\DataHelper.pdb
+C:\Users\rovic\OneDrive\Documents\GitHub\BSIT-Repo\secondYear\secondSem\AppDev\SummativeExam_RodriguezBIT21\DataHelper\obj\Debug\DataHelper.csproj.AssemblyReference.cache
+C:\Users\rovic\OneDrive\Documents\GitHub\BSIT-Repo\secondYear\secondSem\AppDev\SummativeExam_RodriguezBIT21\DataHelper\obj\Debug\DataHelper.csproj.CoreCompileInputs.cache
+C:\Users\rovic\OneDrive\Documents\GitHub\BSIT-Repo\secondYear\secondSem\AppDev\SummativeExam_RodriguezBIT21\DataHelper\obj\Debug\DataHelper.dll
+C:\Users\rovic\OneDrive\Documents\GitHub\BSIT-Repo\secondYear\secondSem\AppDev\SummativeExam_RodriguezBIT21\DataHelper\obj\Debug\DataHelper.pdb
