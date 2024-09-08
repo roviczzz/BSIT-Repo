@@ -1,0 +1,16 @@
+C:\Users\rovic\source\repos\StudentGradeCalculator_Rodriguez\StudentGradeCalculator_Rodriguez\bin\Debug\net8.0-windows\StudentGradeCalculator_Rodriguez.exe
+C:\Users\rovic\source\repos\StudentGradeCalculator_Rodriguez\StudentGradeCalculator_Rodriguez\bin\Debug\net8.0-windows\StudentGradeCalculator_Rodriguez.deps.json
+C:\Users\rovic\source\repos\StudentGradeCalculator_Rodriguez\StudentGradeCalculator_Rodriguez\bin\Debug\net8.0-windows\StudentGradeCalculator_Rodriguez.runtimeconfig.json
+C:\Users\rovic\source\repos\StudentGradeCalculator_Rodriguez\StudentGradeCalculator_Rodriguez\bin\Debug\net8.0-windows\StudentGradeCalculator_Rodriguez.dll
+C:\Users\rovic\source\repos\StudentGradeCalculator_Rodriguez\StudentGradeCalculator_Rodriguez\bin\Debug\net8.0-windows\StudentGradeCalculator_Rodriguez.pdb
+C:\Users\rovic\source\repos\StudentGradeCalculator_Rodriguez\StudentGradeCalculator_Rodriguez\obj\Debug\net8.0-windows\StudentGradeCalculator_Rodriguez.Form1.resources
+C:\Users\rovic\source\repos\StudentGradeCalculator_Rodriguez\StudentGradeCalculator_Rodriguez\obj\Debug\net8.0-windows\StudentGradeCalculator_Rodriguez.csproj.GenerateResource.cache
+C:\Users\rovic\source\repos\StudentGradeCalculator_Rodriguez\StudentGradeCalculator_Rodriguez\obj\Debug\net8.0-windows\StudentGradeCalculator_Rodriguez.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\rovic\source\repos\StudentGradeCalculator_Rodriguez\StudentGradeCalculator_Rodriguez\obj\Debug\net8.0-windows\StudentGradeCalculator_Rodriguez.AssemblyInfoInputs.cache
+C:\Users\rovic\source\repos\StudentGradeCalculator_Rodriguez\StudentGradeCalculator_Rodriguez\obj\Debug\net8.0-windows\StudentGradeCalculator_Rodriguez.AssemblyInfo.cs
+C:\Users\rovic\source\repos\StudentGradeCalculator_Rodriguez\StudentGradeCalculator_Rodriguez\obj\Debug\net8.0-windows\StudentGradeCalculator_Rodriguez.csproj.CoreCompileInputs.cache
+C:\Users\rovic\source\repos\StudentGradeCalculator_Rodriguez\StudentGradeCalculator_Rodriguez\obj\Debug\net8.0-windows\StudentGradeCalculator_Rodriguez.dll
+C:\Users\rovic\source\repos\StudentGradeCalculator_Rodriguez\StudentGradeCalculator_Rodriguez\obj\Debug\net8.0-windows\refint\StudentGradeCalculator_Rodriguez.dll
+C:\Users\rovic\source\repos\StudentGradeCalculator_Rodriguez\StudentGradeCalculator_Rodriguez\obj\Debug\net8.0-windows\StudentGradeCalculator_Rodriguez.pdb
+C:\Users\rovic\source\repos\StudentGradeCalculator_Rodriguez\StudentGradeCalculator_Rodriguez\obj\Debug\net8.0-windows\StudentGradeCalculator_Rodriguez.genruntimeconfig.cache
+C:\Users\rovic\source\repos\StudentGradeCalculator_Rodriguez\StudentGradeCalculator_Rodriguez\obj\Debug\net8.0-windows\ref\StudentGradeCalculator_Rodriguez.dll
