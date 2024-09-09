@@ -19,7 +19,6 @@
             android:minHeight="?attr/actionBarSize"
             android:theme="?attr/actionBarTheme"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.545"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent" />
 
@@ -39,7 +38,7 @@
             app:layout_constraintVertical_bias="0.516" />
 
         <EditText
-            android:id="@+id/editTextText"
+            android:id="@+id/regis_txtFirstname"
             android:layout_width="371dp"
             android:layout_height="wrap_content"
             android:layout_marginStart="20dp"
@@ -54,7 +53,7 @@
             app:layout_constraintTop_toBottomOf="@+id/toolbar" />
 
         <EditText
-            android:id="@+id/editTextDate"
+            android:id="@+id/regis_txtBirthdate"
             android:layout_width="371dp"
             android:layout_height="wrap_content"
             android:layout_marginStart="20dp"
@@ -65,10 +64,10 @@
             android:inputType="date"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/editTextTextEmailAddress" />
+            app:layout_constraintTop_toBottomOf="@+id/regis_txtEmail" />
 
         <EditText
-            android:id="@+id/editTextTextEmailAddress"
+            android:id="@+id/regis_txtEmail"
             android:layout_width="371dp"
             android:layout_height="wrap_content"
             android:layout_marginStart="20dp"
@@ -79,10 +78,10 @@
             android:inputType="textEmailAddress"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/editTextText2" />
+            app:layout_constraintTop_toBottomOf="@+id/regis_txtLastname" />
 
         <EditText
-            android:id="@+id/editTextText2"
+            android:id="@+id/regis_txtLastname"
             android:layout_width="371dp"
             android:layout_height="wrap_content"
             android:layout_marginStart="20dp"
@@ -93,7 +92,7 @@
             android:inputType="text"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/editTextText" />
+            app:layout_constraintTop_toBottomOf="@+id/regis_txtFirstname" />
 
         <EditText
             android:id="@+id/regis_txtUsername"
@@ -107,7 +106,7 @@
             android:inputType="text"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/editTextDate" />
+            app:layout_constraintTop_toBottomOf="@+id/regis_txtBirthdate" />
 
         <EditText
             android:id="@+id/regis_txtPassword"
@@ -129,7 +128,7 @@
             android:layout_marginStart="290dp"
             android:layout_marginTop="28dp"
             android:layout_marginEnd="20dp"
-            android:background="#E91E63"
+            android:backgroundTint="#E91E63"
             android:onClick="btnRegisterOnClick"
             android:text="Register"
             app:layout_constraintEnd_toEndOf="parent"
@@ -160,7 +159,7 @@
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.0"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/editTextDate" />
+            app:layout_constraintTop_toBottomOf="@+id/regis_txtBirthdate" />
 
     </androidx.constraintlayout.widget.ConstraintLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>

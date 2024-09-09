@@ -13,7 +13,7 @@ import androidx.core.view.ViewCompat;
 import androidx.core.view.WindowInsetsCompat;
 
 public class Login extends AppCompatActivity {
-    public String receivedUser, receivedPassword;
+    public String receivedUser, receivedPassword, receivedFirstname, receivedLastname, receivedEmail, receivedBirthdate;
     EditText txtUsername, txtPassword;
     TextView txtError;
 
@@ -37,6 +37,10 @@ public class Login extends AppCompatActivity {
         Bundle bundle = getIntent().getExtras();
         receivedUser = bundle.getString("USERNAME");
         receivedPassword = bundle.getString("PASSWORD");
+        receivedFirstname = bundle.getString("FIRSTNAME");
+        receivedLastname = bundle.getString("LASTNAME");
+        receivedEmail = bundle.getString("EMAIL");
+        receivedBirthdate = bundle.getString("BIRTHDATE");
 
 
 
@@ -46,14 +50,18 @@ public class Login extends AppCompatActivity {
         String username = txtUsername.getText().toString();
         String password = txtPassword.getText().toString();
 
-        //Intent send user to logged activity
+        // Intent send user to logged activity
         Intent intent = new Intent(Login.this, LoginSuccess.class);
         Bundle bundle = new Bundle();
 
         bundle.putString("USERNAME", username);
+        bundle.putString("FIRSTNAME", receivedFirstname);
+        bundle.putString("LASTNAME", receivedLastname);
+        bundle.putString("EMAIL", receivedEmail);
+        bundle.putString("BIRTHDATE", receivedBirthdate);
         intent.putExtras(bundle);
 
-        if (!username.equals(receivedUser) && !password.equals(receivedPassword)){
+        if (!username.equals(receivedUser) || !password.equals(receivedPassword)){
             // error
             txtError.setVisibility(View.VISIBLE);
         }
