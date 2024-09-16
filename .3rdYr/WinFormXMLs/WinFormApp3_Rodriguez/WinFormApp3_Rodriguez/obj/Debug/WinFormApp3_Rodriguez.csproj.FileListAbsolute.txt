@@ -1,0 +1,10 @@
+C:\Users\student\source\repos\WinFormApp3_Rodriguez\WinFormApp3_Rodriguez\obj\Debug\WinFormApp3_Rodriguez.csproj.AssemblyReference.cache
+C:\Users\student\source\repos\WinFormApp3_Rodriguez\WinFormApp3_Rodriguez\obj\Debug\WinFormApp3_Rodriguez.Form1.resources
+C:\Users\student\source\repos\WinFormApp3_Rodriguez\WinFormApp3_Rodriguez\obj\Debug\WinFormApp3_Rodriguez.Properties.Resources.resources
+C:\Users\student\source\repos\WinFormApp3_Rodriguez\WinFormApp3_Rodriguez\obj\Debug\WinFormApp3_Rodriguez.csproj.GenerateResource.cache
+C:\Users\student\source\repos\WinFormApp3_Rodriguez\WinFormApp3_Rodriguez\obj\Debug\WinFormApp3_Rodriguez.csproj.CoreCompileInputs.cache
+C:\Users\student\source\repos\WinFormApp3_Rodriguez\WinFormApp3_Rodriguez\bin\Debug\WinFormApp3_Rodriguez.exe.config
+C:\Users\student\source\repos\WinFormApp3_Rodriguez\WinFormApp3_Rodriguez\bin\Debug\WinFormApp3_Rodriguez.exe
+C:\Users\student\source\repos\WinFormApp3_Rodriguez\WinFormApp3_Rodriguez\bin\Debug\WinFormApp3_Rodriguez.pdb
+C:\Users\student\source\repos\WinFormApp3_Rodriguez\WinFormApp3_Rodriguez\obj\Debug\WinFormApp3_Rodriguez.exe
+C:\Users\student\source\repos\WinFormApp3_Rodriguez\WinFormApp3_Rodriguez\obj\Debug\WinFormApp3_Rodriguez.pdb

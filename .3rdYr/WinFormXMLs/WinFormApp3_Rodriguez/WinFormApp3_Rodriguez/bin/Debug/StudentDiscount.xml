@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Students>
+  <Student>
+    <ID>202080044</ID>
+    <LastName>Rodriguez</LastName>
+    <FirstName>Rovic</FirstName>
+    <Course>BSIT</Course>
+    <Units>21</Units>
+    <DiscountString>3%</DiscountString>
+    <Discount>0.03</Discount>
+    <PartialFee>10185</PartialFee>
+    <TotalFee>9879.45</TotalFee>
+  </Student>
+</Students>
