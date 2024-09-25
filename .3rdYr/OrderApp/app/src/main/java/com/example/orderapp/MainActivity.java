@@ -3,6 +3,7 @@ package com.example.orderapp;
 import android.content.Intent;
 import android.graphics.RenderEffect;
 import android.graphics.Shader;
+import android.os.Build;
 import android.os.Bundle;
 import android.text.InputFilter;
 import android.text.TextUtils;
@@ -38,7 +39,9 @@ Boolean boolM1 = false, boolM2 = false, boolM3 = false, boolM4 = false, boolM5 =
         });
 
         imgBanner = findViewById(R.id.imageBanner);
-        imgBanner.setRenderEffect(RenderEffect.createBlurEffect(24.0f, 24.0f, Shader.TileMode.CLAMP));
+        if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.S) {
+            imgBanner.setRenderEffect(RenderEffect.createBlurEffect(24.0f, 24.0f, Shader.TileMode.CLAMP));
+        }
 
         checkM1 = findViewById(R.id.chkM1);
         checkM2 = findViewById(R.id.chkM2);
