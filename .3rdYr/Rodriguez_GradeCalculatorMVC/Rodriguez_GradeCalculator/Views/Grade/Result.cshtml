@@ -1,0 +1,10 @@
+﻿@model Rodriguez_GradeCalculator.Models.Grade
+
+<h2>Grade Report</h2>
+
+<p>Student: @Model.FirstName @Model.LastName</p>
+<p>CYS: @Model.CYS</p>
+<p>Average Grade: @ViewBag.AverageGrade:F2</p>
+<p>Remark: @ViewBag.Remark</p>
+
+<a asp-action="Index">Calculate Again</a>

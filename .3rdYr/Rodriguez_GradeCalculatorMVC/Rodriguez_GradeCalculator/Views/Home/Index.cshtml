@@ -1,0 +1,58 @@
+﻿@model Rodriguez_GradeCalculator.Models.Grade
+
+<style>
+    form {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 10px;
+    }
+
+    div {
+        display: flex;
+        align-items: center;
+        gap: 5px;
+    }
+</style>
+
+<h2>Enter Grades</h2>
+
+<form asp-action="Calculate" method="post">
+    <div>
+        <label asp-for="LastName">Last Name: </label>
+        <input asp-for="LastName" />
+    </div>
+    <div>
+        <label asp-for="FirstName">First Name: </label>
+        <input asp-for="FirstName" />
+    </div>
+    <div>
+        <label asp-for="CYS">CYS: </label>
+        <input asp-for="CYS" />
+    </div>
+    <div>
+        <label asp-for="Subject1Grade">ITWB311 Grade: </label>
+        <input asp-for="Subject1Grade" type="number" />
+    </div>
+    <div>
+        <label asp-for="Subject2Grade">ITWB312 Grade: </label>
+        <input asp-for="Subject2Grade" type="number" />
+    </div>
+    <div>
+        <label asp-for="Subject3Grade">ITCS318 Grade: </label>
+        <input asp-for="Subject3Grade" type="number" />
+    </div>
+    <div>
+        <label asp-for="Subject4Grade">ITPC315 Grade: </label>
+        <input asp-for="Subject4Grade" type="number" />
+    </div>
+    <div>
+        <label asp-for="Subject5Grade">ITPC316 Grade: </label>
+        <input asp-for="Subject5Grade" type="number" />
+    </div>
+    <div>
+        <label asp-for="Subject6Grade">ITPE002 Grade: </label>
+        <input asp-for="Subject6Grade" type="number" />
+    </div>
+    <button type="submit">Submit</button>
+</form>
