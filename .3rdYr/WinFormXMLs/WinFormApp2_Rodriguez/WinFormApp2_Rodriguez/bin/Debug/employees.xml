@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Employees>
+  <Employee>
+    <ID>177</ID>
+    <LastName>Rodriguez</LastName>
+    <FirstName>Rovic</FirstName>
+    <Sex>Male</Sex>
+    <DayHired>2010-05-15</DayHired>
+    <SalaryPerMonth>26000</SalaryPerMonth>
+    <Department>IT</Department>
+  </Employee>
+</Employees>

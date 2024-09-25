@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<items>
+
+	<item>
+
+		<name>Lanyard</name>
+
+		<value>100.00</value>
+
+	</item>
+
+	<item>
+
+		<name>Sticker</name>
+
+		<value>50.00</value>
+
+	</item>
+
+
+
+	<item>
+
+		<name>T-Shirt</name>
+
+		<value>250.00</value>
+
+	</item>
+
+	<item>
+
+		<name>Pin</name>
+
+		<value>90.00</value>
+
+	</item>
+
+</items>
