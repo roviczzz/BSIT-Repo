@@ -8,7 +8,7 @@ android {
 
     defaultConfig {
         applicationId = "com.example.salaryloanapp_rodriguez"
-        minSdk = 31
+        minSdk = 24
         targetSdk = 34
         versionCode = 1
         versionName = "1.0"

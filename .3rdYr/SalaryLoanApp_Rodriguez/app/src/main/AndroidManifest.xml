@@ -13,6 +13,9 @@
         android:theme="@style/Theme.SalaryLoanApp_Rodriguez"
         tools:targetApi="31">
         <activity
+            android:name=".Calculator"
+            android:exported="false" />
+        <activity
             android:name=".Registration"
             android:exported="false" />
         <activity

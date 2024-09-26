@@ -5,46 +5,53 @@
     android:id="@+id/main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="#E1E1E1"
     tools:context=".Registration">
 
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="257dp"
+        android:layout_height="469dp"
+        android:layout_marginStart="77dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="77dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView"
+        app:srcCompat="@drawable/rectangle2long" />
+
     <TextView
-        android:id="@+id/textViewLogin"
+        android:id="@+id/textLogin"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="133dp"
         android:layout_marginTop="15dp"
         android:layout_marginEnd="133dp"
-        android:layout_marginBottom="139dp"
+        android:onClick="loginOnClick"
         android:text="Already Have An Account?"
         android:textSize="12sp"
         android:textStyle="bold"
-        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/button" />
-
-    <ImageView
-        android:id="@+id/imageView2"
-        android:layout_width="206dp"
-        android:layout_height="49dp"
-        android:src="@drawable/manila_colored"
-        tools:layout_editor_absoluteX="103dp"
-        tools:layout_editor_absoluteY="80dp" />
+        app:layout_constraintTop_toBottomOf="@+id/buttonSignUp" />
 
     <TextView
         android:id="@+id/textView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="168dp"
-        android:layout_marginTop="38dp"
+        android:layout_marginTop="36dp"
         android:layout_marginEnd="168dp"
         android:text="Registration"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+        android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.666"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imageView2" />
+        app:layout_constraintTop_toBottomOf="@+id/imageView" />
 
     <EditText
-        android:id="@+id/editTextLName"
+        android:id="@+id/editLname"
         android:layout_width="0dp"
         android:layout_height="34dp"
         android:layout_marginStart="102dp"
@@ -59,11 +66,11 @@
         app:layout_constraintTop_toBottomOf="@+id/textView" />
 
     <EditText
-        android:id="@+id/editTextFName"
+        android:id="@+id/editFname"
         android:layout_width="0dp"
         android:layout_height="34dp"
         android:layout_marginStart="102dp"
-        android:layout_marginTop="13dp"
+        android:layout_marginTop="8dp"
         android:layout_marginEnd="102dp"
         android:ems="10"
         android:hint="First Name"
@@ -71,11 +78,11 @@
         android:textSize="12sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/editTextLName" />
+        app:layout_constraintTop_toBottomOf="@+id/editLname" />
 
     <EditText
-        android:id="@+id/editTextEmail"
-        android:layout_width="208dp"
+        android:id="@+id/editRegEmail"
+        android:layout_width="0dp"
         android:layout_height="34dp"
         android:layout_marginStart="102dp"
         android:layout_marginTop="34dp"
@@ -86,14 +93,14 @@
         android:textSize="12sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/editTextMonthlySalary" />
+        app:layout_constraintTop_toBottomOf="@+id/editBasicMonthlySalary" />
 
     <EditText
-        android:id="@+id/editTextRegisPass"
-        android:layout_width="208dp"
+        android:id="@+id/editRegPass"
+        android:layout_width="0dp"
         android:layout_height="34dp"
         android:layout_marginStart="102dp"
-        android:layout_marginTop="13dp"
+        android:layout_marginTop="8dp"
         android:layout_marginEnd="102dp"
         android:ems="10"
         android:hint="Password"
@@ -101,14 +108,14 @@
         android:textSize="12sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/editTextEmail" />
+        app:layout_constraintTop_toBottomOf="@+id/editRegEmail" />
 
     <EditText
-        android:id="@+id/editTextRegisPassConf"
-        android:layout_width="208dp"
+        android:id="@+id/editRegPassConf"
+        android:layout_width="0dp"
         android:layout_height="34dp"
         android:layout_marginStart="102dp"
-        android:layout_marginTop="13dp"
+        android:layout_marginTop="8dp"
         android:layout_marginEnd="102dp"
         android:ems="10"
         android:hint="Confirm Password"
@@ -116,36 +123,37 @@
         android:textSize="12sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/editTextRegisPass" />
+        app:layout_constraintTop_toBottomOf="@+id/editRegPass" />
 
     <EditText
-        android:id="@+id/editTextMonthlySalary"
+        android:id="@+id/editBasicMonthlySalary"
         android:layout_width="0dp"
         android:layout_height="34dp"
         android:layout_marginStart="102dp"
-        android:layout_marginTop="13dp"
+        android:layout_marginTop="8dp"
         android:layout_marginEnd="102dp"
         android:ems="10"
         android:hint="Basic Monthly Salary"
-        android:inputType="textPassword"
+        android:inputType="number"
         android:textSize="12sp"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/editTextFName" />
+        app:layout_constraintTop_toBottomOf="@+id/editFname" />
 
     <Button
-        android:id="@+id/button"
+        android:id="@+id/buttonSignUp"
         android:layout_width="206dp"
         android:layout_height="44dp"
         android:layout_marginStart="102dp"
         android:layout_marginTop="23dp"
         android:layout_marginEnd="102dp"
         android:backgroundTint="#DC4B78"
+        android:onClick="signUpOnClick"
         android:text="Sign Up"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/editTextRegisPassConf" />
+        app:layout_constraintTop_toBottomOf="@+id/editRegPassConf" />
 
     <ImageView
         android:id="@+id/imageView"
