@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Rodriguez_GradeCalculator")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+e3d485b971a33c88d5aab8e7a85d27e40e92646c")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+2e0a6ace57b0ecc65a91f70bfb2a5b0916bd8a55")]
 [assembly: System.Reflection.AssemblyProductAttribute("Rodriguez_GradeCalculator")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Rodriguez_GradeCalculator")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

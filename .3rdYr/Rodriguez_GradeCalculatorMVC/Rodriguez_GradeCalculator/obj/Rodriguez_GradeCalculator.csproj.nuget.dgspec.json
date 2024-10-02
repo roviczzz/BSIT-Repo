@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\rovic\\Downloads\\Rodriguez_GradeCalculator\\Rodriguez_GradeCalculator\\Rodriguez_GradeCalculator.csproj": {}
+    "C:\\Users\\rovic\\OneDrive\\Documents\\GitHub\\BSIT-Repo\\.3rdYr\\Rodriguez_GradeCalculatorMVC\\Rodriguez_GradeCalculator\\Rodriguez_GradeCalculator.csproj": {}
   },
   "projects": {
-    "C:\\Users\\rovic\\Downloads\\Rodriguez_GradeCalculator\\Rodriguez_GradeCalculator\\Rodriguez_GradeCalculator.csproj": {
+    "C:\\Users\\rovic\\OneDrive\\Documents\\GitHub\\BSIT-Repo\\.3rdYr\\Rodriguez_GradeCalculatorMVC\\Rodriguez_GradeCalculator\\Rodriguez_GradeCalculator.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\rovic\\Downloads\\Rodriguez_GradeCalculator\\Rodriguez_GradeCalculator\\Rodriguez_GradeCalculator.csproj",
+        "projectUniqueName": "C:\\Users\\rovic\\OneDrive\\Documents\\GitHub\\BSIT-Repo\\.3rdYr\\Rodriguez_GradeCalculatorMVC\\Rodriguez_GradeCalculator\\Rodriguez_GradeCalculator.csproj",
         "projectName": "Rodriguez_GradeCalculator",
-        "projectPath": "C:\\Users\\rovic\\Downloads\\Rodriguez_GradeCalculator\\Rodriguez_GradeCalculator\\Rodriguez_GradeCalculator.csproj",
+        "projectPath": "C:\\Users\\rovic\\OneDrive\\Documents\\GitHub\\BSIT-Repo\\.3rdYr\\Rodriguez_GradeCalculatorMVC\\Rodriguez_GradeCalculator\\Rodriguez_GradeCalculator.csproj",
         "packagesPath": "C:\\Users\\rovic\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\rovic\\Downloads\\Rodriguez_GradeCalculator\\Rodriguez_GradeCalculator\\obj\\",
+        "outputPath": "C:\\Users\\rovic\\OneDrive\\Documents\\GitHub\\BSIT-Repo\\.3rdYr\\Rodriguez_GradeCalculatorMVC\\Rodriguez_GradeCalculator\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\rovic\\AppData\\Roaming\\NuGet\\NuGet.Config",
