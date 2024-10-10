@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/grocerycalculator"
+    tools:context=".GroceryCalculator">
+
+    <Button
+        android:id="@+id/buttonCompute"
+        android:layout_width="104dp"
+        android:layout_height="31dp"
+        android:layout_marginStart="12dp"
+        android:layout_marginEnd="25dp"
+        android:layout_marginBottom="280dp"
+        android:background="@android:color/transparent"
+        android:onClick="computeOnClick"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toEndOf="@+id/buttonAdd" />
+
+    <Button
+        android:id="@+id/buttonAdd"
+        android:layout_width="80dp"
+        android:layout_height="30dp"
+        android:layout_marginStart="192dp"
+        android:layout_marginBottom="280dp"
+        android:background="@android:color/transparent"
+        android:onClick="addOnClick"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/buttonClear"
+        android:layout_width="80dp"
+        android:layout_height="30dp"
+        android:layout_marginStart="96dp"
+        android:layout_marginBottom="280dp"
+        android:background="@android:color/transparent"
+        android:onClick="clearOnClick"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <EditText
+        android:id="@+id/editItemName"
+        android:layout_width="345dp"
+        android:layout_height="20dp"
+        android:layout_marginStart="34dp"
+        android:layout_marginTop="292dp"
+        android:layout_marginEnd="32dp"
+        android:background="@null"
+        android:ems="10"
+        android:gravity="center_horizontal"
+        android:inputType="text"
+        android:textAlignment="textStart"
+        android:typeface="normal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/editQuantity"
+        android:layout_width="345dp"
+        android:layout_height="20dp"
+        android:layout_marginStart="33dp"
+        android:layout_marginTop="59dp"
+        android:layout_marginEnd="33dp"
+        android:background="@null"
+        android:ems="10"
+        android:gravity="center_horizontal"
+        android:inputType="number"
+        android:textAlignment="textStart"
+        android:typeface="normal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editItemName" />
+
+    <EditText
+        android:id="@+id/editPrice"
+        android:layout_width="345dp"
+        android:layout_height="20dp"
+        android:layout_marginStart="33dp"
+        android:layout_marginTop="57dp"
+        android:layout_marginEnd="33dp"
+        android:background="@null"
+        android:ems="10"
+        android:gravity="center_horizontal"
+        android:inputType="number"
+        android:textAlignment="textStart"
+        android:typeface="normal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editQuantity" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
