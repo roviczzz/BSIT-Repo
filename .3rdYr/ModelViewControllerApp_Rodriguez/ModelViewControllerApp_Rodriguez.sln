@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.8.34525.116
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ModelViewControllerApp_Rodriguez", "ModelViewControllerApp_Rodriguez\ModelViewControllerApp_Rodriguez.csproj", "{A1978871-D4FC-469B-851E-49020C316159}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A1978871-D4FC-469B-851E-49020C316159}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A1978871-D4FC-469B-851E-49020C316159}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A1978871-D4FC-469B-851E-49020C316159}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A1978871-D4FC-469B-851E-49020C316159}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {D04CEE22-5033-4C5E-B3A3-80EB966E7BF7}
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\ModelViewControllerApp_Rodriguez.props" />
+</Project>
