@@ -1,0 +1,81 @@
+﻿@model Rodriguez_ScriptSocietyMVC.Models.Inventory
+
+@{
+    ViewData["Title"] = "Details";
+}
+
+<h1>Product Details</h1>
+<br />
+<br />
+<style>
+    .container {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    img {
+        width: 86%; /* Adjust width as needed */
+        height: auto;
+    }
+
+    .details {
+        width: 90%; /* Adjust width as needed */
+    }
+
+    dl {
+        margin-top: 0;
+    }
+</style>
+
+<div class="container">
+    <div>
+        <img src="/images/@Url.Content(Model.ImagePath)" alt="@Model.Name" />
+    </div>
+    <div class="details">
+        <h4>@Html.DisplayFor(model => Model.Name)</h4>
+        <hr />
+        <dl class="row">
+            <dt class="col-sm-4">
+                @Html.DisplayNameFor(model => model.ProductId)
+            </dt>
+            <dd class="col-sm-8">
+                @Html.DisplayFor(model => model.ProductId)
+            </dd>
+            <dt class="col-sm-4">
+                @Html.DisplayNameFor(model => model.Type)
+            </dt>
+            <dd class="col-sm-8">
+                @Html.DisplayFor(model => model.Type)
+            </dd>
+            <dt class="col-sm-4">
+                @Html.DisplayNameFor(model => model.Color)
+            </dt>
+            <dd class="col-sm-8">
+                @Html.DisplayFor(model => model.Color)
+            </dd>
+            <dt class="col-sm-4">
+                @Html.DisplayNameFor(model => model.Price)
+            </dt>
+            <dd class="col-sm-8">
+                ₱@Html.DisplayFor(model => model.Price).00
+            </dd>
+            <dt class="col-sm-4">
+                @Html.DisplayNameFor(model => model.Size)
+            </dt>
+            <dd class="col-sm-8">
+                @Html.DisplayFor(model => model.Size)
+            </dd>
+            <dt class="col-sm-4">
+                @Html.DisplayNameFor(model => model.StockTotal)
+            </dt>
+            <dd class="col-sm-8">
+                @Html.DisplayFor(model => model.StockTotal)pcs
+            </dd>
+        </dl>
+    </div>
+</div>
+<div>
+    <a asp-action="Edit" asp-route-id="@Model?.ProductId">Edit</a> |
+    <a asp-action="Index">Back to List</a>
+</div>
