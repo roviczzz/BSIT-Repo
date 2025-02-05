@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".signup">
+
+    <ImageView
+        android:id="@+id/logo"
+        android:layout_width="203dp"
+        android:layout_height="152dp"
+        android:layout_marginStart="130dp"
+        android:layout_marginTop="28dp"
+        android:layout_marginEnd="129dp"
+        android:src="@drawable/drd_logo"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.509"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="150dp"
+        android:layout_marginTop="4dp"
+        android:layout_marginEnd="150dp"
+        android:text="Registration"
+        android:textColor="#000000"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/logo" />
+
+    <EditText
+        android:id="@+id/firstName"
+        android:layout_width="370dp"
+        android:layout_height="51dp"
+        android:layout_marginHorizontal="8dp"
+        android:layout_marginStart="21dp"
+        android:layout_marginTop="25dp"
+        android:layout_marginEnd="20dp"
+        android:background="@drawable/txtfieldfirstname"
+        android:hint="Enter First Name"
+        android:inputType="text"
+        android:paddingLeft="30px"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/title" />
+
+    <EditText
+        android:id="@+id/middleInitial"
+        android:layout_width="370dp"
+        android:layout_height="51dp"
+        android:layout_marginHorizontal="8dp"
+        android:layout_marginStart="21dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="20dp"
+        android:height="51dp"
+        android:background="@drawable/txtfieldmiddleini"
+        android:hint="Enter Middle Initial"
+        android:inputType="text"
+        android:paddingLeft="30px"
+        android:maxLength="1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/firstName" />
+
+    <EditText
+        android:id="@+id/lastName"
+        android:layout_width="370dp"
+        android:layout_height="51dp"
+        android:layout_marginHorizontal="8dp"
+        android:layout_marginStart="21dp"
+        android:layout_marginTop="9dp"
+        android:layout_marginEnd="20dp"
+        android:height="51dp"
+        android:background="@drawable/txtfieldlastname"
+        android:hint="Enter Last Name"
+        android:inputType="text"
+        android:paddingLeft="30px"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/middleInitial" />
+
+    <EditText
+        android:id="@+id/password"
+        android:layout_width="370dp"
+        android:layout_height="51dp"
+        android:layout_marginHorizontal="8dp"
+        android:layout_marginStart="21dp"
+        android:layout_marginTop="7dp"
+        android:layout_marginEnd="20dp"
+        android:height="51dp"
+        android:background="@drawable/txtfieldpassword"
+        android:hint="Enter Password"
+        android:inputType="textPassword"
+        android:paddingLeft="30px"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/lastName" />
+
+    <EditText
+        android:id="@+id/dateHired"
+        android:layout_width="370dp"
+        android:layout_height="51dp"
+        android:layout_marginHorizontal="8dp"
+        android:layout_marginStart="21dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="20dp"
+        android:height="51dp"
+        android:background="@drawable/txtfielddatehired"
+        android:hint="mm/dd/yyyy"
+        android:inputType="date"
+        android:onClick="onClickCalendar"
+        android:paddingLeft="30px"
+        android:focusable="false"
+        android:clickable="true"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/password" />
+
+
+    <TextView
+        android:id="@+id/signInLink"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="102dp"
+        android:layout_marginTop="13dp"
+        android:layout_marginBottom="35dp"
+        android:text="Already have an account?"
+        android:textColor="@color/black"
+        android:textSize="14sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnRegister" />
+
+    <TextView
+        android:id="@+id/nav_employeeid"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="98dp"
+        android:onClick="onClickSignIn"
+        android:text="Sign In"
+        android:textColor="#0466c8"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/signInLink"
+        app:layout_constraintTop_toTopOf="@+id/signInLink" />
+
+    <ImageButton
+        android:id="@+id/btnRegister"
+        android:layout_width="340dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="31dp"
+        android:layout_marginTop="29dp"
+        android:layout_marginEnd="40dp"
+        android:background="@null"
+        android:backgroundTint="@null"
+        android:onClick="onClickSignUp"
+        android:scaleType="centerCrop"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/dateHired"
+        app:srcCompat="@drawable/btnregis" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

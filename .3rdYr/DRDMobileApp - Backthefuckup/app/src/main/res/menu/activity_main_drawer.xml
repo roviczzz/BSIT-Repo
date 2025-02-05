@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/ic_menu_home"
+            android:title="@string/menu_home" />
+        <item
+            android:id="@+id/nav_user_Loan_info"
+            android:icon="@drawable/ic_menu_linfo"
+            android:title="@string/menu_user_loan_information" />
+        <item
+            android:id="@+id/nav_regular_loan"
+            android:icon="@drawable/ic_menu_rloan"
+            android:title="@string/menu_user_regular_loan" />
+        <item
+            android:id="@+id/nav_special_loan"
+            android:icon="@drawable/ic_menu_sloan"
+            android:title="@string/menu_user_special_loan" />
+        <item
+            android:id="@+id/nav_emergency_loan"
+            android:icon="@drawable/ic_menu_eloan"
+            android:title="@string/menu_user_emergency_loan" />
+
+    </group>
+</menu>

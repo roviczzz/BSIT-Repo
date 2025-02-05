@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn = "navigation_view">
+
+    <group
+        android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/home_fragment"
+            android:title="Home"/>
+
+        <item
+            android:id="@+id/nav_eloan"
+            android:icon="@drawable/eloan_fragment"
+            android:title="Emergency Loan"/>
+
+        <item
+            android:id="@+id/nav_sloan"
+            android:icon="@drawable/sloan_fragment"
+            android:title="Special Loan"/>
+
+        <item
+            android:id="@+id/nav_rloan"
+            android:icon="@drawable/rloan_fragment"
+            android:title="Regular Loan"/>
+
+        <item
+            android:id="@+id/nav_loaninfo"
+            android:icon="@drawable/linfo_fragment"
+            android:title="Loan Information"/>
+        <item
+            android:id="@+id/nav_lstatus"
+            android:icon="@drawable/lstatus_fragment"
+            android:title="Loan Status"/>
+    </group>
+    <item
+        android:title="">
+
+        <menu>
+            <item
+                android:id="@+id/nav_logout"
+                android:icon="@drawable/logout_fragment"
+                android:title="Logout"/>
+        </menu>
+
+    </item>
+
+</menu>

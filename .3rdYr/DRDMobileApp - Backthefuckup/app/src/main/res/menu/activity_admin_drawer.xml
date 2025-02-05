@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/nav_home_admin"
+            android:icon="@drawable/ic_menu_home"
+            android:title="@string/menu_home_admin" />
+        <item
+            android:id="@+id/nav_loan_status"
+            android:icon="@drawable/ic_loan_records"
+            android:title="@string/menu_admin_pending_loans" />
+        <item
+            android:id="@+id/nav_loan_records"
+            android:icon="@drawable/ic_records"
+            android:title="@string/menu_admin_view_records" />
+    </group>
+</menu>

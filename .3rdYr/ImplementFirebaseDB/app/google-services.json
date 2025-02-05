@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "987330339246",
+    "project_id": "implementfirebasedb-d9755",
+    "storage_bucket": "implementfirebasedb-d9755.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:987330339246:android:9c2d23afefc1d3f9b1283f",
+        "android_client_info": {
+          "package_name": "com.example.implementfirebasedb"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCNSZstILwI67YqYNCZnJzTdpQBtapN840"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

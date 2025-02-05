@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="com.example.drdmobileapp.ui.home.HomeFragment"
+        android:label="@string/menu_home"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/nav_emergency_loan"
+        android:name="com.example.drdmobileapp.ui.emergency_loan.EmergencyLoanFragment"
+        android:label="@string/menu_user_emergency_loan"
+        tools:layout="@layout/fragment_emergency_loan" />
+
+    <fragment
+        android:id="@+id/nav_special_loan"
+        android:name="com.example.drdmobileapp.ui.special_loan.SpecialLoanFragment"
+        android:label="@string/menu_user_special_loan"
+        tools:layout="@layout/fragment_special_loan" />
+
+    <fragment
+        android:id="@+id/nav_regular_loan"
+        android:name="com.example.drdmobileapp.ui.regular_loan.RegularLoanFragment"
+        android:label="@string/menu_user_regular_loan"
+        tools:layout="@layout/fragment_regular_loan" />
+
+    <fragment
+        android:id="@+id/nav_user_Loan_info"
+        android:name="com.example.drdmobileapp.ui.loaninfo.UserLoanInfoFragment"
+        android:label="@string/menu_user_loan_information"
+        tools:layout="@layout/fragment_user_loan_info" />
+
+    <fragment
+        android:id="@+id/nav_home_admin"
+        android:name="com.example.drdmobileapp.ui.admin.home.AdminHomeFragment"
+        android:label="@string/menu_home_admin"
+        tools:layout="@layout/fragment_home_admin" />
+
+    <fragment
+        android:id="@+id/nav_loan_status"
+        android:name="com.example.drdmobileapp.ui.admin.toapprove.ToApproveFragment"
+        android:label="@string/menu_admin_pending_loans"
+        tools:layout="@layout/fragment_loan_status_admin" />
+
+    <fragment
+        android:id="@+id/nav_loan_records"
+        android:name="com.example.drdmobileapp.ui.admin.viewrecords.ViewRecordsFragment"
+        android:label="@string/menu_admin_view_records"
+        tools:layout="@layout/fragment_viewrecords_admin" />
+
+</navigation>
