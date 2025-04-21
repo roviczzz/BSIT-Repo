@@ -1,0 +1,181 @@
+is_global = true
+build_property.TargetFramework = net8.0
+build_property.TargetFramework = net8.0
+build_property.TargetPlatformMinVersion = 
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = UniversityGradingSystem
+build_property.RootNamespace = UniversityGradingSystem
+build_property.ProjectDir = C:\Users\HUAWEI Matebook D15\source\repos\UniversityGradingSystem\UniversityGradingSystem\
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 
+build_property.RazorLangVersion = 8.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = C:\Users\HUAWEI Matebook D15\source\repos\UniversityGradingSystem\UniversityGradingSystem
+build_property._RazorSourceGeneratorDebug = 
+build_property.EffectiveAnalysisLevelStyle = 8.0
+build_property.EnableCodeStyleSeverity = 
+
+[C:/Users/HUAWEI Matebook D15/source/repos/UniversityGradingSystem/UniversityGradingSystem/Views/GradesInfoes/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcR3JhZGVzSW5mb2VzXENyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/HUAWEI Matebook D15/source/repos/UniversityGradingSystem/UniversityGradingSystem/Views/GradesInfoes/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcR3JhZGVzSW5mb2VzXERlbGV0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/HUAWEI Matebook D15/source/repos/UniversityGradingSystem/UniversityGradingSystem/Views/GradesInfoes/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcR3JhZGVzSW5mb2VzXERldGFpbHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/HUAWEI Matebook D15/source/repos/UniversityGradingSystem/UniversityGradingSystem/Views/GradesInfoes/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcR3JhZGVzSW5mb2VzXEVkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/HUAWEI Matebook D15/source/repos/UniversityGradingSystem/UniversityGradingSystem/Views/GradesInfoes/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcR3JhZGVzSW5mb2VzXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/HUAWEI Matebook D15/source/repos/UniversityGradingSystem/UniversityGradingSystem/Views/GradesInfo/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcR3JhZGVzSW5mb1xDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/HUAWEI Matebook D15/source/repos/UniversityGradingSystem/UniversityGradingSystem/Views/GradesInfo/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcR3JhZGVzSW5mb1xEZWxldGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/HUAWEI Matebook D15/source/repos/UniversityGradingSystem/UniversityGradingSystem/Views/GradesInfo/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcR3JhZGVzSW5mb1xEZXRhaWxzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/HUAWEI Matebook D15/source/repos/UniversityGradingSystem/UniversityGradingSystem/Views/GradesInfo/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcR3JhZGVzSW5mb1xFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/HUAWEI Matebook D15/source/repos/UniversityGradingSystem/UniversityGradingSystem/Views/GradesInfo/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcR3JhZGVzSW5mb1xJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/HUAWEI Matebook D15/source/repos/UniversityGradingSystem/UniversityGradingSystem/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/HUAWEI Matebook D15/source/repos/UniversityGradingSystem/UniversityGradingSystem/Views/Home/Privacy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/HUAWEI Matebook D15/source/repos/UniversityGradingSystem/UniversityGradingSystem/Views/Shared/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/HUAWEI Matebook D15/source/repos/UniversityGradingSystem/UniversityGradingSystem/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/HUAWEI Matebook D15/source/repos/UniversityGradingSystem/UniversityGradingSystem/Views/StudentInfoes/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3R1ZGVudEluZm9lc1xDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/HUAWEI Matebook D15/source/repos/UniversityGradingSystem/UniversityGradingSystem/Views/StudentInfoes/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3R1ZGVudEluZm9lc1xEZWxldGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/HUAWEI Matebook D15/source/repos/UniversityGradingSystem/UniversityGradingSystem/Views/StudentInfoes/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3R1ZGVudEluZm9lc1xEZXRhaWxzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/HUAWEI Matebook D15/source/repos/UniversityGradingSystem/UniversityGradingSystem/Views/StudentInfoes/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3R1ZGVudEluZm9lc1xFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/HUAWEI Matebook D15/source/repos/UniversityGradingSystem/UniversityGradingSystem/Views/StudentInfoes/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3R1ZGVudEluZm9lc1xJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/HUAWEI Matebook D15/source/repos/UniversityGradingSystem/UniversityGradingSystem/Views/StudentInfo/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3R1ZGVudEluZm9cQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/HUAWEI Matebook D15/source/repos/UniversityGradingSystem/UniversityGradingSystem/Views/StudentInfo/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3R1ZGVudEluZm9cRGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/HUAWEI Matebook D15/source/repos/UniversityGradingSystem/UniversityGradingSystem/Views/StudentInfo/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3R1ZGVudEluZm9cRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/HUAWEI Matebook D15/source/repos/UniversityGradingSystem/UniversityGradingSystem/Views/StudentInfo/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3R1ZGVudEluZm9cRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/HUAWEI Matebook D15/source/repos/UniversityGradingSystem/UniversityGradingSystem/Views/StudentInfo/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3R1ZGVudEluZm9cSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/HUAWEI Matebook D15/source/repos/UniversityGradingSystem/UniversityGradingSystem/Views/Sync/ViewSummary.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3luY1xWaWV3U3VtbWFyeS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/HUAWEI Matebook D15/source/repos/UniversityGradingSystem/UniversityGradingSystem/Views/TuitionInfors/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVHVpdGlvbkluZm9yc1xDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/HUAWEI Matebook D15/source/repos/UniversityGradingSystem/UniversityGradingSystem/Views/TuitionInfors/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVHVpdGlvbkluZm9yc1xEZWxldGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/HUAWEI Matebook D15/source/repos/UniversityGradingSystem/UniversityGradingSystem/Views/TuitionInfors/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVHVpdGlvbkluZm9yc1xEZXRhaWxzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/HUAWEI Matebook D15/source/repos/UniversityGradingSystem/UniversityGradingSystem/Views/TuitionInfors/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVHVpdGlvbkluZm9yc1xFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/HUAWEI Matebook D15/source/repos/UniversityGradingSystem/UniversityGradingSystem/Views/TuitionInfors/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVHVpdGlvbkluZm9yc1xJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/HUAWEI Matebook D15/source/repos/UniversityGradingSystem/UniversityGradingSystem/Views/TuitionInfor/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVHVpdGlvbkluZm9yXENyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/HUAWEI Matebook D15/source/repos/UniversityGradingSystem/UniversityGradingSystem/Views/TuitionInfor/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVHVpdGlvbkluZm9yXERlbGV0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/HUAWEI Matebook D15/source/repos/UniversityGradingSystem/UniversityGradingSystem/Views/TuitionInfor/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVHVpdGlvbkluZm9yXERldGFpbHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/HUAWEI Matebook D15/source/repos/UniversityGradingSystem/UniversityGradingSystem/Views/TuitionInfor/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVHVpdGlvbkluZm9yXEVkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/HUAWEI Matebook D15/source/repos/UniversityGradingSystem/UniversityGradingSystem/Views/TuitionInfor/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVHVpdGlvbkluZm9yXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/HUAWEI Matebook D15/source/repos/UniversityGradingSystem/UniversityGradingSystem/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/HUAWEI Matebook D15/source/repos/UniversityGradingSystem/UniversityGradingSystem/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/HUAWEI Matebook D15/source/repos/UniversityGradingSystem/UniversityGradingSystem/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-sdpdv00f5u

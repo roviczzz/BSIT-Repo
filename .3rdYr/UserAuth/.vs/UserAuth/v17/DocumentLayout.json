@@ -1,0 +1,158 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\HUAWEI Matebook D15\\source\\repos\\UserAuth\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\HUAWEI Matebook D15\\source\\repos\\UserAuth\\UserAuth\\Migrations\\20250421034541_InitialCreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:UserAuth\\Migrations\\20250421034541_InitialCreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F4EECB11-81F7-49DE-B7FD-A90622A95B78}|UserAuth\\UserAuth.csproj|c:\\users\\huawei matebook d15\\source\\repos\\userauth\\userauth\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F4EECB11-81F7-49DE-B7FD-A90622A95B78}|UserAuth\\UserAuth.csproj|solutionrelative:userauth\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F4EECB11-81F7-49DE-B7FD-A90622A95B78}|UserAuth\\UserAuth.csproj|c:\\users\\huawei matebook d15\\source\\repos\\userauth\\userauth\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F4EECB11-81F7-49DE-B7FD-A90622A95B78}|UserAuth\\UserAuth.csproj|solutionrelative:userauth\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F4EECB11-81F7-49DE-B7FD-A90622A95B78}|UserAuth\\UserAuth.csproj|c:\\users\\huawei matebook d15\\source\\repos\\userauth\\userauth\\scaffoldingreadme.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{F4EECB11-81F7-49DE-B7FD-A90622A95B78}|UserAuth\\UserAuth.csproj|solutionrelative:userauth\\scaffoldingreadme.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F4EECB11-81F7-49DE-B7FD-A90622A95B78}|UserAuth\\UserAuth.csproj|c:\\users\\huawei matebook d15\\source\\repos\\userauth\\userauth\\areas\\identity\\pages\\_validationscriptspartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F4EECB11-81F7-49DE-B7FD-A90622A95B78}|UserAuth\\UserAuth.csproj|solutionrelative:userauth\\areas\\identity\\pages\\_validationscriptspartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F4EECB11-81F7-49DE-B7FD-A90622A95B78}|UserAuth\\UserAuth.csproj|c:\\users\\huawei matebook d15\\source\\repos\\userauth\\userauth\\areas\\identity\\pages\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F4EECB11-81F7-49DE-B7FD-A90622A95B78}|UserAuth\\UserAuth.csproj|solutionrelative:userauth\\areas\\identity\\pages\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F4EECB11-81F7-49DE-B7FD-A90622A95B78}|UserAuth\\UserAuth.csproj|c:\\users\\huawei matebook d15\\source\\repos\\userauth\\userauth\\views\\shared\\_loginpartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F4EECB11-81F7-49DE-B7FD-A90622A95B78}|UserAuth\\UserAuth.csproj|solutionrelative:userauth\\views\\shared\\_loginpartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F4EECB11-81F7-49DE-B7FD-A90622A95B78}|UserAuth\\UserAuth.csproj|c:\\users\\huawei matebook d15\\source\\repos\\userauth\\userauth\\areas\\identity\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F4EECB11-81F7-49DE-B7FD-A90622A95B78}|UserAuth\\UserAuth.csproj|solutionrelative:userauth\\areas\\identity\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{40ea2e6b-2121-4bb8-a43e-c83c04b51041}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "20250421034541_InitialCreate.cs",
+              "DocumentMoniker": "C:\\Users\\HUAWEI Matebook D15\\source\\repos\\UserAuth\\UserAuth\\Migrations\\20250421034541_InitialCreate.cs",
+              "RelativeDocumentMoniker": "UserAuth\\Migrations\\20250421034541_InitialCreate.cs",
+              "ToolTip": "C:\\Users\\HUAWEI Matebook D15\\source\\repos\\UserAuth\\UserAuth\\Migrations\\20250421034541_InitialCreate.cs",
+              "RelativeToolTip": "UserAuth\\Migrations\\20250421034541_InitialCreate.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAgwC0AAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-21T03:45:41.364Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\HUAWEI Matebook D15\\source\\repos\\UserAuth\\UserAuth\\Program.cs",
+              "RelativeDocumentMoniker": "UserAuth\\Program.cs",
+              "ToolTip": "C:\\Users\\HUAWEI Matebook D15\\source\\repos\\UserAuth\\UserAuth\\Program.cs",
+              "RelativeToolTip": "UserAuth\\Program.cs",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAAABoAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-21T03:31:30.954Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\HUAWEI Matebook D15\\source\\repos\\UserAuth\\UserAuth\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "UserAuth\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\HUAWEI Matebook D15\\source\\repos\\UserAuth\\UserAuth\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "UserAuth\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAAB0AAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-21T03:26:30.698Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ScaffoldingReadMe.txt",
+              "DocumentMoniker": "C:\\Users\\HUAWEI Matebook D15\\source\\repos\\UserAuth\\UserAuth\\ScaffoldingReadMe.txt",
+              "RelativeDocumentMoniker": "UserAuth\\ScaffoldingReadMe.txt",
+              "ToolTip": "C:\\Users\\HUAWEI Matebook D15\\source\\repos\\UserAuth\\UserAuth\\ScaffoldingReadMe.txt",
+              "RelativeToolTip": "UserAuth\\ScaffoldingReadMe.txt",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
+              "WhenOpened": "2025-04-21T03:30:30.44Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "_ValidationScriptsPartial.cshtml",
+              "DocumentMoniker": "C:\\Users\\HUAWEI Matebook D15\\source\\repos\\UserAuth\\UserAuth\\Areas\\Identity\\Pages\\_ValidationScriptsPartial.cshtml",
+              "RelativeDocumentMoniker": "UserAuth\\Areas\\Identity\\Pages\\_ValidationScriptsPartial.cshtml",
+              "ToolTip": "C:\\Users\\HUAWEI Matebook D15\\source\\repos\\UserAuth\\UserAuth\\Areas\\Identity\\Pages\\_ValidationScriptsPartial.cshtml",
+              "RelativeToolTip": "UserAuth\\Areas\\Identity\\Pages\\_ValidationScriptsPartial.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-21T03:30:30.292Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "_ViewStart.cshtml",
+              "DocumentMoniker": "C:\\Users\\HUAWEI Matebook D15\\source\\repos\\UserAuth\\UserAuth\\Areas\\Identity\\Pages\\_ViewStart.cshtml",
+              "RelativeDocumentMoniker": "UserAuth\\Areas\\Identity\\Pages\\_ViewStart.cshtml",
+              "ToolTip": "C:\\Users\\HUAWEI Matebook D15\\source\\repos\\UserAuth\\UserAuth\\Areas\\Identity\\Pages\\_ViewStart.cshtml",
+              "RelativeToolTip": "UserAuth\\Areas\\Identity\\Pages\\_ViewStart.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-21T03:30:30.02Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "_LoginPartial.cshtml",
+              "DocumentMoniker": "C:\\Users\\HUAWEI Matebook D15\\source\\repos\\UserAuth\\UserAuth\\Views\\Shared\\_LoginPartial.cshtml",
+              "RelativeDocumentMoniker": "UserAuth\\Views\\Shared\\_LoginPartial.cshtml",
+              "ToolTip": "C:\\Users\\HUAWEI Matebook D15\\source\\repos\\UserAuth\\UserAuth\\Views\\Shared\\_LoginPartial.cshtml",
+              "RelativeToolTip": "UserAuth\\Views\\Shared\\_LoginPartial.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-21T03:30:29.735Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "ApplicationDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\HUAWEI Matebook D15\\source\\repos\\UserAuth\\UserAuth\\Areas\\Identity\\Data\\ApplicationDbContext.cs",
+              "RelativeDocumentMoniker": "UserAuth\\Areas\\Identity\\Data\\ApplicationDbContext.cs",
+              "ToolTip": "C:\\Users\\HUAWEI Matebook D15\\source\\repos\\UserAuth\\UserAuth\\Areas\\Identity\\Data\\ApplicationDbContext.cs",
+              "RelativeToolTip": "UserAuth\\Areas\\Identity\\Data\\ApplicationDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-21T03:30:28.635Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

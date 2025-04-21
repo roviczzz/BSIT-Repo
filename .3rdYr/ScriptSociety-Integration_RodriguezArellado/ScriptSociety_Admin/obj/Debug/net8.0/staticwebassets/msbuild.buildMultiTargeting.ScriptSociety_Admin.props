@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\ScriptSociety_Admin.props" />
+</Project>

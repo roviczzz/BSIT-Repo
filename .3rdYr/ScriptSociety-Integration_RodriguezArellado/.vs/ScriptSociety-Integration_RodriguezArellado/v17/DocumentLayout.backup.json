@@ -1,0 +1,524 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\HUAWEI Matebook D15\\source\\repos\\ScriptSociety-Integration_RodriguezArellado\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{EE2DD68C-BE7A-4100-87C6-3581495F50A7}|ScriptSociety_Client\\ScriptSociety_Client.csproj|c:\\users\\huawei matebook d15\\source\\repos\\scriptsociety-integration_rodriguezarellado\\scriptsociety_client\\views\\users\\signin.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{EE2DD68C-BE7A-4100-87C6-3581495F50A7}|ScriptSociety_Client\\ScriptSociety_Client.csproj|solutionrelative:scriptsociety_client\\views\\users\\signin.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EE2DD68C-BE7A-4100-87C6-3581495F50A7}|ScriptSociety_Client\\ScriptSociety_Client.csproj|c:\\users\\huawei matebook d15\\source\\repos\\scriptsociety-integration_rodriguezarellado\\scriptsociety_client\\models\\signinviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EE2DD68C-BE7A-4100-87C6-3581495F50A7}|ScriptSociety_Client\\ScriptSociety_Client.csproj|solutionrelative:scriptsociety_client\\models\\signinviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EE2DD68C-BE7A-4100-87C6-3581495F50A7}|ScriptSociety_Client\\ScriptSociety_Client.csproj|c:\\users\\huawei matebook d15\\source\\repos\\scriptsociety-integration_rodriguezarellado\\scriptsociety_client\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{EE2DD68C-BE7A-4100-87C6-3581495F50A7}|ScriptSociety_Client\\ScriptSociety_Client.csproj|solutionrelative:scriptsociety_client\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EE2DD68C-BE7A-4100-87C6-3581495F50A7}|ScriptSociety_Client\\ScriptSociety_Client.csproj|c:\\users\\huawei matebook d15\\source\\repos\\scriptsociety-integration_rodriguezarellado\\scriptsociety_client\\models\\item.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EE2DD68C-BE7A-4100-87C6-3581495F50A7}|ScriptSociety_Client\\ScriptSociety_Client.csproj|solutionrelative:scriptsociety_client\\models\\item.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EE2DD68C-BE7A-4100-87C6-3581495F50A7}|ScriptSociety_Client\\ScriptSociety_Client.csproj|c:\\users\\huawei matebook d15\\source\\repos\\scriptsociety-integration_rodriguezarellado\\scriptsociety_client\\models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EE2DD68C-BE7A-4100-87C6-3581495F50A7}|ScriptSociety_Client\\ScriptSociety_Client.csproj|solutionrelative:scriptsociety_client\\models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EE2DD68C-BE7A-4100-87C6-3581495F50A7}|ScriptSociety_Client\\ScriptSociety_Client.csproj|c:\\users\\huawei matebook d15\\source\\repos\\scriptsociety-integration_rodriguezarellado\\scriptsociety_client\\views\\users\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{EE2DD68C-BE7A-4100-87C6-3581495F50A7}|ScriptSociety_Client\\ScriptSociety_Client.csproj|solutionrelative:scriptsociety_client\\views\\users\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EE2DD68C-BE7A-4100-87C6-3581495F50A7}|ScriptSociety_Client\\ScriptSociety_Client.csproj|c:\\users\\huawei matebook d15\\source\\repos\\scriptsociety-integration_rodriguezarellado\\scriptsociety_client\\views\\users\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{EE2DD68C-BE7A-4100-87C6-3581495F50A7}|ScriptSociety_Client\\ScriptSociety_Client.csproj|solutionrelative:scriptsociety_client\\views\\users\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EE2DD68C-BE7A-4100-87C6-3581495F50A7}|ScriptSociety_Client\\ScriptSociety_Client.csproj|c:\\users\\huawei matebook d15\\source\\repos\\scriptsociety-integration_rodriguezarellado\\scriptsociety_client\\views\\users\\signup.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{EE2DD68C-BE7A-4100-87C6-3581495F50A7}|ScriptSociety_Client\\ScriptSociety_Client.csproj|solutionrelative:scriptsociety_client\\views\\users\\signup.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EE2DD68C-BE7A-4100-87C6-3581495F50A7}|ScriptSociety_Client\\ScriptSociety_Client.csproj|c:\\users\\huawei matebook d15\\source\\repos\\scriptsociety-integration_rodriguezarellado\\scriptsociety_client\\controllers\\announcementscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EE2DD68C-BE7A-4100-87C6-3581495F50A7}|ScriptSociety_Client\\ScriptSociety_Client.csproj|solutionrelative:scriptsociety_client\\controllers\\announcementscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EE2DD68C-BE7A-4100-87C6-3581495F50A7}|ScriptSociety_Client\\ScriptSociety_Client.csproj|c:\\users\\huawei matebook d15\\source\\repos\\scriptsociety-integration_rodriguezarellado\\scriptsociety_client\\models\\users.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EE2DD68C-BE7A-4100-87C6-3581495F50A7}|ScriptSociety_Client\\ScriptSociety_Client.csproj|solutionrelative:scriptsociety_client\\models\\users.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EE2DD68C-BE7A-4100-87C6-3581495F50A7}|ScriptSociety_Client\\ScriptSociety_Client.csproj|c:\\users\\huawei matebook d15\\source\\repos\\scriptsociety-integration_rodriguezarellado\\scriptsociety_client\\models\\announcements.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EE2DD68C-BE7A-4100-87C6-3581495F50A7}|ScriptSociety_Client\\ScriptSociety_Client.csproj|solutionrelative:scriptsociety_client\\models\\announcements.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EE2DD68C-BE7A-4100-87C6-3581495F50A7}|ScriptSociety_Client\\ScriptSociety_Client.csproj|c:\\users\\huawei matebook d15\\source\\repos\\scriptsociety-integration_rodriguezarellado\\scriptsociety_client\\data\\scriptsociety_clientcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EE2DD68C-BE7A-4100-87C6-3581495F50A7}|ScriptSociety_Client\\ScriptSociety_Client.csproj|solutionrelative:scriptsociety_client\\data\\scriptsociety_clientcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{12E0408D-5F7C-439C-BA28-06152FB21586}|ScriptSociety_Admin\\ScriptSociety_Admin.csproj|c:\\users\\huawei matebook d15\\source\\repos\\scriptsociety-integration_rodriguezarellado\\scriptsociety_admin\\models\\inventory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{12E0408D-5F7C-439C-BA28-06152FB21586}|ScriptSociety_Admin\\ScriptSociety_Admin.csproj|solutionrelative:scriptsociety_admin\\models\\inventory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{12E0408D-5F7C-439C-BA28-06152FB21586}|ScriptSociety_Admin\\ScriptSociety_Admin.csproj|c:\\users\\huawei matebook d15\\source\\repos\\scriptsociety-integration_rodriguezarellado\\scriptsociety_admin\\scriptsociety_admin.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{12E0408D-5F7C-439C-BA28-06152FB21586}|ScriptSociety_Admin\\ScriptSociety_Admin.csproj|solutionrelative:scriptsociety_admin\\scriptsociety_admin.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{12E0408D-5F7C-439C-BA28-06152FB21586}|ScriptSociety_Admin\\ScriptSociety_Admin.csproj|c:\\users\\huawei matebook d15\\source\\repos\\scriptsociety-integration_rodriguezarellado\\scriptsociety_admin\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{12E0408D-5F7C-439C-BA28-06152FB21586}|ScriptSociety_Admin\\ScriptSociety_Admin.csproj|solutionrelative:scriptsociety_admin\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{12E0408D-5F7C-439C-BA28-06152FB21586}|ScriptSociety_Admin\\ScriptSociety_Admin.csproj|c:\\users\\huawei matebook d15\\source\\repos\\scriptsociety-integration_rodriguezarellado\\scriptsociety_admin\\models\\announcements.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{12E0408D-5F7C-439C-BA28-06152FB21586}|ScriptSociety_Admin\\ScriptSociety_Admin.csproj|solutionrelative:scriptsociety_admin\\models\\announcements.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EE2DD68C-BE7A-4100-87C6-3581495F50A7}|ScriptSociety_Client\\ScriptSociety_Client.csproj|c:\\users\\huawei matebook d15\\source\\repos\\scriptsociety-integration_rodriguezarellado\\scriptsociety_client\\controllers\\userscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EE2DD68C-BE7A-4100-87C6-3581495F50A7}|ScriptSociety_Client\\ScriptSociety_Client.csproj|solutionrelative:scriptsociety_client\\controllers\\userscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EE2DD68C-BE7A-4100-87C6-3581495F50A7}|ScriptSociety_Client\\ScriptSociety_Client.csproj|c:\\users\\huawei matebook d15\\source\\repos\\scriptsociety-integration_rodriguezarellado\\scriptsociety_client\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EE2DD68C-BE7A-4100-87C6-3581495F50A7}|ScriptSociety_Client\\ScriptSociety_Client.csproj|solutionrelative:scriptsociety_client\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EE2DD68C-BE7A-4100-87C6-3581495F50A7}|ScriptSociety_Client\\ScriptSociety_Client.csproj|c:\\users\\huawei matebook d15\\source\\repos\\scriptsociety-integration_rodriguezarellado\\scriptsociety_client\\controllers\\itemscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EE2DD68C-BE7A-4100-87C6-3581495F50A7}|ScriptSociety_Client\\ScriptSociety_Client.csproj|solutionrelative:scriptsociety_client\\controllers\\itemscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EE2DD68C-BE7A-4100-87C6-3581495F50A7}|ScriptSociety_Client\\ScriptSociety_Client.csproj|c:\\users\\huawei matebook d15\\source\\repos\\scriptsociety-integration_rodriguezarellado\\scriptsociety_client\\scriptsociety_client.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{EE2DD68C-BE7A-4100-87C6-3581495F50A7}|ScriptSociety_Client\\ScriptSociety_Client.csproj|solutionrelative:scriptsociety_client\\scriptsociety_client.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{12E0408D-5F7C-439C-BA28-06152FB21586}|ScriptSociety_Admin\\ScriptSociety_Admin.csproj|c:\\users\\huawei matebook d15\\source\\repos\\scriptsociety-integration_rodriguezarellado\\scriptsociety_admin\\models\\users.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{12E0408D-5F7C-439C-BA28-06152FB21586}|ScriptSociety_Admin\\ScriptSociety_Admin.csproj|solutionrelative:scriptsociety_admin\\models\\users.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{12E0408D-5F7C-439C-BA28-06152FB21586}|ScriptSociety_Admin\\ScriptSociety_Admin.csproj|c:\\users\\huawei matebook d15\\source\\repos\\scriptsociety-integration_rodriguezarellado\\scriptsociety_admin\\controllers\\userscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{12E0408D-5F7C-439C-BA28-06152FB21586}|ScriptSociety_Admin\\ScriptSociety_Admin.csproj|solutionrelative:scriptsociety_admin\\controllers\\userscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{12E0408D-5F7C-439C-BA28-06152FB21586}|ScriptSociety_Admin\\ScriptSociety_Admin.csproj|c:\\users\\huawei matebook d15\\source\\repos\\scriptsociety-integration_rodriguezarellado\\scriptsociety_admin\\controllers\\orderscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{12E0408D-5F7C-439C-BA28-06152FB21586}|ScriptSociety_Admin\\ScriptSociety_Admin.csproj|solutionrelative:scriptsociety_admin\\controllers\\orderscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{12E0408D-5F7C-439C-BA28-06152FB21586}|ScriptSociety_Admin\\ScriptSociety_Admin.csproj|c:\\users\\huawei matebook d15\\source\\repos\\scriptsociety-integration_rodriguezarellado\\scriptsociety_admin\\controllers\\inventoriescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{12E0408D-5F7C-439C-BA28-06152FB21586}|ScriptSociety_Admin\\ScriptSociety_Admin.csproj|solutionrelative:scriptsociety_admin\\controllers\\inventoriescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{12E0408D-5F7C-439C-BA28-06152FB21586}|ScriptSociety_Admin\\ScriptSociety_Admin.csproj|c:\\users\\huawei matebook d15\\source\\repos\\scriptsociety-integration_rodriguezarellado\\scriptsociety_admin\\controllers\\announcementscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{12E0408D-5F7C-439C-BA28-06152FB21586}|ScriptSociety_Admin\\ScriptSociety_Admin.csproj|solutionrelative:scriptsociety_admin\\controllers\\announcementscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{12E0408D-5F7C-439C-BA28-06152FB21586}|ScriptSociety_Admin\\ScriptSociety_Admin.csproj|c:\\users\\huawei matebook d15\\source\\repos\\scriptsociety-integration_rodriguezarellado\\scriptsociety_admin\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{12E0408D-5F7C-439C-BA28-06152FB21586}|ScriptSociety_Admin\\ScriptSociety_Admin.csproj|solutionrelative:scriptsociety_admin\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{12E0408D-5F7C-439C-BA28-06152FB21586}|ScriptSociety_Admin\\ScriptSociety_Admin.csproj|c:\\users\\huawei matebook d15\\source\\repos\\scriptsociety-integration_rodriguezarellado\\scriptsociety_admin\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{12E0408D-5F7C-439C-BA28-06152FB21586}|ScriptSociety_Admin\\ScriptSociety_Admin.csproj|solutionrelative:scriptsociety_admin\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{12E0408D-5F7C-439C-BA28-06152FB21586}|ScriptSociety_Admin\\ScriptSociety_Admin.csproj|c:\\users\\huawei matebook d15\\source\\repos\\scriptsociety-integration_rodriguezarellado\\scriptsociety_admin\\models\\orders.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{12E0408D-5F7C-439C-BA28-06152FB21586}|ScriptSociety_Admin\\ScriptSociety_Admin.csproj|solutionrelative:scriptsociety_admin\\models\\orders.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EE2DD68C-BE7A-4100-87C6-3581495F50A7}|ScriptSociety_Client\\ScriptSociety_Client.csproj|c:\\users\\huawei matebook d15\\source\\repos\\scriptsociety-integration_rodriguezarellado\\scriptsociety_client\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{EE2DD68C-BE7A-4100-87C6-3581495F50A7}|ScriptSociety_Client\\ScriptSociety_Client.csproj|solutionrelative:scriptsociety_client\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EE2DD68C-BE7A-4100-87C6-3581495F50A7}|ScriptSociety_Client\\ScriptSociety_Client.csproj|c:\\users\\huawei matebook d15\\source\\repos\\scriptsociety-integration_rodriguezarellado\\scriptsociety_client\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{EE2DD68C-BE7A-4100-87C6-3581495F50A7}|ScriptSociety_Client\\ScriptSociety_Client.csproj|solutionrelative:scriptsociety_client\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{40ea2e6b-2121-4bb8-a43e-c83c04b51041}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "SignIn.cshtml",
+              "DocumentMoniker": "C:\\Users\\HUAWEI Matebook D15\\source\\repos\\ScriptSociety-Integration_RodriguezArellado\\ScriptSociety_Client\\Views\\Users\\SignIn.cshtml",
+              "RelativeDocumentMoniker": "ScriptSociety_Client\\Views\\Users\\SignIn.cshtml",
+              "ToolTip": "C:\\Users\\HUAWEI Matebook D15\\source\\repos\\ScriptSociety-Integration_RodriguezArellado\\ScriptSociety_Client\\Views\\Users\\SignIn.cshtml",
+              "RelativeToolTip": "ScriptSociety_Client\\Views\\Users\\SignIn.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-02-25T07:49:56.767Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "SignInViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\HUAWEI Matebook D15\\source\\repos\\ScriptSociety-Integration_RodriguezArellado\\ScriptSociety_Client\\Models\\SignInViewModel.cs",
+              "RelativeDocumentMoniker": "ScriptSociety_Client\\Models\\SignInViewModel.cs",
+              "ToolTip": "C:\\Users\\HUAWEI Matebook D15\\source\\repos\\ScriptSociety-Integration_RodriguezArellado\\ScriptSociety_Client\\Models\\SignInViewModel.cs",
+              "RelativeToolTip": "ScriptSociety_Client\\Models\\SignInViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-25T07:48:51.069Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ErrorViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\HUAWEI Matebook D15\\source\\repos\\ScriptSociety-Integration_RodriguezArellado\\ScriptSociety_Client\\Models\\ErrorViewModel.cs",
+              "RelativeDocumentMoniker": "ScriptSociety_Client\\Models\\ErrorViewModel.cs",
+              "ToolTip": "C:\\Users\\HUAWEI Matebook D15\\source\\repos\\ScriptSociety-Integration_RodriguezArellado\\ScriptSociety_Client\\Models\\ErrorViewModel.cs",
+              "RelativeToolTip": "ScriptSociety_Client\\Models\\ErrorViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-25T07:24:55.935Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\HUAWEI Matebook D15\\source\\repos\\ScriptSociety-Integration_RodriguezArellado\\ScriptSociety_Client\\Views\\Users\\Create.cshtml",
+              "RelativeDocumentMoniker": "ScriptSociety_Client\\Views\\Users\\Create.cshtml",
+              "ToolTip": "C:\\Users\\HUAWEI Matebook D15\\source\\repos\\ScriptSociety-Integration_RodriguezArellado\\ScriptSociety_Client\\Views\\Users\\Create.cshtml",
+              "RelativeToolTip": "ScriptSociety_Client\\Views\\Users\\Create.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-02-25T07:23:54.821Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\HUAWEI Matebook D15\\source\\repos\\ScriptSociety-Integration_RodriguezArellado\\ScriptSociety_Client\\Views\\Users\\Index.cshtml",
+              "RelativeDocumentMoniker": "ScriptSociety_Client\\Views\\Users\\Index.cshtml",
+              "ToolTip": "C:\\Users\\HUAWEI Matebook D15\\source\\repos\\ScriptSociety-Integration_RodriguezArellado\\ScriptSociety_Client\\Views\\Users\\Index.cshtml",
+              "RelativeToolTip": "ScriptSociety_Client\\Views\\Users\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-02-25T07:23:50.945Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "SignUp.cshtml",
+              "DocumentMoniker": "C:\\Users\\HUAWEI Matebook D15\\source\\repos\\ScriptSociety-Integration_RodriguezArellado\\ScriptSociety_Client\\Views\\Users\\SignUp.cshtml",
+              "RelativeDocumentMoniker": "ScriptSociety_Client\\Views\\Users\\SignUp.cshtml",
+              "ToolTip": "C:\\Users\\HUAWEI Matebook D15\\source\\repos\\ScriptSociety-Integration_RodriguezArellado\\ScriptSociety_Client\\Views\\Users\\SignUp.cshtml",
+              "RelativeToolTip": "ScriptSociety_Client\\Views\\Users\\SignUp.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-02-25T07:12:58.274Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\HUAWEI Matebook D15\\source\\repos\\ScriptSociety-Integration_RodriguezArellado\\ScriptSociety_Client\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "ScriptSociety_Client\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\HUAWEI Matebook D15\\source\\repos\\ScriptSociety-Integration_RodriguezArellado\\ScriptSociety_Client\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "ScriptSociety_Client\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAHYAAAAAAAAAAAAqwHoAAABxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-02-20T03:46:37.02Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Item.cs",
+              "DocumentMoniker": "C:\\Users\\HUAWEI Matebook D15\\source\\repos\\ScriptSociety-Integration_RodriguezArellado\\ScriptSociety_Client\\Models\\Item.cs",
+              "RelativeDocumentMoniker": "ScriptSociety_Client\\Models\\Item.cs",
+              "ToolTip": "C:\\Users\\HUAWEI Matebook D15\\source\\repos\\ScriptSociety-Integration_RodriguezArellado\\ScriptSociety_Client\\Models\\Item.cs",
+              "RelativeToolTip": "ScriptSociety_Client\\Models\\Item.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAsAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-20T04:14:44.665Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "AnnouncementsController.cs",
+              "DocumentMoniker": "C:\\Users\\HUAWEI Matebook D15\\source\\repos\\ScriptSociety-Integration_RodriguezArellado\\ScriptSociety_Client\\Controllers\\AnnouncementsController.cs",
+              "RelativeDocumentMoniker": "ScriptSociety_Client\\Controllers\\AnnouncementsController.cs",
+              "ToolTip": "C:\\Users\\HUAWEI Matebook D15\\source\\repos\\ScriptSociety-Integration_RodriguezArellado\\ScriptSociety_Client\\Controllers\\AnnouncementsController.cs",
+              "RelativeToolTip": "ScriptSociety_Client\\Controllers\\AnnouncementsController.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAABoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-25T07:05:17.17Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "ScriptSociety_ClientContext.cs",
+              "DocumentMoniker": "C:\\Users\\HUAWEI Matebook D15\\source\\repos\\ScriptSociety-Integration_RodriguezArellado\\ScriptSociety_Client\\Data\\ScriptSociety_ClientContext.cs",
+              "RelativeDocumentMoniker": "ScriptSociety_Client\\Data\\ScriptSociety_ClientContext.cs",
+              "ToolTip": "C:\\Users\\HUAWEI Matebook D15\\source\\repos\\ScriptSociety-Integration_RodriguezArellado\\ScriptSociety_Client\\Data\\ScriptSociety_ClientContext.cs",
+              "RelativeToolTip": "ScriptSociety_Client\\Data\\ScriptSociety_ClientContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-25T07:03:54.036Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "ScriptSociety_Admin",
+              "DocumentMoniker": "C:\\Users\\HUAWEI Matebook D15\\source\\repos\\ScriptSociety-Integration_RodriguezArellado\\ScriptSociety_Admin\\ScriptSociety_Admin.csproj",
+              "RelativeDocumentMoniker": "ScriptSociety_Admin\\ScriptSociety_Admin.csproj",
+              "ToolTip": "C:\\Users\\HUAWEI Matebook D15\\source\\repos\\ScriptSociety-Integration_RodriguezArellado\\ScriptSociety_Admin\\ScriptSociety_Admin.csproj",
+              "RelativeToolTip": "ScriptSociety_Admin\\ScriptSociety_Admin.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-02-25T06:56:37.497Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Announcements.cs",
+              "DocumentMoniker": "C:\\Users\\HUAWEI Matebook D15\\source\\repos\\ScriptSociety-Integration_RodriguezArellado\\ScriptSociety_Client\\Models\\Announcements.cs",
+              "RelativeDocumentMoniker": "ScriptSociety_Client\\Models\\Announcements.cs",
+              "ToolTip": "C:\\Users\\HUAWEI Matebook D15\\source\\repos\\ScriptSociety-Integration_RodriguezArellado\\ScriptSociety_Client\\Models\\Announcements.cs",
+              "RelativeToolTip": "ScriptSociety_Client\\Models\\Announcements.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-20T04:18:34.73Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Users.cs",
+              "DocumentMoniker": "C:\\Users\\HUAWEI Matebook D15\\source\\repos\\ScriptSociety-Integration_RodriguezArellado\\ScriptSociety_Client\\Models\\Users.cs",
+              "RelativeDocumentMoniker": "ScriptSociety_Client\\Models\\Users.cs",
+              "ToolTip": "C:\\Users\\HUAWEI Matebook D15\\source\\repos\\ScriptSociety-Integration_RodriguezArellado\\ScriptSociety_Client\\Models\\Users.cs",
+              "RelativeToolTip": "ScriptSociety_Client\\Models\\Users.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-20T04:15:29.058Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "ScriptSociety_Client.csproj",
+              "DocumentMoniker": "C:\\Users\\HUAWEI Matebook D15\\source\\repos\\ScriptSociety-Integration_RodriguezArellado\\ScriptSociety_Client\\ScriptSociety_Client.csproj",
+              "RelativeDocumentMoniker": "ScriptSociety_Client\\ScriptSociety_Client.csproj",
+              "ToolTip": "C:\\Users\\HUAWEI Matebook D15\\source\\repos\\ScriptSociety-Integration_RodriguezArellado\\ScriptSociety_Client\\ScriptSociety_Client.csproj",
+              "RelativeToolTip": "ScriptSociety_Client\\ScriptSociety_Client.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-02-20T03:49:27.41Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "ItemsController.cs",
+              "DocumentMoniker": "C:\\Users\\HUAWEI Matebook D15\\source\\repos\\ScriptSociety-Integration_RodriguezArellado\\ScriptSociety_Client\\Controllers\\ItemsController.cs",
+              "RelativeDocumentMoniker": "ScriptSociety_Client\\Controllers\\ItemsController.cs",
+              "ToolTip": "C:\\Users\\HUAWEI Matebook D15\\source\\repos\\ScriptSociety-Integration_RodriguezArellado\\ScriptSociety_Client\\Controllers\\ItemsController.cs",
+              "RelativeToolTip": "ScriptSociety_Client\\Controllers\\ItemsController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-20T04:16:16.886Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\HUAWEI Matebook D15\\source\\repos\\ScriptSociety-Integration_RodriguezArellado\\ScriptSociety_Client\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "ScriptSociety_Client\\Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\HUAWEI Matebook D15\\source\\repos\\ScriptSociety-Integration_RodriguezArellado\\ScriptSociety_Client\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "ScriptSociety_Client\\Controllers\\HomeController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-20T04:16:58.368Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "UsersController.cs",
+              "DocumentMoniker": "C:\\Users\\HUAWEI Matebook D15\\source\\repos\\ScriptSociety-Integration_RodriguezArellado\\ScriptSociety_Client\\Controllers\\UsersController.cs",
+              "RelativeDocumentMoniker": "ScriptSociety_Client\\Controllers\\UsersController.cs",
+              "ToolTip": "C:\\Users\\HUAWEI Matebook D15\\source\\repos\\ScriptSociety-Integration_RodriguezArellado\\ScriptSociety_Client\\Controllers\\UsersController.cs",
+              "RelativeToolTip": "ScriptSociety_Client\\Controllers\\UsersController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-20T04:17:33.761Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Inventory.cs",
+              "DocumentMoniker": "C:\\Users\\HUAWEI Matebook D15\\source\\repos\\ScriptSociety-Integration_RodriguezArellado\\ScriptSociety_Admin\\Models\\Inventory.cs",
+              "RelativeDocumentMoniker": "ScriptSociety_Admin\\Models\\Inventory.cs",
+              "ToolTip": "C:\\Users\\HUAWEI Matebook D15\\source\\repos\\ScriptSociety-Integration_RodriguezArellado\\ScriptSociety_Admin\\Models\\Inventory.cs",
+              "RelativeToolTip": "ScriptSociety_Admin\\Models\\Inventory.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAgwB8AAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-20T04:03:48.116Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\HUAWEI Matebook D15\\source\\repos\\ScriptSociety-Integration_RodriguezArellado\\ScriptSociety_Admin\\appsettings.json",
+              "RelativeDocumentMoniker": "ScriptSociety_Admin\\appsettings.json",
+              "ToolTip": "C:\\Users\\HUAWEI Matebook D15\\source\\repos\\ScriptSociety-Integration_RodriguezArellado\\ScriptSociety_Admin\\appsettings.json",
+              "RelativeToolTip": "ScriptSociety_Admin\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-02-25T06:56:35.22Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "InventoriesController.cs",
+              "DocumentMoniker": "C:\\Users\\HUAWEI Matebook D15\\source\\repos\\ScriptSociety-Integration_RodriguezArellado\\ScriptSociety_Admin\\Controllers\\InventoriesController.cs",
+              "RelativeDocumentMoniker": "ScriptSociety_Admin\\Controllers\\InventoriesController.cs",
+              "ToolTip": "C:\\Users\\HUAWEI Matebook D15\\source\\repos\\ScriptSociety-Integration_RodriguezArellado\\ScriptSociety_Admin\\Controllers\\InventoriesController.cs",
+              "RelativeToolTip": "ScriptSociety_Admin\\Controllers\\InventoriesController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-20T04:08:58.528Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "Announcements.cs",
+              "DocumentMoniker": "C:\\Users\\HUAWEI Matebook D15\\source\\repos\\ScriptSociety-Integration_RodriguezArellado\\ScriptSociety_Admin\\Models\\Announcements.cs",
+              "RelativeDocumentMoniker": "ScriptSociety_Admin\\Models\\Announcements.cs",
+              "ToolTip": "C:\\Users\\HUAWEI Matebook D15\\source\\repos\\ScriptSociety-Integration_RodriguezArellado\\ScriptSociety_Admin\\Models\\Announcements.cs",
+              "RelativeToolTip": "ScriptSociety_Admin\\Models\\Announcements.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-20T04:03:22.825Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "OrdersController.cs",
+              "DocumentMoniker": "C:\\Users\\HUAWEI Matebook D15\\source\\repos\\ScriptSociety-Integration_RodriguezArellado\\ScriptSociety_Admin\\Controllers\\OrdersController.cs",
+              "RelativeDocumentMoniker": "ScriptSociety_Admin\\Controllers\\OrdersController.cs",
+              "ToolTip": "C:\\Users\\HUAWEI Matebook D15\\source\\repos\\ScriptSociety-Integration_RodriguezArellado\\ScriptSociety_Admin\\Controllers\\OrdersController.cs",
+              "RelativeToolTip": "ScriptSociety_Admin\\Controllers\\OrdersController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-20T04:09:41.63Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "UsersController.cs",
+              "DocumentMoniker": "C:\\Users\\HUAWEI Matebook D15\\source\\repos\\ScriptSociety-Integration_RodriguezArellado\\ScriptSociety_Admin\\Controllers\\UsersController.cs",
+              "RelativeDocumentMoniker": "ScriptSociety_Admin\\Controllers\\UsersController.cs",
+              "ToolTip": "C:\\Users\\HUAWEI Matebook D15\\source\\repos\\ScriptSociety-Integration_RodriguezArellado\\ScriptSociety_Admin\\Controllers\\UsersController.cs",
+              "RelativeToolTip": "ScriptSociety_Admin\\Controllers\\UsersController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-20T04:10:22.659Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "AnnouncementsController.cs",
+              "DocumentMoniker": "C:\\Users\\HUAWEI Matebook D15\\source\\repos\\ScriptSociety-Integration_RodriguezArellado\\ScriptSociety_Admin\\Controllers\\AnnouncementsController.cs",
+              "RelativeDocumentMoniker": "ScriptSociety_Admin\\Controllers\\AnnouncementsController.cs",
+              "ToolTip": "C:\\Users\\HUAWEI Matebook D15\\source\\repos\\ScriptSociety-Integration_RodriguezArellado\\ScriptSociety_Admin\\Controllers\\AnnouncementsController.cs",
+              "RelativeToolTip": "ScriptSociety_Admin\\Controllers\\AnnouncementsController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-20T04:08:20.613Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\HUAWEI Matebook D15\\source\\repos\\ScriptSociety-Integration_RodriguezArellado\\ScriptSociety_Admin\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "ScriptSociety_Admin\\Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\HUAWEI Matebook D15\\source\\repos\\ScriptSociety-Integration_RodriguezArellado\\ScriptSociety_Admin\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "ScriptSociety_Admin\\Controllers\\HomeController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-20T04:05:06.567Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "Users.cs",
+              "DocumentMoniker": "C:\\Users\\HUAWEI Matebook D15\\source\\repos\\ScriptSociety-Integration_RodriguezArellado\\ScriptSociety_Admin\\Models\\Users.cs",
+              "RelativeDocumentMoniker": "ScriptSociety_Admin\\Models\\Users.cs",
+              "ToolTip": "C:\\Users\\HUAWEI Matebook D15\\source\\repos\\ScriptSociety-Integration_RodriguezArellado\\ScriptSociety_Admin\\Models\\Users.cs",
+              "RelativeToolTip": "ScriptSociety_Admin\\Models\\Users.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-20T04:04:44.112Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "Orders.cs",
+              "DocumentMoniker": "C:\\Users\\HUAWEI Matebook D15\\source\\repos\\ScriptSociety-Integration_RodriguezArellado\\ScriptSociety_Admin\\Models\\Orders.cs",
+              "RelativeDocumentMoniker": "ScriptSociety_Admin\\Models\\Orders.cs",
+              "ToolTip": "C:\\Users\\HUAWEI Matebook D15\\source\\repos\\ScriptSociety-Integration_RodriguezArellado\\ScriptSociety_Admin\\Models\\Orders.cs",
+              "RelativeToolTip": "ScriptSociety_Admin\\Models\\Orders.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-20T04:04:20.32Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\HUAWEI Matebook D15\\source\\repos\\ScriptSociety-Integration_RodriguezArellado\\ScriptSociety_Admin\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "ScriptSociety_Admin\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\HUAWEI Matebook D15\\source\\repos\\ScriptSociety-Integration_RodriguezArellado\\ScriptSociety_Admin\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "ScriptSociety_Admin\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAABYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-02-20T04:02:45.441Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "_ViewImports.cshtml",
+              "DocumentMoniker": "C:\\Users\\HUAWEI Matebook D15\\source\\repos\\ScriptSociety-Integration_RodriguezArellado\\ScriptSociety_Client\\Views\\_ViewImports.cshtml",
+              "RelativeDocumentMoniker": "ScriptSociety_Client\\Views\\_ViewImports.cshtml",
+              "ToolTip": "C:\\Users\\HUAWEI Matebook D15\\source\\repos\\ScriptSociety-Integration_RodriguezArellado\\ScriptSociety_Client\\Views\\_ViewImports.cshtml",
+              "RelativeToolTip": "ScriptSociety_Client\\Views\\_ViewImports.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-02-20T03:52:25.485Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\HUAWEI Matebook D15\\source\\repos\\ScriptSociety-Integration_RodriguezArellado\\ScriptSociety_Client\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "ScriptSociety_Client\\Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Users\\HUAWEI Matebook D15\\source\\repos\\ScriptSociety-Integration_RodriguezArellado\\ScriptSociety_Client\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "ScriptSociety_Client\\Views\\Home\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-02-20T03:48:00.585Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

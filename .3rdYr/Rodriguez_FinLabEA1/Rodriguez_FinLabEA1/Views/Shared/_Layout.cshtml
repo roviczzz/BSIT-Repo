@@ -1,0 +1,106 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] - Rodriguez_FinLabEA1</title>
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap">
+    <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
+    <style>
+        :root {
+            --space-1: 24px;
+            --text-primary: #1a1a1a;
+            --text-secondary: #666;
+        }
+
+        body {
+            font-family: 'Inter', sans-serif;
+            color: var(--text-primary);
+        }
+
+        .navbar {
+            padding: 1rem var(--space-1);
+            box-shadow: 0 2px 4px rgba(0,0,0,0.03);
+        }
+
+        .navbar-brand {
+            font-weight: 600;
+            letter-spacing: -0.5px;
+        }
+
+        .nav-link {
+            color: var(--text-primary) !important;
+            font-weight: 500;
+            padding: 0.5rem 1rem !important;
+            transition: color 0.2s ease;
+        }
+
+        .nav-link:hover {
+            color: var(--text-secondary) !important;
+        }
+
+        main {
+            padding: 3rem 0;
+            min-height: calc(100vh - 120px);
+        }
+
+        .footer {
+            padding: 2rem var(--space-1);
+            font-size: 0.9rem;
+            color: var(--text-secondary);
+            background: #f8f9fa;
+        }
+
+        .btn-minimal {
+            padding: 0.5rem 1.25rem;
+            border-radius: 8px;
+            transition: all 0.2s ease;
+        }
+    </style>
+</head>
+<body class="d-flex flex-column min-vh-100">
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-light bg-white">
+            <div class="container-fluid px-lg-4">
+                <a class="navbar-brand" asp-controller="Home" asp-action="Index">Shashingo</a>
+
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item">
+                            <a class="nav-link" asp-controller="Home" asp-action="Index">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" asp-controller="Images" asp-action="Index">Images</a>
+                        </li>
+                        <li class="nav-item ms-2">
+                            <a class="btn btn-outline-dark btn-minimal" asp-controller="Images" asp-action="Index">Get Started</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main class="flex-grow-1">
+        @RenderBody()
+    </main>
+
+    <footer class="footer mt-auto">
+        <div class="container-fluid px-lg-4">
+            <div class="d-flex justify-content-between align-items-center">
+                <span>&copy; @DateTime.Now.Year - Shashingo • Rodriguez_FinLabEA1</span>
+                <a asp-controller="Home" asp-action="Privacy" class="text-decoration-none text-muted">Privacy Policy</a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    @await RenderSectionAsync("Scripts", required: false)
+</body>
+</html>

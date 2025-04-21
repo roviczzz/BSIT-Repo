@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.13.35806.99 d17.13
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ScriptSociety_Client", "ScriptSociety_Client\ScriptSociety_Client.csproj", "{EE2DD68C-BE7A-4100-87C6-3581495F50A7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ScriptSociety_Admin", "ScriptSociety_Admin\ScriptSociety_Admin.csproj", "{12E0408D-5F7C-439C-BA28-06152FB21586}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EE2DD68C-BE7A-4100-87C6-3581495F50A7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EE2DD68C-BE7A-4100-87C6-3581495F50A7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EE2DD68C-BE7A-4100-87C6-3581495F50A7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EE2DD68C-BE7A-4100-87C6-3581495F50A7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{12E0408D-5F7C-439C-BA28-06152FB21586}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{12E0408D-5F7C-439C-BA28-06152FB21586}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{12E0408D-5F7C-439C-BA28-06152FB21586}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{12E0408D-5F7C-439C-BA28-06152FB21586}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {64DD39B5-7084-4928-9EA1-22AC8D8CC1F8}
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,142 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] - Script Society</title>
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
+    <link rel="stylesheet" href="~/Rodriguez_ScriptSocietyMVC.styles.css" asp-append-version="true" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" />
+    <style>
+        .vertical-navbar {
+            height: 100vh;
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 250px;
+            background-color: #ffffff; /* Set the vertical navbar background to white */
+            padding-top: 80px;
+            overflow-y: auto;
+            z-index: 1000; /* Ensure the vertical navbar is on top */
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+            font-weight: 400;
+            border-right: 2px solid rgba(128, 128, 128, 0.6); /* Add a gray vertical bar on the edge with 60% opacity */
+        }
+
+            .vertical-navbar .nav-link {
+                color: #000; /* Set the nav link color to black */
+            }
+
+            .vertical-navbar .navbar-brand {
+                padding: 0.5rem 1rem;
+                color: #000; /* Set the brand color to black */
+            }
+
+            .vertical-navbar .navbar-collapse {
+                flex-direction: column;
+                width: 100%;
+            }
+
+            .vertical-navbar .navbar-nav {
+                width: 100%;
+                padding-top: 0;
+            }
+
+            .vertical-navbar .nav-item {
+                width: 100%;
+            }
+
+            .vertical-navbar .nav-link {
+                width: 100%;
+                text-align: left;
+                padding-left: 1rem;
+            }
+
+        .nav-link.active {
+            background-color: #f8f9fa; /* Highlight color for active link */
+        }
+
+        .main-content {
+            margin-left: 250px;
+            padding-top: 20px;
+        }
+
+        .horizontal-navbar {
+            background-color: #000000; /* Set the horizontal navbar background to black */
+            padding: 10px 0;
+            z-index: 1001; /* Ensure the horizontal navbar is above other elements */
+            max-height: 70px; /* Set the max-height of the horizontal navbar */
+        }
+
+            .horizontal-navbar .nav-link {
+                color: #fff; /* Set the nav link color to white */
+            }
+
+        .navbar-brand img {
+            max-height: 100px;
+            filter: invert(1); /* Invert the colors of the image */
+        }
+
+        .cfooter {
+            margin-left: 250px; /* Move the footer 250px to the right */
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav class="navbar horizontal-navbar navbar-expand-lg navbar-dark border-bottom box-shadow mb-3">
+            <div class="container-fluid">
+                <a class="navbar-brand" asp-area="" asp-controller="Home" asp-action="Index">
+                    <img src="/images/navbrand-1.png" style="object-position:left" />
+                </a>
+            </div>
+        </nav>
+        <nav class="navbar vertical-navbar navbar-light">
+            <div class="container-fluid flex-column">
+                <div class="navbar-collapse collapse d-inline-flex flex-column">
+                    <ul class="navbar-nav flex-column">
+                        <li class="nav-item">
+                            <a class="nav-link @(ViewContext.RouteData.Values["controller"].ToString() == "Home" ? "active" : "")" asp-area="" asp-controller="Home" asp-action="Index">
+                                <i class="fas fa-home"></i> Home
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link @(ViewContext.RouteData.Values["controller"].ToString() == "Campaigns" ? "active" : "")" asp-area="" asp-controller="Orders" asp-action="Index">
+                                <i class="fas fa-box"></i> Orders
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link @(ViewContext.RouteData.Values["controller"].ToString() == "Inventories" ? "active" : "")" asp-area="" asp-controller="Inventories" asp-action="Index">
+                                <i class="fas fa-archive"></i> Products
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link @(ViewContext.RouteData.Values["controller"].ToString() == "Announcements" ? "active" : "")" asp-area="" asp-controller="Announcements" asp-action="Index">
+                                <i class="fas fa-bullhorn"></i> Post
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <div class="container main-content">
+        <main role="main" class="pb-3">
+            @RenderBody()
+        </main>
+    </div>
+
+    <footer class="border-top cfooter text-muted">
+        <div class="container link">
+            &copy; 2025, <a asp-controller="Home" asp-action="Index">DWN by Script Society</a> Submission for ITPC328LA, Rodriguez & Arellado BIT33
+        </div>
+    </footer>
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="~/js/site.js" asp-append-version="true"></script>
+    @await RenderSectionAsync("Scripts", required: false)
+</body>
+</html>

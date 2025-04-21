@@ -1,0 +1,149 @@
+@model List<StudentSummaryViewModel>
+
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Summary</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 20px;
+            background-color: #f5f5f5;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            background-color: white;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+            padding: 20px;
+        }
+
+        h1 {
+            text-align: center;
+            color: #333;
+            margin-bottom: 2rem;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 1rem;
+            overflow-x: auto;
+        }
+
+        th, td {
+            padding: 12px;
+            text-align: left;
+            border-bottom: 1px solid #ddd;
+        }
+
+        th {
+            background-color: #007bff;
+            color: white;
+            font-weight: 600;
+        }
+
+        tr:hover {
+            background-color: #f8f9fa;
+        }
+
+        .status-badge {
+            padding: 4px 8px;
+            border-radius: 12px;
+            font-size: 0.875rem;
+            font-weight: 500;
+        }
+
+        .warning {
+            background-color: #ffeb3b;
+            color: #212529;
+        }
+
+        .overdue {
+            background-color: #f8d7da;
+            color: #721c24;
+        }
+
+        .paid {
+            background-color: #d4edda;
+            color: #155724;
+        }
+
+
+        h1 {
+            font-size: 1.5rem;
+        }
+    </style>
+</head>
+<body>
+<div class="container">
+    <h1>Student Summary</h1>
+    <div style="overflow-x: auto;">
+        <table>
+            <thead>
+            <tr>
+                <th>Name</th>
+                <th>Section</th>
+                <th>Semester Grade</th>
+                <th>Balance</th>
+                <th>Status</th>
+            </tr>
+            </thead>
+            <tbody>
+            @foreach (var student in Model)
+            {
+                <tr>
+                    <td>@student.Name</td>
+                    <td>@student.Section</td>
+                    <td>
+                        @if (student.SemesterGrade.HasValue)
+                        {
+                            @student.SemesterGrade.Value.ToString("0.00")
+                        }
+                        else
+                        {
+                            <span class="status-badge warning">N/A</span>
+                        }
+                    </td>
+                    <td>
+                        @if (student.Balance.HasValue)
+                        {
+                            @student.Balance.Value.ToString("C")
+                        }
+                        else
+                        {
+                            <span class="status-badge warning">N/A</span>
+                        }
+                    </td>
+                    <td>
+                        @if (student.Balance.HasValue && student.Balance.Value <= 0)
+                        {
+                            <span class="status-badge paid">Paid</span>
+                        }
+                        else if (student.Balance.HasValue && student.Balance.Value > 0)
+                        {
+                            <span class="status-badge overdue">Overdue</span>
+                        }
+                        else
+                        {
+                            <span class="status-badge warning">N/A</span>
+                        }
+                    </td>
+                </tr>
+            }
+            </tbody>
+        </table>
+    </div>
+</div>
+</body>
+</html>

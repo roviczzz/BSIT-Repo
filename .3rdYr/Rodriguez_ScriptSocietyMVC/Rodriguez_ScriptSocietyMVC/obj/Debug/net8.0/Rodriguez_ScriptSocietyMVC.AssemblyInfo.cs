@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Rodriguez_ScriptSocietyMVC")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+6af5be797ebd209e0120026fd2f515d9a9829496")]
 [assembly: System.Reflection.AssemblyProductAttribute("Rodriguez_ScriptSocietyMVC")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Rodriguez_ScriptSocietyMVC")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

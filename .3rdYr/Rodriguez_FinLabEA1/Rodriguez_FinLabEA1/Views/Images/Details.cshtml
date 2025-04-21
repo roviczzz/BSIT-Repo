@@ -1,0 +1,25 @@
+﻿@model Rodriguez_FinLabEA1.Models.Image
+
+@{
+    ViewData["Title"] = "Details";
+}
+
+<h1>Details</h1>
+<br />
+<br />
+<div>
+    <h4>Image Title</h4>
+    <div>
+        <h2>@Model.Name</h2>
+        <img src="@Model.Url" alt="Model.Description" />
+        <p>@Model.Description</p>
+    </div>
+
+    <div>
+        <a asp-action="Edit" asp-route-id="@Model?.Id">Edit</a>
+        <a asp-action="Index">Back to List</a>
+    </div>
+<div>
+    <a asp-action="Edit" asp-route-id="@Model?.Id">Edit</a> |
+    <a asp-action="Index">Back to List</a>
+</div>

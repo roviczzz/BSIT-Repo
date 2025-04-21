@@ -1,0 +1,76 @@
+﻿@model IEnumerable<Rodriguez_FinLabEA1.Models.Image>
+
+@{
+    ViewData["Title"] = "Images";
+}
+
+<div class="container-fluid px-lg-4">
+    <div class="d-flex justify-content-between align-items-center mb-4">
+        <h1 class="h3 mb-0">Image Gallery</h1>
+        <a asp-action="Create" class="btn btn-primary btn-minimal">Upload New</a>
+    </div>
+
+    <div class="table-responsive">
+        <table class="table table-hover align-middle">
+            <thead class="table-light">
+                <tr>
+                    <th>Preview</th>
+                    <th>
+                        @Html.DisplayNameFor(model => model.Name)
+                    </th>
+                    <th>
+                        @Html.DisplayNameFor(model => model.Description)
+                    </th>
+                    <th>Actions</th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var item in Model)
+                {
+                    <tr>
+                        <td style="width: 120px;">
+                            <div class="ratio ratio-1x1 bg-light rounded">
+                                <img src="@item.Url" alt="@item.Description"
+                                     class="img-fluid object-fit-cover rounded"
+                                     style="max-height: 80px;">
+                            </div>
+                        </td>
+                        <td>
+                            <div class="fw-medium">@item.Name</div>
+                            <div class="text-muted small mt-1">@item.Url</div>
+                        </td>
+                        <td class="text-muted" style="max-width: 300px;">
+                            @item.Description
+                        </td>
+                        <td>
+                            <div class="d-flex gap-2">
+                                <a asp-action="Edit" asp-route-id="@item.Id"
+                                   class="btn btn-sm btn-outline-secondary">Edit</a>
+                                <a asp-action="Details" asp-route-id="@item.Id"
+                                   class="btn btn-sm btn-outline-secondary">Details</a>
+                                <a asp-action="Delete" asp-route-id="@item.Id"
+                                   class="btn btn-sm btn-outline-danger">Delete</a>
+                            </div>
+                        </td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    </div>
+</div>
+
+<style>
+    .object-fit-cover {
+        object-fit: cover;
+    }
+
+    .table-hover tbody tr {
+        transition: background-color 0.2s ease;
+    }
+
+    .btn-sm {
+        padding: 0.25rem 0.75rem;
+        font-size: 0.875rem;
+        border-radius: 6px;
+    }
+</style>

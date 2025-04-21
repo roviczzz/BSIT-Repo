@@ -1,0 +1,104 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+<!-- Hero Section -->
+<div class="hero-section text-center py-5">
+    <div class="container">
+        <div class="card">
+            <div class="card-header p-0">
+                <div class="banner-container">
+                    <img src="~/images/scriptbanner.jpg" class="img-fluid" alt="Script Banner">
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Product Grid -->
+<div class="container my-5">
+    <div class="row">
+        <!-- Product Card 1 -->
+        <div class="col-md-3 mb-4">
+            <div class="card">
+                <img src="https://via.placeholder.com/300x400" class="card-img-top" alt="Summer Dress">
+                <div class="card-body text-center">
+                    <h5 class="card-title">Floral Summer Dress</h5>
+                    <p class="card-text text-muted">₱49.99</p>
+                    <div class="btn-group" role="group">
+                        <a asp-controller="Items" asp-action="Create" class="btn btn-primary mr-2">Buy Now</a>
+                        <button class="btn btn-outline-secondary">Add to Cart</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Product Card 2 -->
+        <div class="col-md-3 mb-4">
+            <div class="card">
+                <img src="https://via.placeholder.com/300x400" class="card-img-top" alt="Denim Jacket">
+                <div class="card-body text-center">
+                    <h5 class="card-title">Classic Denim Jacket</h5>
+                    <p class="card-text text-muted">₱79.99</p>
+                    <div class="btn-group" role="group">
+                        <a asp-controller="Items" asp-action="Create" class="btn btn-primary mr-2">Buy Now</a>
+                        <button class="btn btn-outline-secondary">Add to Cart</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Add more product cards as needed -->
+    </div>
+</div>
+
+<!-- Footer -->
+<footer class="bg-light text-center py-4">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-4">
+                <h5>Customer Service</h5>
+                <ul class="list-unstyled">
+                    <li><a href="#">Contact Us</a></li>
+                    <li><a href="#">Shipping Policy</a></li>
+                    <li><a href="#">Returns</a></li>
+                </ul>
+            </div>
+            <div class="col-md-4">
+                <h5>Follow Us</h5>
+                <a href="#" class="btn btn-outline-dark m-1"><i class="fab fa-facebook"></i></a>
+                <a href="#" class="btn btn-outline-dark m-1"><i class="fab fa-instagram"></i></a>
+                <a href="#" class="btn btn-outline-dark m-1"><i class="fab fa-twitter"></i></a>
+            </div>
+            <div class="col-md-4">
+                <h5>Newsletter</h5>
+                <form class="form-inline justify-content-center">
+                    <div class="input-group">
+                        <input type="email" class="form-control" placeholder="Enter your email">
+                        <div class="input-group-append">
+                            <button class="btn btn-primary" type="button">Subscribe</button>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</footer>
+
+<style>
+    .banner-container {
+        position: relative;
+        width: 100%;
+        padding-top: 42.86%; /* 21:9 aspect ratio (9/21 * 100) */
+        overflow: hidden;
+    }
+
+        .banner-container img {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            width: 100%;
+            height: auto;
+            transform: translate(-50%, -50%);
+        }
+</style>
