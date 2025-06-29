@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Rodriguez_FinLabEA1")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+7d4f9363dd621208648cc3f126f459beef7f5b30")]
 [assembly: System.Reflection.AssemblyProductAttribute("Rodriguez_FinLabEA1")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Rodriguez_FinLabEA1")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

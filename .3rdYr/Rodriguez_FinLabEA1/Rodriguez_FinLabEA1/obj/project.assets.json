@@ -7596,24 +7596,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\HUAWEI Matebook D15\\.nuget\\packages\\": {},
-    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+    "C:\\Users\\rovic\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\HUAWEI Matebook D15\\source\\repos\\Rodriguez_FinLabEA1\\Rodriguez_FinLabEA1\\Rodriguez_FinLabEA1.csproj",
+      "projectUniqueName": "C:\\Users\\rovic\\OneDrive\\Documents\\GitHub\\BSIT-Repo\\.3rdYr\\Rodriguez_FinLabEA1\\Rodriguez_FinLabEA1\\Rodriguez_FinLabEA1.csproj",
       "projectName": "Rodriguez_FinLabEA1",
-      "projectPath": "C:\\Users\\HUAWEI Matebook D15\\source\\repos\\Rodriguez_FinLabEA1\\Rodriguez_FinLabEA1\\Rodriguez_FinLabEA1.csproj",
-      "packagesPath": "C:\\Users\\HUAWEI Matebook D15\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\HUAWEI Matebook D15\\source\\repos\\Rodriguez_FinLabEA1\\Rodriguez_FinLabEA1\\obj\\",
+      "projectPath": "C:\\Users\\rovic\\OneDrive\\Documents\\GitHub\\BSIT-Repo\\.3rdYr\\Rodriguez_FinLabEA1\\Rodriguez_FinLabEA1\\Rodriguez_FinLabEA1.csproj",
+      "packagesPath": "C:\\Users\\rovic\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\rovic\\OneDrive\\Documents\\GitHub\\BSIT-Repo\\.3rdYr\\Rodriguez_FinLabEA1\\Rodriguez_FinLabEA1\\obj\\",
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-      ],
       "configFilePaths": [
-        "C:\\Users\\HUAWEI Matebook D15\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Users\\rovic\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -7633,13 +7628,7 @@
         "warnAsError": [
           "NU1605"
         ]
-      },
-      "restoreAuditProperties": {
-        "enableAudit": "true",
-        "auditLevel": "low",
-        "auditMode": "direct"
-      },
-      "SdkAnalysisLevel": "9.0.200"
+      }
     },
     "frameworks": {
       "net8.0": {
@@ -7683,7 +7672,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.200/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.101/PortableRuntimeIdentifierGraph.json"
       }
     }
   }
