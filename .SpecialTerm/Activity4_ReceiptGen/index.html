@@ -1,0 +1,326 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Food Panda</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div style="text-align:center;">
+  <img src="https://iili.io/F54j96P.png" style="display:inline-block; margin-bottom: -90px; max-height: 250px;"> <br>
+  <img src="https://iili.io/F54BviF.png" alt="banner" style="display:inline-block; max-height: 350px;"/>
+</div>
+
+  <div>
+    <div class="restaurant-gallery" style="margin-top: 10px;">
+      <div class="restaurant-card" onclick="openPopup(1)">
+        <img src="https://iili.io/F5UIQTl.jpg" alt="Rice & Co" class="restaurant-logo" />
+        <div class="restaurant-name">Rice & Co</div>
+      </div>
+      <div class="restaurant-card" onclick="openPopup(2)">
+        <img src="https://iili.io/F5UugJs.jpg" alt="Libro Espresso" class="restaurant-logo" />
+        <div class="restaurant-name">Libro Espresso</div>
+      </div>
+      <div class="restaurant-card" onclick="openPopup(3)">
+        <img src="https://iili.io/F5UR7nV.jpg" alt="Frankie's NY Buffalo Wings" class="restaurant-logo" />
+        <div class="restaurant-name">Frankie's New York Buffalo Wings</div>
+      </div>
+      <div style="flex:1"></div>
+                <button id="orderBtn" onclick="openCart()" class="order-btn-gallery">
+        <span style="display:inline-flex;align-items:center;gap:7px;">
+            <!-- Material Outline Cart Icon -->
+            <svg width="22" height="22" viewBox="0 0 24 24" fill="none" style="vertical-align:middle;" xmlns="http://www.w3.org/2000/svg">
+            <path d="M7 18c-1.104 0-2 .897-2 2s.896 2 2 2 2-.897 2-2-.896-2-2-2zm10 0c-1.104 0-2 .897-2 2s.896 2 2 2 2-.897 2-2-.896-2-2-2zM7.16 16h9.35c.75 0 1.41-.41 1.75-1.03l3.58-6.49A1 1 0 0 0 21 7H5.21l-.94-2H1v2h2l3.6 7.59-1.35 2.44C4.52 17.37 5.48 19 7 19h12v-2H7.16zM6.16 14l1.25-2.22L17.1 12c.09 0 .18.01.27.03l-1.24 2.22H6.16z" fill="#fff"/>
+            </svg>
+            Cart (<span id="cart-count">0</span>)
+        </span>
+        </button>
+    </div>
+
+    <div class="popup" id="popup1">
+      <div class="popup-card">
+        <button class="close-btn" onclick="closePopup(1)">&times;</button>
+        <img src="https://iili.io/F5UIQTl.jpg" alt="logo" class="menu-img" />
+        <h2>Rice & Co</h2>
+        <span>Ayala Mall Vermosa Imus</span>
+        <ul>
+          <li>
+            <img src="https://iili.io/F5SuIEX.png" alt="Chicken Pops" class="menu-img" />
+            Chicken Pops - ₱150.00
+            <button class="cart-btn" onclick="addToCart('Rice & Co', 'Chicken Pops', 150, 'https://iili.io/F5SuIEX.png')">Add to Cart</button>
+          </li>
+          <li>
+            <img src="https://iili.io/F5STbmQ.png" alt="Tempura" class="menu-img" />
+            Tempura - ₱150.00
+            <button class="cart-btn" onclick="addToCart('Rice & Co', 'Tempura', 150, 'https://iili.io/F5STbmQ.png')">Add to Cart</button>
+          </li>
+          <li>
+            <img src="https://iili.io/F5SYNB2.jpg" alt="Beef Pares" class="menu-img" />
+            Beef Pares - ₱120.00
+            <button class="cart-btn" onclick="addToCart('Rice & Co', 'Beef Pares', 120, 'https://iili.io/F5SYNB2.jpg')">Add to Cart</button>
+          </li>
+            <li>
+            <img src="https://iili.io/F5ghnrg.jpg" alt="Chow Mein" class="menu-img" />
+            Chow Mein - ₱180.00
+            <button class="cart-btn" onclick="addToCart('Rice & Co', 'Chow Mein', 180, 'https://iili.io/F5ghnrg.jpg')">Add to Cart</button>
+          </li>
+        <li>
+            <img src="https://iili.io/F5gkx2t.jpg" alt="Nachos" class="menu-img" />
+            Nachos - ₱120.00
+            <button class="cart-btn" onclick="addToCart('Rice & Co', 'Nachos', 120, 'https://iili.io/F5gkx2t.jpg')">Add to Cart</button>
+          </li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="popup" id="popup2">
+      <div class="popup-card">
+        <button class="close-btn" onclick="closePopup(2)">&times;</button>
+        <img src="https://iili.io/F5UugJs.jpg" alt="logo" class="menu-img" />
+        <h2>Libro Espresso</h2>
+        <span>Ayala Mall Vermosa Imus</span>
+        <ul>
+          <li>
+            <img src="https://iili.io/F5Sahyg.jpg" alt="Aglio y Olio" class="menu-img" />
+            Aglio y Olio - ₱159.00
+            <button class="cart-btn" onclick="addToCart('Libro Espresso', 'Aglio y Olio', 159, 'https://iili.io/F5Sahyg.jpg')">Add to Cart</button>
+          </li>
+          <li>
+            <img src="https://iili.io/F5SckOu.webp" alt="Salted Caramel" class="menu-img" />
+            Salted Caramel Coffee - ₱159.00
+            <button class="cart-btn" onclick="addToCart('Libro Espresso', 'Salted Caramel Coffee', 159, 'https://iili.io/F5SckOu.webp')">Add to Cart</button>
+          </li>
+          <li>
+            <img src="https://iili.io/F5SlEdP.jpg" alt="Spanish Latte" class="menu-img" />
+            Spanish Latte Coffee - ₱139.00
+            <button class="cart-btn" onclick="addToCart('Libro Espresso', 'Spanish Latte Coffee', 139, 'https://iili.io/F5SlEdP.jpg')">Add to Cart</button>
+          </li>
+        <li>
+            <img src="https://iili.io/F5gtiPt.jpg" alt="Carbonara" class="menu-img" />
+            Carbonara - ₱159.00
+            <button class="cart-btn" onclick="addToCart('Libro Espresso', 'Carbonara', 159, 'https://iili.io/F5gtiPt.jpg')">Add to Cart</button>
+          </li>
+        <li>
+            <img src="https://iili.io/F5rBArJ.webp" alt="Strawberry Waffle" class="menu-img" />
+            Strawberry Waffle - ₱129.00
+            <button class="cart-btn" onclick="addToCart('Libro Espresso', 'Strawberry Waffle', 129, 'https://iili.io/F5rBArJ.webp')">Add to Cart</button>
+          </li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="popup" id="popup3">
+      <div class="popup-card">
+        <button class="close-btn" onclick="closePopup(3)">&times;</button>
+        <img src="https://iili.io/F5UR7nV.jpg" alt="logo" class="menu-img" />
+        <h2>Frankie's New York Buffalo Wings </h2>
+        <span>Ayala Mall Vermosa Imus</span>
+        <ul>
+          <li>
+            <img src="https://iili.io/F5S0G6l.jpg" alt="Wings 1/2 Dozen" class="menu-img" />
+            Wings 1/2 Dozen - ₱399
+            <button class="cart-btn" onclick="addToCart('Frankie\'s New York Buffalo Wings', 'Wings 1/2 Dozen', 399, 'https://iili.io/F5S0G6l.jpg')">Add to Cart</button>
+          </li>
+          <li>
+            <img src="https://iili.io/F5S1sJS.jpg" alt="Wings 1 Dozen" class="menu-img" />
+            Wings 1 Dozen - ₱549
+            <button class="cart-btn" onclick="addToCart('Frankie\'s New York Buffalo Wings', 'Wings 1 Dozen', 549, 'https://iili.io/F5S1sJS.jpg')">Add to Cart</button>
+          </li>
+          <li>
+            <img src="https://iili.io/F5SWqyN.jpg" alt="Boneless Solo Meal" class="menu-img" />
+            Boneless Solo Meal - ₱259
+            <button class="cart-btn" onclick="addToCart('Frankie\'s New York Buffalo Wings', 'Boneless Solo Meal', 259, 'https://iili.io/F5SWqyN.jpg')">Add to Cart</button>
+          </li>
+          <li>
+            <img src="https://iili.io/F5SWqyN.jpg" alt="Fish & Chips" class="menu-img" />
+            Fish & Chips - ₱259.00
+            <button class="cart-btn" onclick="addToCart('Frankie\'s New York Buffalo Wings', 'Fish & Chips', 259, 'https://iili.io/F5rABku.jpg')">Add to Cart</button>
+          </li>
+          <li>
+            <img src="https://iili.io/F5rlute.jpg" alt="Boneless Solo Meal" class="menu-img" />
+            Hungarian Sausage with Rice - ₱309.00
+            <button class="cart-btn" onclick="addToCart('Frankie\'s New York Buffalo Wings', 'Hungarian Sausage with Rice', 309, 'https://iili.io/F5rlute.jpg')">Add to Cart</button>
+          </li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="popup" id="cartPopup">
+      <div class="popup-card" style="min-width:350px;">
+        <button class="close-btn" onclick="closeCart()">&times;</button>
+        <h2>Your Cart</h2>
+        <div id="cart-items"></div>
+        <div id="cart-total" style="margin: 24px 0 12px 0; font-weight:bold;"></div>
+        <button id="checkoutBtn" onclick="checkout()" style="background:#ff5b6a; color:#fff; padding:10px 20px; border-radius:8px; border:none; font-size:16px;">Order</button>
+      </div>
+    </div>
+
+    <div class="popup" id="receiptPopup">
+      <div class="popup-card" style="min-width:350px;">
+        <button class="close-btn" onclick="closeReceipt()">&times;</button>
+        <h2>Receipt</h2>
+        <div id="receipt-body"></div>
+        <div id="receipt-confirm"></div>
+      </div>
+    </div>
+  </div>
+
+  <script>
+let cart = [];
+
+function addToCart(store, item, price, img) {
+  const found = cart.find(x => x.item === item && x.store === store);
+  if (found) {
+    found.qty += 1;
+  } else {
+    cart.push({ store, item, price, qty: 1, img });
+  }
+  updateCartCount();
+  animateCartBtn();
+  showAddToCartFeedback(item); // Feedback animation
+}
+
+function updateCartCount() {
+  document.getElementById('cart-count').textContent = cart.reduce((sum, x) => sum + x.qty, 0);
+}
+
+function animateCartBtn(){
+  const btn = document.getElementById('orderBtn');
+  btn.style.transform = 'scale(1.1)';
+  setTimeout(()=>{btn.style.transform = 'scale(1)';}, 100);
+}
+
+function showAddToCartFeedback(itemName) {
+  let feedback = document.createElement("div");
+  feedback.className = "add-to-cart-feedback";
+  feedback.textContent = `✔ "${itemName}" added to cart!`;
+  document.body.appendChild(feedback);
+
+  feedback.offsetWidth; // force reflow
+
+  feedback.classList.add("visible");
+  setTimeout(() => {
+    feedback.classList.remove("visible");
+    setTimeout(() => {
+      document.body.removeChild(feedback);
+    }, 400);
+  }, 1200);
+}
+
+function openPopup(num) {
+  document.getElementById('popup' + num).style.display = 'flex';
+}
+function closePopup(num) {
+  document.getElementById('popup' + num).style.display = 'none';
+}
+
+function openCart() {
+  renderCart();
+  document.getElementById('cartPopup').style.display = 'flex';
+}
+function closeCart() {
+  document.getElementById('cartPopup').style.display = 'none';
+}
+
+function renderCart() {
+  const cartDiv = document.getElementById('cart-items');
+  cartDiv.innerHTML = '';
+  if (cart.length === 0) {
+    cartDiv.innerHTML = '<p>Your cart is empty.</p>';
+    document.getElementById('cart-total').textContent = '';
+    return;
+  }
+  cart.forEach((item, idx) => {
+    const row = document.createElement('div');
+    row.className = "cart-row";
+    row.innerHTML = `
+      <img src="${item.img}" alt="${item.item}" class="menu-img" style="width:32px;height:32px;margin-right:8px;">
+      <span style="flex:1;">${item.item} (${item.store})</span>
+      <span>₱${item.price} x ${item.qty}</span>
+      <button class="cart-qty-btn" onclick="changeQty(${idx},1)">+</button>
+      <button class="cart-qty-btn" onclick="changeQty(${idx},-1)">-</button>
+      <button class="cart-remove-btn" onclick="removeItem(${idx})">&times;</button>
+    `;
+    cartDiv.appendChild(row);
+  });
+  const total = cart.reduce((sum, x) => sum + (x.qty * x.price), 0);
+  document.getElementById('cart-total').textContent = 'Total: ₱' + total;
+}
+
+function changeQty(idx, delta) {
+  cart[idx].qty += delta;
+  if (cart[idx].qty < 1) cart[idx].qty = 1;
+  renderCart();
+  updateCartCount();
+}
+function removeItem(idx) {
+  cart.splice(idx, 1);
+  renderCart();
+  updateCartCount();
+}
+
+function checkout() {
+  if (cart.length === 0) return;
+
+  const total = cart.reduce((sum, x) => sum + (x.qty * x.price), 0);
+  const subtotal = +(total / 1.12).toFixed(2); // Net of VAT
+  const vat = +(total - subtotal).toFixed(2);
+
+  const now = new Date();
+  const dateStr = now.toLocaleDateString("en-PH", { year: 'numeric', month: 'long', day: 'numeric' });
+  const timeStr = now.toLocaleTimeString("en-PH", { hour: '2-digit', minute: '2-digit', second: '2-digit' });
+
+  let html = `
+    <div class="receipt-header">
+      <div class="receipt-title">Food Panda</div>
+      <div class="receipt-datetime">${dateStr} ${timeStr}</div>
+      <hr>
+    </div>
+    <table class="receipt-table">
+      <tr><th>Item</th><th>Qty</th><th>Subtotal</th></tr>
+  `;
+  cart.forEach(x => {
+    html += `<tr>
+      <td>${x.item} <span style="font-size:11px;color:#888;">(${x.store})</span></td>
+      <td>${x.qty}</td>
+      <td>₱${(x.price * x.qty).toFixed(2)}</td>
+    </tr>`;
+  });
+  html += `
+    </table>
+    <div class="receipt-summary">
+      <div>Subtotal (Net of VAT): <span>₱${subtotal.toFixed(2)}</span></div>
+      <div>VAT (12%): <span>₱${vat.toFixed(2)}</span></div>
+      <div class="receipt-total">Total: <span>₱${total.toFixed(2)}</span></div>
+    </div>
+    <button onclick="window.print()" class="receipt-print-btn">Print Receipt</button>
+    <button onclick="confirmOrder()" class="receipt-confirm-btn">Confirm Order</button>
+  `;
+  document.getElementById('receipt-body').innerHTML = html;
+  document.getElementById('receipt-confirm').innerHTML = '';
+  document.getElementById('cartPopup').style.display = 'none';
+  document.getElementById('receiptPopup').style.display = 'flex';
+  cart = [];
+  updateCartCount();
+}
+
+function confirmOrder() {
+  document.getElementById('receipt-confirm').innerHTML = `
+    <div class="order-confirm-message">
+      <span>✅ Thank you! Your order has been confirmed.</span>
+    </div>
+  `;
+}
+
+function closeReceipt() {
+  document.getElementById('receiptPopup').style.display = 'none';
+}
+
+document.querySelectorAll('.popup').forEach(popup => {
+  popup.addEventListener('click', function(e) {
+    if (e.target === popup) popup.style.display = 'none';
+  });
+});
+  </script>
+</body>
+</html>

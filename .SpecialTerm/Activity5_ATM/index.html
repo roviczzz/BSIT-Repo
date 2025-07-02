@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="UTF-8">
+    <title>Nairobi Bank</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="atm-container">
+    <h1><img src="resources/Nairobi-colored.svg" style="max-width: 250px;"></h1>
+    <div class="info">
+        <a style="color: #01b6f4;">Welcome</a>
+        <div><img class="profile-img" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRob_evBMRMF6UqCy6zdLlb_2HhPvYXKzEOBw&s" width="90" height="90"></div>
+        <a style="color: #0b3a97;"><b>Squid James P. Umpad Jr.</b></a>
+        <a style="color: #01b6f4;">Account Balance:</a>
+        <a id="balanceDisplay">₩*****.**</a>
+    </div>
+    <div class="menu">
+      <input type="tel" id="balance" value="0">
+      <div class="button-row">
+        <button id="checkbal" class="button1">Check Balance</button>
+        <button id="deposit" class="button1">Deposit</button>
+      </div>
+      <div class="button-col">
+        <button id="withdraw" class="button1">Withdraw</button>
+      </div>
+      <div id="atm-message"></div>
+      <div id="atm-receipt"></div>
+      <button id="print-receipt" class="button1" style="display:none;margin-top:10px;">Print Receipt</button>
+    </div>
+  </div>
+<script>
+let balance = 45000000.00;
+const balanceDisplay = document.getElementById('balanceDisplay');
+const input = document.getElementById('balance');
+const message = document.getElementById('atm-message');
+const receipt = document.getElementById('atm-receipt');
+
+function formatPHP(val) {
+    return '₩' + val.toLocaleString('en-PH', {minimumFractionDigits: 2, maximumFractionDigits: 2});
+}
+
+function showMessage(text, color = '#01b6f4') {
+    message.textContent = text;
+    message.style.opacity = 1;
+    message.style.color = color;
+    setTimeout(() => {
+        message.style.opacity = 0;
+    }, 1800);
+}
+
+function showReceipt(type, amount) {
+    if (!amount || isNaN(amount) || amount <= 0) return;
+    const now = new Date();
+    const dateStr = now.toLocaleString('en-PH', { hour12: true });
+    receipt.innerHTML = `
+      <div class="receipt-title">Nairobi Receipt</div>
+      <div>Date: <span>${dateStr}</span></div>
+      <div>Transaction: <span>${type}</span></div>
+      <div>Amount: <span>${formatPHP(amount)}</span></div>
+      <div>Balance: <span>${formatPHP(balance)}</span></div>
+    `;
+    receipt.style.opacity = 1;
+    document.getElementById('print-receipt').style.display = 'inline-block'; // Show print button
+}
+
+document.getElementById('checkbal').addEventListener('click', function() {
+    balanceDisplay.textContent = formatPHP(balance);
+    showMessage('Balance revealed!', '#01b6f4');
+});
+
+document.getElementById('deposit').addEventListener('click', function() {
+    let amount = parseFloat(input.value);
+    if (!isNaN(amount) && amount > 0) {
+        balance += amount;
+        balanceDisplay.textContent = formatPHP(balance);
+        showMessage('Deposit successful!', 'green');
+        showReceipt('Deposit', amount);
+        input.value = '';
+    } else {
+        showMessage('Enter a valid deposit amount.', 'red');
+    }
+});
+
+document.getElementById('withdraw').addEventListener('click', function() {
+    let amount = parseFloat(input.value);
+    if (!isNaN(amount) && amount > 0) {
+        if (amount <= balance) {
+            balance -= amount;
+            balanceDisplay.textContent = formatPHP(balance);
+            showMessage('Withdraw successful!', 'green');
+            showReceipt('Withdraw', amount);
+            input.value = '';
+        } else {
+            showMessage('Insufficient funds.', 'red');
+        }
+    } else {
+        showMessage('Enter a valid withdrawal amount.', 'red');
+    }
+});
+
+document.getElementById('print-receipt').addEventListener('click', function() {
+    window.print();
+});
+</script>
+
+</body>
+</html>

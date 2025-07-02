@@ -1,0 +1,152 @@
+.rubik-normal {
+  font-family: "Rubik", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 300;
+  font-style: normal;
+}
+
+.rubik-bold {
+  font-family: "Rubik", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 300;
+  font-style: normal;
+}
+
+
+body {
+    font-family: Rubik;
+    font-size: large;
+    margin-top: 1%;
+    background-color: #030303;
+    color: white;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  background-color: #030303;
+}
+
+li a:hover {
+  background-color: #030303;
+  color: #d2d2d2;
+}
+
+pre {
+  font-size: 1.1rem;
+}
+
+.gallery {
+  display: flex;
+  justify-content: center;
+  gap: 16px;
+  margin-bottom: 32px;
+  flex-wrap: wrap;
+}
+
+.gallery img {
+  width: 300px;
+  height: 280px;
+  object-fit: cover;
+  border-radius: 10px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.12);
+  transition: transform 0.2s;
+}
+
+.gallery img:hover {
+  transform: scale(1.05);
+  box-shadow: 0 4px 16px rgba(0,0,0,0.18);
+}
+
+.banner {
+  width: 100%;
+  text-align: center;
+  background: #030303;
+  color: white;
+  padding-bottom: 24px;
+}
+
+.banner img {
+  width: 100%;
+  max-height: 300px;
+  object-fit: cover;
+  display: block;
+  margin: 0 auto 16px auto;
+}
+
+.banner h1 {
+  margin-top: 16px;
+  margin-bottom: 8px;
+  font-size: 2.5em;
+  letter-spacing: 2px;
+}
+
+.banner p {
+  margin: 0;
+  font-size: 1.2em;
+  color: #ccc;
+}
+
+.left-float {
+  margin-right: auto;
+}
+
+.center-items {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+.center-items li {
+  list-style-type: none;
+}
+
+.spacer {
+  flex: 1 1 0;
+  pointer-events: none;
+}
+
+.navbar {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  align-items: center;
+}
+
+.navbar li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  background-color: #030303;
+}
+
+.navbar li a:hover {
+  background-color: #030303;
+  color: #d2d2d2;
+}
+
+img.profile-pic {
+  width: 150px;           /* You can adjust the size as needed */
+  height: 150px;
+  object-fit: cover;      /* Ensures the image covers the circle */
+  border-radius: 50%;     /* Makes the image circular */
+  border: 3px solid #fff; /* Optional: adds a white border */
+  box-shadow: 0 2px 8px rgba(0,0,0,0.15); /* Optional: subtle shadow */
+  display: block;
+  margin: 0 auto;         /* Optional: centers the image */
+}
