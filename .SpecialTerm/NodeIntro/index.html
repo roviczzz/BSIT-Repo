@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<head>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+
+<body>
+<div id="nav-bar">
+    <div class="logo"></div>
+    <div class="nav-links">
+        <a href="index.html">/homepage.html</a>
+        <a href="#" id="register-btn">/register.html</a>
+    </div>
+</div>
+
+<div class="label-logo">Logo</div>
+<div class="event-details">
+    hiwaga hackat0n 2025<br>
+    dlsud cics department<br>
+    july 11, 2025<br>
+    dlsud ictc bldg.<br>
+    dasmarinas, cavite<br>
+</div>
+
+<div class="tb-schedule">
+    <table>
+        <tr>
+            <td style="padding-right:220px; text-align:right;">Opening Ceremony & Keynote</td><td style="text-align:left;">9:00am</td>
+        </tr>
+        <tr>
+            <td style="padding-right:220px; text-align:right;">Team Formation & Ideation</td><td style="text-align:left;">9:30am</td>
+        </tr>
+        <tr>
+            <td style="padding-right:220px; text-align:right;">Hacking Begins</td><td style="text-align:left;">10:00am</td>
+        </tr>
+        <tr>
+            <td style="padding-right:220px; text-align:right;">Lunch Break</td><td style="text-align:left;">12:00pm</td>
+        </tr>
+        <tr>
+            <td style="padding-right:220px; text-align:right;">Mentorship Sessions</td><td style="text-align:left;">1:00pm</td>
+        </tr>
+        <tr>
+            <td style="padding-right:220px; text-align:right;">Mid-point Check-ins</td><td style="text-align:left;">2:00pm</td>
+        </tr>
+        <tr>
+            <td style="padding-right:220px; text-align:right;">Project Submission Deadline</td><td style="text-align:left;">3:00pm</td>
+        </tr>
+        <tr>
+            <td style="padding-right:220px; text-align:right;">Final Preparations for Judging</td><td style="text-align:left;">3:30pm</td>
+        </tr>
+        <tr>
+            <td style="padding-right:220px; text-align:right;">End of Hacking / Judging Begins</td><td style="text-align:left;">4:00pm</td>
+        </tr>
+    </table>
+</div>
+
+<div id="popup-overlay" style="display:none; font-family: 'SF Pro Text Regular';">
+    <div class="popup-window">
+        <div class="popup-main">
+            <div style="font-family: 'SF Pro Text Bold'; font-size:1.2rem; margin-bottom:18px;">Tickets</div>
+            <div class="popup-tickets">
+                <button class="ticket-btn" data-pax="1"><img src="/resource/pax.png" alt="1 pax"></button>
+                <button class="ticket-btn" data-pax="2"><img src="/resource/pax-1.png" alt="2 pax"></button>
+                <button class="ticket-btn" data-pax="3"><img src="/resource/pax-2.png" alt="3 pax"></button>
+                <button class="ticket-btn" data-pax="4"><img src="/resource/pax-3.png" alt="4 pax"></button>
+                <button class="ticket-btn" data-pax="5"><img src="/resource/pax-4.png" alt="5 pax"></button>
+            </div>
+            <div class="popup-cart-title" style="font-family: 'SF Pro Text Bold';">
+                Shopping Cart <span id="cart-count" style="float:right; font-weight:normal;">0 Items</span>
+            </div>
+            <div class="popup-cart-empty" id="cart-empty">
+                Your cart is empty<br>
+                <span style="font-size:.95rem;">Add items to your cart to proceed with the checkout.</span>
+            </div>
+            <ul id="cart-list" style="list-style:none; padding:0; margin:0;"></ul>
+        </div>
+        <div class="popup-squircle">
+            <button class="popup-exit" id="popup-exit">X</button>
+        </div>
+        <div class="popup-side">
+            <div class="popup-summary-title" style="font-family: 'SF Pro Text Bold';">Checkout Summary</div>
+            <div class="popup-summary-row">
+                <span>Processing Fee</span><span id="processing-fee">15.00 PHP</span>
+            </div>
+            <div class="popup-summary-row">
+                <span>Grand Total</span><span id="grand-total">0.00 PHP</span>
+            </div>
+            <div class="popup-summary-total">
+                <span id="summary-items">0 Items</span> <span style="float:right;" id="summary-total">0.00 PHP</span>
+            </div>
+            <div class="popup-checkout-title" style="font-family: 'SF Pro Text Bold';">Checkout</div>
+            <form class="popup-form" id="checkout-form">
+                <input type="hidden" name="cart_items" id="cart-items-hidden">
+                <input type="hidden" name="ticket_pax" id="ticket-pax-hidden">
+                <input type="hidden" name="total_price" id="total-price-hidden">
+                <label for="participant">Name of Participant</label>
+                <input type="text" name="participant" id="participant" required>
+                <label for="team">Team Name</label>
+                <input type="text" name="team" id="team" required>
+                <label for="section">Course Section</label>
+                <input type="text" name="section" id="section" required>
+                <label for="email">Email</label>
+                <input type="email" name="email" id="email" required>
+                <label for="phone">Phone Number</label>
+                <input type="text" name="phone" id="phone" required>
+                <label for="type">Type of Participant</label>
+                <div class="popup-radio-group">
+                    <label><input type="radio" name="type" value="Student" checked> Student</label>
+                    <label><input type="radio" name="type" value="Guest"> Guest</label>
+                </div>
+                <label for="payment">Mode of Payment</label>
+                <select name="payment" required>
+                    <option>eWallet</option>
+                    <option>Bank Transfer</option>
+                </select>
+                <button type="submit" class="popup-form popup-purchase-btn" id="purchase-btn" style="display:block;">Purchase</button>
+            </form>
+        </div>
+    </div>
+</div>
+
+<script>
+const ticketBtns = document.querySelectorAll('.ticket-btn');
+const cartList = document.getElementById('cart-list');
+const cartEmpty = document.getElementById('cart-empty');
+const cartCount = document.getElementById('cart-count');
+const summaryItems = document.getElementById('summary-items');
+const summaryTotal = document.getElementById('summary-total');
+const grandTotal = document.getElementById('grand-total');
+const processingFee = 15.00;
+let cart = [];
+
+const ticketPrices = [0, 100, 180, 250, 320, 380];
+
+function updateCartDisplay() {
+    cartList.innerHTML = '';
+    const cartItemsHidden = document.getElementById('cart-items-hidden');
+    const paxValue = cart.length > 0 ? cart[0].label.split(" ")[0] : "";
+    document.getElementById('ticket-pax-hidden').value = paxValue;
+    document.getElementById('total-price-hidden').value = (cart.reduce((sum, item) => sum + item.price, 0) + processingFee).toFixed(2);
+    if (cart.length === 0) {
+        cartEmpty.style.display = 'block';
+        cartCount.textContent = '0 Items';
+        summaryItems.textContent = '0 Items';
+        summaryTotal.textContent = '0.00 PHP';
+        grandTotal.textContent = '0.00 PHP';
+        if (cartItemsHidden) cartItemsHidden.value = '';
+        document.getElementById('purchase-btn').style.display = 'block';
+        return;
+    }
+    cartEmpty.style.display = 'none';
+    cart.forEach(function(item, idx) {
+        const li = document.createElement('li');
+        li.style.display = 'flex';
+        li.style.justifyContent = 'space-between';
+        li.style.alignItems = 'center';
+        li.style.marginBottom = '8px';
+        li.innerHTML = `<span>${item.label} // Hiwaga Hackaton 2025 - ${item.price.toFixed(2)} PHP</span>
+            <button type="button" class="remove-btn" data-idx="${idx}" style="margin-left:12px; background:#eee; border:none; border-radius:4px; padding:2px 8px; cursor:pointer;">Remove</button>`;
+        cartList.appendChild(li);
+    });
+    cartCount.textContent = cart.length + (cart.length === 1 ? ' Item' : ' Items');
+    summaryItems.textContent = cart.length + (cart.length === 1 ? ' Item' : ' Items');
+    let total = cart.reduce((sum, item) => sum + item.price, 0);
+    summaryTotal.textContent = total.toFixed(2) + ' PHP';
+    grandTotal.textContent = (total + processingFee).toFixed(2) + ' PHP';
+    if (cartItemsHidden) cartItemsHidden.value = JSON.stringify(cart);
+    document.getElementById('purchase-btn').style.display = 'block';
+
+    document.querySelectorAll('.remove-btn').forEach(function(btn) {
+        btn.onclick = function() {
+            const idx = parseInt(this.getAttribute('data-idx'));
+            cart.splice(idx, 1);
+            updateCartDisplay();
+        };
+    });
+}
+
+ticketBtns.forEach(function(btn) {
+    btn.addEventListener('click', function() {
+        const pax = parseInt(btn.getAttribute('data-pax'));
+        cart = [];
+        const label = pax + (pax === 1 ? ' pax' : ' pax');
+        const price = ticketPrices[pax];
+        cart.push({ label, price });
+        updateCartDisplay();
+    });
+});
+
+const scriptURL = 'https://script.google.com/macros/s/AKfycbwSaDbmuZfxGNYU8b6L4H9nquKPbJnTo_xp5I-nRMPdl1u6fx1MCjr-O1fAPiRCOVKfKg/exec';
+const googleForm = document.getElementById('checkout-form');
+
+googleForm.addEventListener('submit', e => {
+    e.preventDefault();
+    fetch(scriptURL, { method: 'POST', body: new FormData(googleForm)})
+      .then(response => {
+        alert("Form submitted successfully!");
+        googleForm.reset();
+        cart = [];
+        updateCartDisplay();      
+      })
+      .catch(error => alert('Error!', error.message));
+});
+
+document.getElementById('register-btn').onclick = function(e) {
+    e.preventDefault();
+    document.getElementById('popup-overlay').style.display = 'flex';
+};
+document.getElementById('popup-exit').onclick = function() {
+    document.getElementById('popup-overlay').style.display = 'none';
+};
+</script>
+
+</body>
+</html>
