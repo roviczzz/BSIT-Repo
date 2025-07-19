@@ -1,4 +1,4 @@
-<a href="https://github.com/user-attachments/assets/f0502915-cb49-4d65-9831-586fe053b544"><img src="RELATIVE_PATH_TO_IMAGE"></img></a>
+![Alt text](https://github.com/user-attachments/assets/f0502915-cb49-4d65-9831-586fe053b544)
 # BSIT-Repo
 
 school projects that i've worked (crammed) on.
