@@ -1,176 +1,342 @@
 #include <iostream>
+#include <string>
+#include <cctype>
+
 using namespace std;
 
-int main(){
+string devType, manufacturer, model, serial, cpu, ramSize, storage;
+string itemCode, location;
+char state;
+
+struct InventoryItem {
+    string productName;
+    string category;
+    double weightKg;
+    string supplier;
+    int stockCount;
+    string code;
+    int quantity;
+};
+
+void inputDetails() {
+    cout << "Enter Item Code: ";
+    getline(cin, itemCode);
+    cout << "Enter Storage Location: ";
+    getline(cin, location);
+    cout << "Details recorded.\n\n";
+}
+
+void showDetails() {
+    cout << "\nItem Code: " << itemCode << "\nLocation: " << location << "\n\n";
+}
+
+int main() {
     int selection;
 
-    cout << endl << "C++ PROGRAMMING PORTFOLIO";
-    cout << endl << "==========================";
-    cout << endl <<"[1] - Basic IO Functions";
-    cout << endl <<"[2] - Conditional Statements";
-    cout << endl <<"[3] - Loops";
-    cout << endl <<"[4] - Arrays";
-    cout << endl <<"[5] - Functions";
-    cout << endl <<"[6] - Structures";
-    cout << endl <<"[7] - Pointers";
-    cout << endl <<"[8] - Quit";
+main_menu:
+    cout << "\nCOMPUTER INVENTORY MANAGEMENT SYSTEM";
+    cout << "\n===========================\n";
+    cout << "[1] - Device Specifications Entry\n";
+    cout << "[2] - Status Validation\n";
+    cout << "[3] - Inventory Processing\n";
+    cout << "[4] - Inventory Data Storage\n";
+    cout << "[5] - Core Inventory Operations\n";
+    cout << "[6] - Inventory Data Models\n";
+    cout << "[7] - Dynamic Data Handling\n";
+    cout << "[8] - Exit\n";
 
-    cout << endl <<"Enter your choice: ";
-    while (true){
-        if (cin >> selection && selection >= 1 && selection <= 8){
+    cout << "\nEnter your choice (1-8): ";
+    while (!(cin >> selection) || selection < 1 || selection > 8) {
+        cout << "Invalid input. Enter a number 1-8: ";
+        cin.clear();
+        cin.ignore(10000, '\n');
+    }
+    cin.ignore(10000, '\n'); 
+
+    switch (selection) {
+        case 1: { // basic io
+            char con;
+            string devTypeInput, manufacturerInput, modelInput, serialInput, cpuInput, ramSizeInput, storageInput;
+
+        io:
+            cout << "\nDevice Specifications\n======================\n";
+
+            cout << "Enter Device Type (laptop/desktop/server/etc): ";
+            getline(cin, devTypeInput);
+            cout << "Enter Manufacturer: ";
+            getline(cin, manufacturerInput);
+            cout << "Enter Model: ";
+            getline(cin, modelInput);
+            cout << "Enter Serial Number: ";
+            getline(cin, serialInput);
+            cout << "Enter CPU Type: ";
+            getline(cin, cpuInput);
+            cout << "Enter RAM Size: ";
+            getline(cin, ramSizeInput);
+            cout << "Enter Storage Capacity: ";
+            getline(cin, storageInput);
+
+            cout << "\n=== DEVICE SPECIFICATION REVIEW ===\n";
+            cout << "Device Type: " << devTypeInput << "\n";
+            cout << "Manufacturer: " << manufacturerInput << "\n";
+            cout << "Model: " << modelInput << "\n";
+            cout << "Serial Number: " << serialInput << "\n";
+            cout << "CPU Type: " << cpuInput << "\n";
+            cout << "RAM Size: " << ramSizeInput << "\n";
+            cout << "Storage Capacity: " << storageInput << "\n";
+
+            cout << "Is this correct? (y/n): ";
+            cin >> con;
+            cin.ignore(10000, '\n');
+            if (tolower(con) == 'n') goto io;
+
+            devType = devTypeInput; manufacturer = manufacturerInput; model = modelInput;
+            serial = serialInput; cpu = cpuInput; ramSize = ramSizeInput; storage = storageInput;
             break;
         }
-        else{
-            cout << "invalid input. please enter a number from 1 to 8: ";
-            cin.clear();
-            cin.ignore();
-        }
-    }
-    switch (selection)
-    {
-    case 1:{ // basic io
-    int x; string y; char con;
-    io:
-    cout << endl << endl << "BASIC IO FUNCTIONS";
-    cout << endl << "==================";
-    cout << endl << "In C++, basic input/output (I/O) operations are primarily \nhandled through streams provided by the iostream library.";
-    cout << endl;
-    cout << endl << "Input Int & String";
 
-    cout << endl << "enter an integer: ";
-    cin >> x;
-    cout << "enter a string: ";
-    cin >> y;
+        case 2: { // conditional
+            char con;
+        cons:
+            cout << "\nSELECT DEVICE STATUS\n=====================\n";
+            cout << "[A] - Active\n[R] - Reserved\n[D] - Decommissioned\n";
 
-    cout << endl << "Value of the integer: " << x;
-    cout << endl << "Value of the String: " << y;
-    cout << endl << "Do you want to continue? (y/n) ";
-    if (cin >> con && con == 'y' || con == 'Y'){
-        goto io;
-    } else{
-        break;
-    }
+            cout << "Enter status (A/R/D): ";
+            while (!(cin >> state)) {
+                cout << "Invalid input. Enter A, R, or D: ";
+                cin.clear();
+                cin.ignore(10000, '\n');
+            }
+            cin.ignore(10000, '\n');
+            state = tolower(state);
 
-    }
+            if (state == 'a') cout << "Device marked as active.\n";
+            else if (state == 'r') cout << "Device marked as reserved for maintenance.\n";
+            else if (state == 'd') cout << "Device marked for decommission.\n";
+            else {
+                cout << "Invalid choice.\n";
+                goto cons;
+            }
 
-    case 2:{ // conditional statements
-    char x, con;
-    cons:
-    cout << endl << endl << "CONDITIONAL STATEMENTS";
-    cout << endl << "==================";
-    cout << endl << "Conditional statements in C++ are control structures that enable a program to make decisions and execute different blocks of code based on whether a specified condition evaluates to \ntrue or false. They are essential for implementing decision-making logic and controlling the flow of program execution.";
-    cout << endl;
-    cout << endl << "vowel checker";
+            cout << "Is this correct? (y/n): ";
+            cin >> con;
+            cin.ignore(10000, '\n');
+            if (tolower(con) == 'n') goto cons;
 
-    cout << endl << "enter a letter: ";
-    if (cin >> x){
-        x = tolower(x);
-        if (x == 'a' || x == 'e' || x == 'i' || x == 'o' || x == 'u'){
-            cout << "The value " << x << " is a vowel!";
-        }
-        else{
-            cout << "The value " << x << "is not a vowel!";
-        }
-        cout << endl << "Do you want to continue? (y/n) ";
-        if (cin >> con && con == 'y' || con == 'Y'){
-            goto cons;
-    } else{
-        break;
-    }
-    }
+            break;
         }
 
-    case 3: // loops
-    int x1, x2, higher, lower; char con;
-    loop:
-    cout << endl << endl << "LOOPS";
-    cout << endl << "==================";
-    cout << endl << "Loops in C++ are control flow statements that enable the repeated execution of a block of code based on a specified condition. \nThey are fundamental for automating repetitive tasks and iterating over collections of data.";
-    
-    cout << endl;
-    cout << endl << "number counter loop";
+        case 3: { // loop
+            char choice;
+            char cont;
 
-    cout << endl << "enter first number: ";
-    cin >> x1;
-    cout << endl << "enter second number: ";
-    cin >> x2;
+        loops:
+            cout << "\nINVENTORY FIELD UPDATE\n======================\n";
+            cout << "Current device info:\n";
+            cout << "1. Device Type:    " << devType << "\n";
+            cout << "2. Manufacturer:   " << manufacturer << "\n";
+            cout << "3. Model:          " << model << "\n";
+            cout << "4. Serial Number:  " << serial << "\n";
+            cout << "5. CPU Type:       " << cpu << "\n";
+            cout << "6. RAM Size:       " << ramSize << "\n";
+            cout << "7. Storage:        " << storage << "\n";
 
-    if (x1 < x2){
-        higher = x2;
-        lower = x1;
-    } else{
-        higher = x1;
-        lower = x2;
+            cout << "Select field number to update (1-7) or 0 to quit: ";
+            cin >> choice;
+            cin.ignore(10000, '\n');
+
+            string input;
+            switch (choice) {
+                case '1':
+                    cout << "Enter new Device Type: ";
+                    getline(cin, input);
+                    if (!input.empty()) devType = input;
+                    break;
+                case '2':
+                    cout << "Enter new Manufacturer: ";
+                    getline(cin, input);
+                    if (!input.empty()) manufacturer = input;
+                    break;
+                case '3':
+                    cout << "Enter new Model: ";
+                    getline(cin, input);
+                    if (!input.empty()) model = input;
+                    break;
+                case '4':
+                    cout << "Enter new Serial Number: ";
+                    getline(cin, input);
+                    if (!input.empty()) serial = input;
+                    break;
+                case '5':
+                    cout << "Enter new CPU Type: ";
+                    getline(cin, input);
+                    if (!input.empty()) cpu = input;
+                    break;
+                case '6':
+                    cout << "Enter new RAM Size: ";
+                    getline(cin, input);
+                    if (!input.empty()) ramSize = input;
+                    break;
+                case '7':
+                    cout << "Enter new Storage: ";
+                    getline(cin, input);
+                    if (!input.empty()) storage = input;
+                    break;
+                case '0':
+                    cout << "Exiting update.\n";
+                    break;
+                default:
+                    cout << "Invalid choice. Choose 1-7 or 0 to quit.\n";
+                    break;
+            }
+
+            if (choice != '0') {
+                cout << "Update another field? (y/n): ";
+                cin >> cont;
+                cin.ignore(10000, '\n');
+                if (tolower(cont) == 'y') goto loops;
+            }
+            break;
+        }
+
+        case 4: { // arrays
+            char cont;
+            do {
+                int size;
+                cout << "\nINVENTORY STORAGE ARRAY\n";
+                cout << "=======================\n";
+                cout << "Enter number of inventory items: ";
+                cin >> size;
+                cin.ignore(10000, '\n');
+
+                string* serialNumbers = new string[size];
+                int* quantities = new int[size];
+
+                for (int i = 0; i < size; ++i) {
+                    cout << "Enter serial number for item " << (i + 1) << ": ";
+                    getline(cin, serialNumbers[i]);
+                    cout << "Enter quantity for item " << (i + 1) << ": ";
+                    cin >> quantities[i];
+                    cin.ignore(10000, '\n');
+                }
+
+                cout << "\nStored Inventory Items:\n";
+                for (int i = 0; i < size; ++i) {
+                    cout << "Item " << (i + 1) << ": Serial Number = " << serialNumbers[i]
+                         << ", Quantity = " << quantities[i] << "\n";
+                }
+
+                delete[] serialNumbers;
+                delete[] quantities;
+
+                cout << "\nDo you want to enter more inventory? (y/n): ";
+                cin >> cont;
+                cin.ignore(10000, '\n');
+            } while (tolower(cont) == 'y');
+            break;
+        }
+
+        case 5: { // functions
+            cout << "\nINVENTORY ITEM MANAGEMENT\n";
+            cout << "=========================\n";
+            int choice;
+
+            do {
+                cout << "1. Input Details\n2. Show Details\n3. Exit\nChoice: ";
+                cin >> choice;
+                cin.ignore(10000, '\n');
+
+                if (choice == 1) inputDetails();
+                else if (choice == 2) showDetails();
+                else if (choice != 3) cout << "Invalid choice.\n";
+
+            } while (choice != 3);
+
+            cout << "Exiting core inventory operations.\n";
+            break;
+        }
+
+        case 6: { // structures
+            char con;
+            InventoryItem item;
+
+        dataModelInput:
+            cout << "\nINVENTORY DATA MODEL\n=====================\n";
+
+            cout << "Enter product name: ";
+            getline(cin, item.productName);
+
+            cout << "Enter product category: ";
+            getline(cin, item.category);
+
+            cout << "Enter weight in kilograms: ";
+            cin >> item.weightKg;
+            cin.ignore(10000, '\n');
+
+            cout << "Enter supplier name: ";
+            getline(cin, item.supplier);
+
+            cout << "Enter stock count: ";
+            cin >> item.stockCount;
+            cin.ignore(10000, '\n');
+
+            cout << "\nProduct Details:\n";
+            cout << "Name: " << item.productName << "\n";
+            cout << "Category: " << item.category << "\n";
+            cout << "Weight: " << item.weightKg << " kg\n";
+            cout << "Supplier: " << item.supplier << "\n";
+            cout << "Stock Count: " << item.stockCount << "\n";
+
+            cout << "Is this correct? (y/n): ";
+            cin >> con;
+            cin.ignore(10000, '\n');
+
+            if (tolower(con) == 'n') goto dataModelInput;
+
+            break;
+        }
+
+        case 7: { // pointers
+            char con;
+
+        dynDataEntry:
+            cout << "\nINVENTORY ITEM ENTRY\n====================\n";
+
+            InventoryItem* pItem = new InventoryItem;
+
+            cout << "Enter item code: ";
+            getline(cin, pItem->code);
+
+            cout << "Enter quantity: ";
+            cin >> pItem->quantity;
+            cin.ignore(10000, '\n');
+
+            cout << "\nItem Info:\n";
+            cout << "Code: " << pItem->code << "\n";
+            cout << "Quantity: " << pItem->quantity << "\n";
+            cout << "Memory address of item: " << pItem << "\n";
+
+            delete pItem;
+            pItem = nullptr;
+
+            cout << "Is this correct? (y/n): ";
+            cin >> con;
+            cin.ignore(10000, '\n');
+
+            if (tolower(con) == 'n') goto dynDataEntry;
+
+            break;
+        }
+
+        case 8: // quit
+            cout << "\nCOMPUTER INVENTORY MANAGEMENT SYSTEM\n";
+            cout << "Developed by: Rodriguez, Rovic M. | BIT33\n";
+            cout << "A submission for ITWB344\n";
+            return 0;
+
+        default:
+            cout << "Unknown selection.\n";
+            break;
     }
-
-    cout << endl << "number counter:";
-    for (int i = lower; i <= higher; ++i){
-        cout << i << " ";
-    }
-    cout << endl << "Do you want to continue? (y/n) ";
-        if (cin >> con && con == 'y' || con == 'Y'){
-            goto loop;
-    } else{
-        break;
-    }
-    case 4:{ // arrays
-    int x1, size; char con;
-    array:
-    cout << endl << endl << "ARRAYS";
-    cout << endl << "==================";
-    cout << endl << "Arrays in C++ are a fundamental data structure used to store a collection of elements of the same data type in contiguous memory locations. \nThey provide a way to manage and organize multiple values under a single variable name. ";
-    
-    cout << endl;
-    cout << endl << "array storer";
-    cout << endl << "enter array size: ";
-    cin >> size;
-    cout << endl << "enter array elements: ";
-
-    int arr[size];
-    for (int i = 0; i < size; ++i){
-        cin >> arr[i];
-    }
-
-    cout << endl << "array elements:";
-    for (int i = 0; i < size; ++i){
-        cout << arr[i] << " ";
-    }
-    cout << endl << "Do you want to continue? (y/n) ";
-        if (cin >> con && con == 'y' || con == 'Y'){
-            goto array;
-    } else{
-        break;
-    }
-    }
-    case 5: // functions
-    cout << endl << endl << "FUNCTIONS";
-    cout << endl << "==================";
-    cout << endl << "In C++, a function is a named block of code designed to perform a specific task. \nFunctions are fundamental to modular programming, promoting code reusability and organization.";
-
-    cout << endl;
-    cout << endl << "arithmetic operation function";
-    cout << endl << "[A] - Addition";
-    cout << endl << "[S] - Subtraction";
-    cout << endl << "[M] - Multiplication";
-    cout << endl << "[D] - Division";
-
-
-        break;
-
-    case 6: // structures
-        
-        break;
-
-    case 7: // pointers
-        
-        break;
-
-    case 8: // quit 
-        
-        break;
-    
-    default: // unknown input
-        break;
-    }
-    return 0;
+    goto main_menu;
 }
