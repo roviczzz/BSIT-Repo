@@ -130,74 +130,76 @@ main_menu:
             char choice;
             char cont;
 
-        loops:
-            cout << "\nINVENTORY FIELD UPDATE\n======================\n";
-            cout << "Current device info:\n";
-            cout << "1. Device Type:    " << devType << "\n";
-            cout << "2. Manufacturer:   " << manufacturer << "\n";
-            cout << "3. Model:          " << model << "\n";
-            cout << "4. Serial Number:  " << serial << "\n";
-            cout << "5. CPU Type:       " << cpu << "\n";
-            cout << "6. RAM Size:       " << ramSize << "\n";
-            cout << "7. Storage:        " << storage << "\n";
+            do {
+                cout << "\nINVENTORY FIELD UPDATE\n======================\n";
+                cout << "Current device info:\n";
+                cout << "1. Device Type:    " << devType << "\n";
+                cout << "2. Manufacturer:   " << manufacturer << "\n";
+                cout << "3. Model:          " << model << "\n";
+                cout << "4. Serial Number:  " << serial << "\n";
+                cout << "5. CPU Type:       " << cpu << "\n";
+                cout << "6. RAM Size:       " << ramSize << "\n";
+                cout << "7. Storage:        " << storage << "\n";
 
-            cout << "Select field number to update (1-7) or 0 to quit: ";
-            cin >> choice;
-            cin.ignore(10000, '\n');
+                cout << "Select field number to update (1-7) or 0 to quit: ";
+                cin >> choice;
+                cin.ignore(10000, '\n');
 
-            string input;
-            switch (choice) {
-                case '1':
-                    cout << "Enter new Device Type: ";
-                    getline(cin, input);
-                    if (!input.empty()) devType = input;
-                    break;
-                case '2':
-                    cout << "Enter new Manufacturer: ";
-                    getline(cin, input);
-                    if (!input.empty()) manufacturer = input;
-                    break;
-                case '3':
-                    cout << "Enter new Model: ";
-                    getline(cin, input);
-                    if (!input.empty()) model = input;
-                    break;
-                case '4':
-                    cout << "Enter new Serial Number: ";
-                    getline(cin, input);
-                    if (!input.empty()) serial = input;
-                    break;
-                case '5':
-                    cout << "Enter new CPU Type: ";
-                    getline(cin, input);
-                    if (!input.empty()) cpu = input;
-                    break;
-                case '6':
-                    cout << "Enter new RAM Size: ";
-                    getline(cin, input);
-                    if (!input.empty()) ramSize = input;
-                    break;
-                case '7':
-                    cout << "Enter new Storage: ";
-                    getline(cin, input);
-                    if (!input.empty()) storage = input;
-                    break;
-                case '0':
-                    cout << "Exiting update.\n";
-                    break;
-                default:
-                    cout << "Invalid choice. Choose 1-7 or 0 to quit.\n";
-                    break;
-            }
+                string input;
+                switch (choice) {
+                    case '1':
+                        cout << "Enter new Device Type: ";
+                        getline(cin, input);
+                        if (!input.empty()) devType = input;
+                        break;
+                    case '2':
+                        cout << "Enter new Manufacturer: ";
+                        getline(cin, input);
+                        if (!input.empty()) manufacturer = input;
+                        break;
+                    case '3':
+                        cout << "Enter new Model: ";
+                        getline(cin, input);
+                        if (!input.empty()) model = input;
+                        break;
+                    case '4':
+                        cout << "Enter new Serial Number: ";
+                        getline(cin, input);
+                        if (!input.empty()) serial = input;
+                        break;
+                    case '5':
+                        cout << "Enter new CPU Type: ";
+                        getline(cin, input);
+                        if (!input.empty()) cpu = input;
+                        break;
+                    case '6':
+                        cout << "Enter new RAM Size: ";
+                        getline(cin, input);
+                        if (!input.empty()) ramSize = input;
+                        break;
+                    case '7':
+                        cout << "Enter new Storage: ";
+                        getline(cin, input);
+                        if (!input.empty()) storage = input;
+                        break;
+                    case '0':
+                        cout << "Exiting update.\n";
+                        break;
+                    default:
+                        cout << "Invalid choice. Choose 1-7 or 0 to quit.\n";
+                        break;
+                }
 
-            if (choice != '0') {
+                if (choice == '0') break;
+
                 cout << "Update another field? (y/n): ";
                 cin >> cont;
                 cin.ignore(10000, '\n');
-                if (tolower(cont) == 'y') goto loops;
-            }
+
+            } while (tolower(cont) == 'y');
             break;
         }
+
 
         case 4: { // arrays
             char cont;
