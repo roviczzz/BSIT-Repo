@@ -26,7 +26,7 @@ Java, Python, HTML, CSS, C#, C++, ASP.NET
 - [X] 1st Year
 - [X] 2nd Year
 - [X] 3rd Year
-- [ ] Special Term
+- [X] Special Term
 - [ ] 4th Year
 
 a repository developed by **roviczzz**
