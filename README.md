@@ -3,22 +3,12 @@
 # BSIT-Repo
 
 projects i've worked on.
-keen interest and resiliency kept this journey in motion. may not be the best but atleast you have something to look back on kiddo (:
-
-
-##### Experiences
-
-(to be listed)
+keen interest and resiliency kept this journey in motion.
 
 
 ##### Languages
 
 Java, Python, HTML, CSS, C#, C++, ASP.NET
-
-
-##### Projects
-
-(to be listed)
 
 
 ##### Milestones
